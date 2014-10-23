@@ -18,6 +18,9 @@ gem "unicorn", "~> 4.3.1"                           # replaced and updated may20
 gem "rubyforge", "2.0.4"                            # ok may2012
 gem "rubygems-update", "1.3.7"                      #
 
+gem "rspec", "1.3.0"                                # <<<< There's also a plugin installed?
+gem "rspec-rails", "1.3.2"                          # <<<< There's also a plugin installed?
+
 
 group :development do
   gem "ruby-debug", "0.10.3"
