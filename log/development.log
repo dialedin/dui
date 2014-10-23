@@ -398,3 +398,331 @@ Processing DuiController#index (for 127.0.0.1 at 2014-10-23 12:38:38) [GET]
 Rendering template within layouts/application
 Rendering dui/index
 Completed in 52ms (View: 51, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing DuiController#index (for 127.0.0.1 at 2014-10-23 12:39:49) [GET]
+Rendering template within layouts/application
+Rendering dui/index
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing DuiController#index (for 127.0.0.1 at 2014-10-23 12:40:07) [GET]
+Rendering template within layouts/application
+Rendering dui/index
+Completed in 17ms (View: 16, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing DuiController#index (for 127.0.0.1 at 2014-10-23 12:40:26) [GET]
+Rendering template within layouts/application
+Rendering dui/index
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing DuiController#index (for 127.0.0.1 at 2014-10-23 12:41:45) [GET]
+Rendering template within layouts/application
+Rendering dui/index
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing DuiController#index (for 127.0.0.1 at 2014-10-23 12:41:55) [GET]
+Rendering template within layouts/application
+Rendering dui/index
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing DuiController#index (for 127.0.0.1 at 2014-10-23 12:42:25) [GET]
+Rendering template within layouts/application
+Rendering dui/index
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing DuiController#index (for 127.0.0.1 at 2014-10-23 12:43:54) [GET]
+Rendering template within layouts/application
+Rendering dui/index
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing DuiController#index (for 127.0.0.1 at 2014-10-23 12:44:13) [GET]
+Rendering template within layouts/application
+Rendering dui/index
+
+ActionView::TemplateError (File to import not found or unreadable: dui-typography.
+Load paths:
+  /Users/msmiller/Work/DialedIn/DEV/dui/sass
+  /Users/msmiller/.rvm/gems/ree-1.8.7-2012.02@glonal/gems/compass-core-1.0.1/stylesheets
+  Compass::SpriteImporter
+  (in /Users/msmiller/Work/DialedIn/DEV/dui/app/assets/stylesheets/dui.css.scss:2)) on line #12 of app/views/layouts/application.rhtml:
+9: 
+10:   <%= javascript_include_tag 'assets/application' %>
+11: 
+12:   <%= stylesheet_link_tag 'assets/dui' %>
+13: 
+14: </head>
+15:   <body>
+
+    app/assets/stylesheets/dui.css.scss:2
+    sass (3.4.6) lib/sass/tree/import_node.rb:66:in `import'
+    sass (3.4.6) lib/sass/tree/import_node.rb:28:in `imported_file'
+    sass (3.4.6) lib/sass/tree/import_node.rb:37:in `css_import?'
+    sass (3.4.6) lib/sass/tree/visitors/perform.rb:301:in `visit_import'
+    sass (3.4.6) lib/sass/tree/visitors/base.rb:36:in `send'
+    sass (3.4.6) lib/sass/tree/visitors/base.rb:36:in `visit'
+    sass (3.4.6) lib/sass/tree/visitors/perform.rb:158:in `visit'
+    sass (3.4.6) lib/sass/stack.rb:79:in `with_base'
+    sass (3.4.6) lib/sass/stack.rb:115:in `with_frame'
+    sass (3.4.6) lib/sass/stack.rb:79:in `with_base'
+    sass (3.4.6) lib/sass/tree/visitors/perform.rb:158:in `visit'
+    sass (3.4.6) lib/sass/tree/visitors/base.rb:52:in `visit_children'
+    sass (3.4.6) lib/sass/tree/visitors/base.rb:52:in `map'
+    sass (3.4.6) lib/sass/tree/visitors/base.rb:52:in `visit_children'
+    sass (3.4.6) lib/sass/tree/visitors/perform.rb:167:in `visit_children'
+    sass (3.4.6) lib/sass/tree/visitors/perform.rb:179:in `with_environment'
+    sass (3.4.6) lib/sass/tree/visitors/perform.rb:166:in `visit_children'
+    sass (3.4.6) lib/sass/tree/visitors/base.rb:36:in `visit'
+    sass (3.4.6) lib/sass/tree/visitors/perform.rb:186:in `visit_root'
+    sass (3.4.6) lib/sass/tree/visitors/base.rb:36:in `send'
+    sass (3.4.6) lib/sass/tree/visitors/base.rb:36:in `visit'
+    sass (3.4.6) lib/sass/tree/visitors/perform.rb:157:in `visit'
+    sass (3.4.6) lib/sass/tree/visitors/perform.rb:8:in `send'
+    sass (3.4.6) lib/sass/tree/visitors/perform.rb:8:in `visit'
+    sass (3.4.6) lib/sass/tree/root_node.rb:36:in `css_tree'
+    sass (3.4.6) lib/sass/tree/root_node.rb:20:in `render'
+    sass (3.4.6) lib/sass/engine.rb:268:in `render'
+    /Users/msmiller/.rvm/gems/ree-1.8.7-2012.02@glonal/gems/sprockets-sass-1.2.0/lib/sprockets/sass/sass_template.rb:53:in `evaluate'
+    tilt (1.4.1) lib/tilt/template.rb:103:in `render'
+    sprockets (2.12.2) lib/sprockets/context.rb:197:in `evaluate'
+    sprockets (2.12.2) lib/sprockets/context.rb:194:in `each'
+    sprockets (2.12.2) lib/sprockets/context.rb:194:in `evaluate'
+    sprockets (2.12.2) lib/sprockets/processed_asset.rb:12:in `initialize'
+    sprockets (2.12.2) lib/sprockets/base.rb:374:in `new'
+    sprockets (2.12.2) lib/sprockets/base.rb:374:in `build_asset'
+    sprockets (2.12.2) lib/sprockets/base.rb:395:in `circular_call_protection'
+    sprockets (2.12.2) lib/sprockets/base.rb:373:in `build_asset'
+    sprockets (2.12.2) lib/sprockets/index.rb:94:in `build_asset'
+    sprockets (2.12.2) lib/sprockets/caching.rb:51:in `cache_asset'
+    sprockets (2.12.2) lib/sprockets/index.rb:93:in `build_asset'
+    sprockets (2.12.2) lib/sprockets/base.rb:287:in `find_asset'
+    sprockets (2.12.2) lib/sprockets/index.rb:61:in `find_asset'
+    sprockets (2.12.2) lib/sprockets/bundled_asset.rb:16:in `initialize'
+    sprockets (2.12.2) lib/sprockets/base.rb:377:in `new'
+    sprockets (2.12.2) lib/sprockets/base.rb:377:in `build_asset'
+    sprockets (2.12.2) lib/sprockets/index.rb:94:in `build_asset'
+    sprockets (2.12.2) lib/sprockets/caching.rb:51:in `cache_asset'
+    sprockets (2.12.2) lib/sprockets/index.rb:93:in `build_asset'
+    sprockets (2.12.2) lib/sprockets/base.rb:287:in `find_asset'
+    sprockets (2.12.2) lib/sprockets/index.rb:61:in `find_asset'
+    sprockets (2.12.2) lib/sprockets/environment.rb:75:in `find_asset'
+    sprockets (2.12.2) lib/sprockets/base.rb:295:in `[]'
+    /Users/msmiller/.rvm/gems/ree-1.8.7-2012.02@glonal/gems/rails2_asset_pipeline-0.3.2/lib/rails2_asset_pipeline/view_helpers.rb:45:in `asset_path'
+    /Users/msmiller/.rvm/gems/ree-1.8.7-2012.02@glonal/gems/rails2_asset_pipeline-0.3.2/lib/rails2_asset_pipeline/view_helpers.rb:20:in `compute_public_path'
+    app/helpers/application_helper.rb:15:in `compute_public_path'
+    app/views/layouts/application.rhtml:12:in `_run_rhtml_app47views47layouts47application46rhtml'
+    unicorn (4.3.1) lib/unicorn/http_server.rb:531:in `process_client'
+    unicorn (4.3.1) lib/unicorn/http_server.rb:606:in `worker_loop'
+    unicorn (4.3.1) lib/unicorn/http_server.rb:487:in `spawn_missing_workers'
+    unicorn (4.3.1) lib/unicorn/http_server.rb:137:in `start'
+    unicorn (4.3.1) bin/unicorn:121
+    /Users/msmiller/.rvm/gems/ree-1.8.7-2012.02@glonal/bin/unicorn:23:in `load'
+    /Users/msmiller/.rvm/gems/ree-1.8.7-2012.02@glonal/bin/unicorn:23
+
+Rendered rescues/_trace (52.0ms)
+Rendered rescues/_request_and_response (0.8ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing DuiController#index (for 127.0.0.1 at 2014-10-23 12:44:31) [GET]
+Rendering template within layouts/application
+Rendering dui/index
+
+ActionView::TemplateError (File to import not found or unreadable: dui-typography.
+Load paths:
+  /Users/msmiller/Work/DialedIn/DEV/dui/sass
+  /Users/msmiller/.rvm/gems/ree-1.8.7-2012.02@glonal/gems/compass-core-1.0.1/stylesheets
+  Compass::SpriteImporter
+  (in /Users/msmiller/Work/DialedIn/DEV/dui/app/assets/stylesheets/dui.css.scss:2)) on line #12 of app/views/layouts/application.rhtml:
+9: 
+10:   <%= javascript_include_tag 'assets/application' %>
+11: 
+12:   <%= stylesheet_link_tag 'assets/dui' %>
+13: 
+14: </head>
+15:   <body>
+
+    app/assets/stylesheets/dui.css.scss:2
+    sass (3.4.6) lib/sass/tree/import_node.rb:66:in `import'
+    sass (3.4.6) lib/sass/tree/import_node.rb:28:in `imported_file'
+    sass (3.4.6) lib/sass/tree/import_node.rb:37:in `css_import?'
+    sass (3.4.6) lib/sass/tree/visitors/perform.rb:301:in `visit_import'
+    sass (3.4.6) lib/sass/tree/visitors/base.rb:36:in `send'
+    sass (3.4.6) lib/sass/tree/visitors/base.rb:36:in `visit'
+    sass (3.4.6) lib/sass/tree/visitors/perform.rb:158:in `visit'
+    sass (3.4.6) lib/sass/stack.rb:79:in `with_base'
+    sass (3.4.6) lib/sass/stack.rb:115:in `with_frame'
+    sass (3.4.6) lib/sass/stack.rb:79:in `with_base'
+    sass (3.4.6) lib/sass/tree/visitors/perform.rb:158:in `visit'
+    sass (3.4.6) lib/sass/tree/visitors/base.rb:52:in `visit_children'
+    sass (3.4.6) lib/sass/tree/visitors/base.rb:52:in `map'
+    sass (3.4.6) lib/sass/tree/visitors/base.rb:52:in `visit_children'
+    sass (3.4.6) lib/sass/tree/visitors/perform.rb:167:in `visit_children'
+    sass (3.4.6) lib/sass/tree/visitors/perform.rb:179:in `with_environment'
+    sass (3.4.6) lib/sass/tree/visitors/perform.rb:166:in `visit_children'
+    sass (3.4.6) lib/sass/tree/visitors/base.rb:36:in `visit'
+    sass (3.4.6) lib/sass/tree/visitors/perform.rb:186:in `visit_root'
+    sass (3.4.6) lib/sass/tree/visitors/base.rb:36:in `send'
+    sass (3.4.6) lib/sass/tree/visitors/base.rb:36:in `visit'
+    sass (3.4.6) lib/sass/tree/visitors/perform.rb:157:in `visit'
+    sass (3.4.6) lib/sass/tree/visitors/perform.rb:8:in `send'
+    sass (3.4.6) lib/sass/tree/visitors/perform.rb:8:in `visit'
+    sass (3.4.6) lib/sass/tree/root_node.rb:36:in `css_tree'
+    sass (3.4.6) lib/sass/tree/root_node.rb:20:in `render'
+    sass (3.4.6) lib/sass/engine.rb:268:in `render'
+    /Users/msmiller/.rvm/gems/ree-1.8.7-2012.02@glonal/gems/sprockets-sass-1.2.0/lib/sprockets/sass/sass_template.rb:53:in `evaluate'
+    tilt (1.4.1) lib/tilt/template.rb:103:in `render'
+    sprockets (2.12.2) lib/sprockets/context.rb:197:in `evaluate'
+    sprockets (2.12.2) lib/sprockets/context.rb:194:in `each'
+    sprockets (2.12.2) lib/sprockets/context.rb:194:in `evaluate'
+    sprockets (2.12.2) lib/sprockets/processed_asset.rb:12:in `initialize'
+    sprockets (2.12.2) lib/sprockets/base.rb:374:in `new'
+    sprockets (2.12.2) lib/sprockets/base.rb:374:in `build_asset'
+    sprockets (2.12.2) lib/sprockets/base.rb:395:in `circular_call_protection'
+    sprockets (2.12.2) lib/sprockets/base.rb:373:in `build_asset'
+    sprockets (2.12.2) lib/sprockets/index.rb:94:in `build_asset'
+    sprockets (2.12.2) lib/sprockets/caching.rb:51:in `cache_asset'
+    sprockets (2.12.2) lib/sprockets/index.rb:93:in `build_asset'
+    sprockets (2.12.2) lib/sprockets/base.rb:287:in `find_asset'
+    sprockets (2.12.2) lib/sprockets/index.rb:61:in `find_asset'
+    sprockets (2.12.2) lib/sprockets/bundled_asset.rb:16:in `initialize'
+    sprockets (2.12.2) lib/sprockets/base.rb:377:in `new'
+    sprockets (2.12.2) lib/sprockets/base.rb:377:in `build_asset'
+    sprockets (2.12.2) lib/sprockets/index.rb:94:in `build_asset'
+    sprockets (2.12.2) lib/sprockets/caching.rb:51:in `cache_asset'
+    sprockets (2.12.2) lib/sprockets/index.rb:93:in `build_asset'
+    sprockets (2.12.2) lib/sprockets/base.rb:287:in `find_asset'
+    sprockets (2.12.2) lib/sprockets/index.rb:61:in `find_asset'
+    sprockets (2.12.2) lib/sprockets/environment.rb:75:in `find_asset'
+    sprockets (2.12.2) lib/sprockets/base.rb:295:in `[]'
+    /Users/msmiller/.rvm/gems/ree-1.8.7-2012.02@glonal/gems/rails2_asset_pipeline-0.3.2/lib/rails2_asset_pipeline/view_helpers.rb:45:in `asset_path'
+    /Users/msmiller/.rvm/gems/ree-1.8.7-2012.02@glonal/gems/rails2_asset_pipeline-0.3.2/lib/rails2_asset_pipeline/view_helpers.rb:20:in `compute_public_path'
+    app/helpers/application_helper.rb:15:in `compute_public_path'
+    app/views/layouts/application.rhtml:12:in `_run_rhtml_app47views47layouts47application46rhtml'
+    unicorn (4.3.1) lib/unicorn/http_server.rb:531:in `process_client'
+    unicorn (4.3.1) lib/unicorn/http_server.rb:606:in `worker_loop'
+    unicorn (4.3.1) lib/unicorn/http_server.rb:487:in `spawn_missing_workers'
+    unicorn (4.3.1) lib/unicorn/http_server.rb:137:in `start'
+    unicorn (4.3.1) bin/unicorn:121
+    /Users/msmiller/.rvm/gems/ree-1.8.7-2012.02@glonal/bin/unicorn:23:in `load'
+    /Users/msmiller/.rvm/gems/ree-1.8.7-2012.02@glonal/bin/unicorn:23
+
+Rendered rescues/_trace (48.2ms)
+Rendered rescues/_request_and_response (0.2ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing DuiController#index (for 127.0.0.1 at 2014-10-23 12:45:12) [GET]
+Rendering template within layouts/application
+Rendering dui/index
+
+ActionView::TemplateError (Invalid CSS after "...ana, sans-serif": expected ";", was ""; }"
+  (in /Users/msmiller/Work/DialedIn/DEV/dui/app/assets/stylesheets/dui.css.scss:1)) on line #12 of app/views/layouts/application.rhtml:
+9: 
+10:   <%= javascript_include_tag 'assets/application' %>
+11: 
+12:   <%= stylesheet_link_tag 'assets/dui' %>
+13: 
+14: </head>
+15:   <body>
+
+    app/assets/stylesheets/_dui-typography.css.scss:1
+    app/assets/stylesheets/dui.css.scss:2
+    sass (3.4.6) lib/sass/scss/parser.rb:1165:in `expected'
+    sass (3.4.6) lib/sass/scss/parser.rb:1099:in `expected'
+    sass (3.4.6) lib/sass/scss/parser.rb:1094:in `tok!'
+    sass (3.4.6) lib/sass/scss/parser.rb:761:in `try_declaration'
+    sass (3.4.6) lib/sass/scss/parser.rb:1139:in `call'
+    sass (3.4.6) lib/sass/scss/parser.rb:1139:in `rethrow'
+    sass (3.4.6) lib/sass/scss/parser.rb:766:in `try_declaration'
+    sass (3.4.6) lib/sass/scss/parser.rb:696:in `declaration_or_ruleset'
+    sass (3.4.6) lib/sass/scss/parser.rb:661:in `block_child'
+    sass (3.4.6) lib/sass/scss/parser.rb:650:in `block_contents'
+    sass (3.4.6) lib/sass/scss/parser.rb:642:in `block'
+    sass (3.4.6) lib/sass/scss/parser.rb:636:in `ruleset'
+    sass (3.4.6) lib/sass/scss/parser.rb:660:in `block_child'
+    sass (3.4.6) lib/sass/scss/parser.rb:650:in `block_contents'
+    sass (3.4.6) lib/sass/scss/parser.rb:117:in `stylesheet'
+    sass (3.4.6) lib/sass/scss/parser.rb:42:in `parse'
+    sass (3.4.6) lib/sass/engine.rb:393:in `_to_tree'
+    sass (3.4.6) lib/sass/engine.rb:299:in `to_tree'
+    sass (3.4.6) lib/sass/tree/visitors/perform.rb:313:in `visit_import'
+    sass (3.4.6) lib/sass/stack.rb:88:in `with_import'
+    sass (3.4.6) lib/sass/stack.rb:115:in `with_frame'
+    sass (3.4.6) lib/sass/stack.rb:88:in `with_import'
+    sass (3.4.6) lib/sass/tree/visitors/perform.rb:312:in `visit_import'
+    sass (3.4.6) lib/sass/tree/visitors/base.rb:36:in `send'
+    sass (3.4.6) lib/sass/tree/visitors/base.rb:36:in `visit'
+    sass (3.4.6) lib/sass/tree/visitors/perform.rb:158:in `visit'
+    sass (3.4.6) lib/sass/stack.rb:79:in `with_base'
+    sass (3.4.6) lib/sass/stack.rb:115:in `with_frame'
+    sass (3.4.6) lib/sass/stack.rb:79:in `with_base'
+    sass (3.4.6) lib/sass/tree/visitors/perform.rb:158:in `visit'
+    sass (3.4.6) lib/sass/tree/visitors/base.rb:52:in `visit_children'
+    sass (3.4.6) lib/sass/tree/visitors/base.rb:52:in `map'
+    sass (3.4.6) lib/sass/tree/visitors/base.rb:52:in `visit_children'
+    sass (3.4.6) lib/sass/tree/visitors/perform.rb:167:in `visit_children'
+    sass (3.4.6) lib/sass/tree/visitors/perform.rb:179:in `with_environment'
+    sass (3.4.6) lib/sass/tree/visitors/perform.rb:166:in `visit_children'
+    sass (3.4.6) lib/sass/tree/visitors/base.rb:36:in `visit'
+    sass (3.4.6) lib/sass/tree/visitors/perform.rb:186:in `visit_root'
+    sass (3.4.6) lib/sass/tree/visitors/base.rb:36:in `send'
+    sass (3.4.6) lib/sass/tree/visitors/base.rb:36:in `visit'
+    sass (3.4.6) lib/sass/tree/visitors/perform.rb:157:in `visit'
+    sass (3.4.6) lib/sass/tree/visitors/perform.rb:8:in `send'
+    sass (3.4.6) lib/sass/tree/visitors/perform.rb:8:in `visit'
+    sass (3.4.6) lib/sass/tree/root_node.rb:36:in `css_tree'
+    sass (3.4.6) lib/sass/tree/root_node.rb:20:in `render'
+    sass (3.4.6) lib/sass/engine.rb:268:in `render'
+    /Users/msmiller/.rvm/gems/ree-1.8.7-2012.02@glonal/gems/sprockets-sass-1.2.0/lib/sprockets/sass/sass_template.rb:53:in `evaluate'
+    tilt (1.4.1) lib/tilt/template.rb:103:in `render'
+    sprockets (2.12.2) lib/sprockets/context.rb:197:in `evaluate'
+    sprockets (2.12.2) lib/sprockets/context.rb:194:in `each'
+    sprockets (2.12.2) lib/sprockets/context.rb:194:in `evaluate'
+    sprockets (2.12.2) lib/sprockets/processed_asset.rb:12:in `initialize'
+    sprockets (2.12.2) lib/sprockets/base.rb:374:in `new'
+    sprockets (2.12.2) lib/sprockets/base.rb:374:in `build_asset'
+    sprockets (2.12.2) lib/sprockets/base.rb:395:in `circular_call_protection'
+    sprockets (2.12.2) lib/sprockets/base.rb:373:in `build_asset'
+    sprockets (2.12.2) lib/sprockets/index.rb:94:in `build_asset'
+    sprockets (2.12.2) lib/sprockets/caching.rb:51:in `cache_asset'
+    sprockets (2.12.2) lib/sprockets/index.rb:93:in `build_asset'
+    sprockets (2.12.2) lib/sprockets/base.rb:287:in `find_asset'
+    sprockets (2.12.2) lib/sprockets/index.rb:61:in `find_asset'
+    sprockets (2.12.2) lib/sprockets/bundled_asset.rb:16:in `initialize'
+    sprockets (2.12.2) lib/sprockets/base.rb:377:in `new'
+    sprockets (2.12.2) lib/sprockets/base.rb:377:in `build_asset'
+    sprockets (2.12.2) lib/sprockets/index.rb:94:in `build_asset'
+    sprockets (2.12.2) lib/sprockets/caching.rb:51:in `cache_asset'
+    sprockets (2.12.2) lib/sprockets/index.rb:93:in `build_asset'
+    sprockets (2.12.2) lib/sprockets/base.rb:287:in `find_asset'
+    sprockets (2.12.2) lib/sprockets/index.rb:61:in `find_asset'
+    sprockets (2.12.2) lib/sprockets/environment.rb:75:in `find_asset'
+    sprockets (2.12.2) lib/sprockets/base.rb:295:in `[]'
+    /Users/msmiller/.rvm/gems/ree-1.8.7-2012.02@glonal/gems/rails2_asset_pipeline-0.3.2/lib/rails2_asset_pipeline/view_helpers.rb:45:in `asset_path'
+    /Users/msmiller/.rvm/gems/ree-1.8.7-2012.02@glonal/gems/rails2_asset_pipeline-0.3.2/lib/rails2_asset_pipeline/view_helpers.rb:20:in `compute_public_path'
+    app/helpers/application_helper.rb:15:in `compute_public_path'
+    app/views/layouts/application.rhtml:12:in `_run_rhtml_app47views47layouts47application46rhtml'
+    unicorn (4.3.1) lib/unicorn/http_server.rb:531:in `process_client'
+    unicorn (4.3.1) lib/unicorn/http_server.rb:606:in `worker_loop'
+    unicorn (4.3.1) lib/unicorn/http_server.rb:487:in `spawn_missing_workers'
+    unicorn (4.3.1) lib/unicorn/http_server.rb:137:in `start'
+    unicorn (4.3.1) bin/unicorn:121
+    /Users/msmiller/.rvm/gems/ree-1.8.7-2012.02@glonal/bin/unicorn:23:in `load'
+    /Users/msmiller/.rvm/gems/ree-1.8.7-2012.02@glonal/bin/unicorn:23
+
+Rendered rescues/_trace (118.3ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing DuiController#index (for 127.0.0.1 at 2014-10-23 12:45:27) [GET]
+Rendering template within layouts/application
+Rendering dui/index
+Completed in 21ms (View: 19, DB: 0) | 200 OK [http://localhost/]
