@@ -786,3 +786,1007 @@ Processing DuiController#index (for 127.0.0.1 at 2014-10-23 12:51:52) [GET]
 Rendering template within layouts/application
 Rendering dui/index
 Completed in 4ms (View: 3, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing DuiController#index (for 127.0.0.1 at 2014-10-23 13:03:45) [GET]
+Rendering template within layouts/application
+Rendering dui/index
+
+ActionView::TemplateError (undefined method `icon' for #<ActionView::Base:0x106e8f600>) on line #2 of app/views/dui/index.rhtml:
+1: <h1>DUI IS ALIVE</h1>
+2: <%= icon('flag') %>
+3: <h4>jQuery Install Test</h4>
+4: This next DIV should get changed to say "Ack Oop!" by jQuery:
+5: <br><br>
+
+    app/views/dui/index.rhtml:2:in `_run_rhtml_app47views47dui47index46rhtml'
+    unicorn (4.3.1) lib/unicorn/http_server.rb:531:in `process_client'
+    unicorn (4.3.1) lib/unicorn/http_server.rb:606:in `worker_loop'
+    unicorn (4.3.1) lib/unicorn/http_server.rb:487:in `spawn_missing_workers'
+    unicorn (4.3.1) lib/unicorn/http_server.rb:137:in `start'
+    unicorn (4.3.1) bin/unicorn:121
+    /Users/msmiller/.rvm/gems/ree-1.8.7-2012.02@glonal/bin/unicorn:23:in `load'
+    /Users/msmiller/.rvm/gems/ree-1.8.7-2012.02@glonal/bin/unicorn:23
+
+Rendered rescues/_trace (26.6ms)
+Rendered rescues/_request_and_response (0.8ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing DuiController#index (for 127.0.0.1 at 2014-10-23 13:04:35) [GET]
+Rendering template within layouts/application
+Rendering dui/index
+
+ActionView::TemplateError (File to import not found or unreadable: font-awesome-sprockets.
+Load paths:
+  /Users/msmiller/Work/DialedIn/DEV/dui/sass
+  /Users/msmiller/.rvm/gems/ree-1.8.7-2012.02@glonal/gems/compass-core-1.0.1/stylesheets
+  Compass::SpriteImporter
+  (in /Users/msmiller/Work/DialedIn/DEV/dui/app/assets/stylesheets/dui.css.scss:5)) on line #12 of app/views/layouts/application.rhtml:
+9: 
+10:   <%= javascript_include_tag 'assets/application' %>
+11: 
+12:   <%= stylesheet_link_tag 'assets/dui' %>
+13: 
+14: </head>
+15:   <body>
+
+    app/assets/stylesheets/dui.css.scss:5
+    sass (3.4.6) lib/sass/tree/import_node.rb:66:in `import'
+    sass (3.4.6) lib/sass/tree/import_node.rb:28:in `imported_file'
+    sass (3.4.6) lib/sass/tree/import_node.rb:37:in `css_import?'
+    sass (3.4.6) lib/sass/tree/visitors/perform.rb:301:in `visit_import'
+    sass (3.4.6) lib/sass/tree/visitors/base.rb:36:in `send'
+    sass (3.4.6) lib/sass/tree/visitors/base.rb:36:in `visit'
+    sass (3.4.6) lib/sass/tree/visitors/perform.rb:158:in `visit'
+    sass (3.4.6) lib/sass/stack.rb:79:in `with_base'
+    sass (3.4.6) lib/sass/stack.rb:115:in `with_frame'
+    sass (3.4.6) lib/sass/stack.rb:79:in `with_base'
+    sass (3.4.6) lib/sass/tree/visitors/perform.rb:158:in `visit'
+    sass (3.4.6) lib/sass/tree/visitors/base.rb:52:in `visit_children'
+    sass (3.4.6) lib/sass/tree/visitors/base.rb:52:in `map'
+    sass (3.4.6) lib/sass/tree/visitors/base.rb:52:in `visit_children'
+    sass (3.4.6) lib/sass/tree/visitors/perform.rb:167:in `visit_children'
+    sass (3.4.6) lib/sass/tree/visitors/perform.rb:179:in `with_environment'
+    sass (3.4.6) lib/sass/tree/visitors/perform.rb:166:in `visit_children'
+    sass (3.4.6) lib/sass/tree/visitors/base.rb:36:in `visit'
+    sass (3.4.6) lib/sass/tree/visitors/perform.rb:186:in `visit_root'
+    sass (3.4.6) lib/sass/tree/visitors/base.rb:36:in `send'
+    sass (3.4.6) lib/sass/tree/visitors/base.rb:36:in `visit'
+    sass (3.4.6) lib/sass/tree/visitors/perform.rb:157:in `visit'
+    sass (3.4.6) lib/sass/tree/visitors/perform.rb:8:in `send'
+    sass (3.4.6) lib/sass/tree/visitors/perform.rb:8:in `visit'
+    sass (3.4.6) lib/sass/tree/root_node.rb:36:in `css_tree'
+    sass (3.4.6) lib/sass/tree/root_node.rb:20:in `render'
+    sass (3.4.6) lib/sass/engine.rb:268:in `render'
+    /Users/msmiller/.rvm/gems/ree-1.8.7-2012.02@glonal/gems/sprockets-sass-1.2.0/lib/sprockets/sass/sass_template.rb:53:in `evaluate'
+    tilt (1.4.1) lib/tilt/template.rb:103:in `render'
+    sprockets (2.12.2) lib/sprockets/context.rb:197:in `evaluate'
+    sprockets (2.12.2) lib/sprockets/context.rb:194:in `each'
+    sprockets (2.12.2) lib/sprockets/context.rb:194:in `evaluate'
+    sprockets (2.12.2) lib/sprockets/processed_asset.rb:12:in `initialize'
+    sprockets (2.12.2) lib/sprockets/base.rb:374:in `new'
+    sprockets (2.12.2) lib/sprockets/base.rb:374:in `build_asset'
+    sprockets (2.12.2) lib/sprockets/base.rb:395:in `circular_call_protection'
+    sprockets (2.12.2) lib/sprockets/base.rb:373:in `build_asset'
+    sprockets (2.12.2) lib/sprockets/index.rb:94:in `build_asset'
+    sprockets (2.12.2) lib/sprockets/caching.rb:51:in `cache_asset'
+    sprockets (2.12.2) lib/sprockets/index.rb:93:in `build_asset'
+    sprockets (2.12.2) lib/sprockets/base.rb:287:in `find_asset'
+    sprockets (2.12.2) lib/sprockets/index.rb:61:in `find_asset'
+    sprockets (2.12.2) lib/sprockets/bundled_asset.rb:16:in `initialize'
+    sprockets (2.12.2) lib/sprockets/base.rb:377:in `new'
+    sprockets (2.12.2) lib/sprockets/base.rb:377:in `build_asset'
+    sprockets (2.12.2) lib/sprockets/index.rb:94:in `build_asset'
+    sprockets (2.12.2) lib/sprockets/caching.rb:51:in `cache_asset'
+    sprockets (2.12.2) lib/sprockets/index.rb:93:in `build_asset'
+    sprockets (2.12.2) lib/sprockets/base.rb:287:in `find_asset'
+    sprockets (2.12.2) lib/sprockets/index.rb:61:in `find_asset'
+    sprockets (2.12.2) lib/sprockets/environment.rb:75:in `find_asset'
+    sprockets (2.12.2) lib/sprockets/base.rb:295:in `[]'
+    /Users/msmiller/.rvm/gems/ree-1.8.7-2012.02@glonal/gems/rails2_asset_pipeline-0.3.2/lib/rails2_asset_pipeline/view_helpers.rb:45:in `asset_path'
+    /Users/msmiller/.rvm/gems/ree-1.8.7-2012.02@glonal/gems/rails2_asset_pipeline-0.3.2/lib/rails2_asset_pipeline/view_helpers.rb:20:in `compute_public_path'
+    app/helpers/application_helper.rb:15:in `compute_public_path'
+    app/views/layouts/application.rhtml:12:in `_run_rhtml_app47views47layouts47application46rhtml'
+    unicorn (4.3.1) lib/unicorn/http_server.rb:531:in `process_client'
+    unicorn (4.3.1) lib/unicorn/http_server.rb:606:in `worker_loop'
+    unicorn (4.3.1) lib/unicorn/http_server.rb:487:in `spawn_missing_workers'
+    unicorn (4.3.1) lib/unicorn/http_server.rb:137:in `start'
+    unicorn (4.3.1) bin/unicorn:121
+    /Users/msmiller/.rvm/gems/ree-1.8.7-2012.02@glonal/bin/unicorn:23:in `load'
+    /Users/msmiller/.rvm/gems/ree-1.8.7-2012.02@glonal/bin/unicorn:23
+
+Rendered rescues/_trace (50.2ms)
+Rendered rescues/_request_and_response (0.2ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing DuiController#index (for 127.0.0.1 at 2014-10-23 13:05:55) [GET]
+Rendering template within layouts/application
+Rendering dui/index
+Completed in 23ms (View: 22, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing DuiController#index (for 127.0.0.1 at 2014-10-23 13:09:51) [GET]
+Rendering template within layouts/application
+Rendering dui/index
+ERROR: compiling _run_rhtml_app47views47dui47index46rhtml RAISED compile error
+/Users/msmiller/Work/DialedIn/DEV/dui/app/views/dui/index.rhtml:35: syntax error, unexpected ':'
+...ncat(( icon('flag', '', class: 'strong') ).to_s); @output_bu...
+                              ^
+/Users/msmiller/Work/DialedIn/DEV/dui/app/views/dui/index.rhtml:35: syntax error, unexpected ')', expecting kEND
+..., '', class: 'strong') ).to_s); @output_buffer.concat "<br>\...
+                              ^
+/Users/msmiller/Work/DialedIn/DEV/dui/app/views/dui/index.rhtml:36: syntax error, unexpected ':', expecting ')'
+...on('flag', 'Font Awesome', id: 'my-icon', class: 'strong') )...
+                              ^
+/Users/msmiller/Work/DialedIn/DEV/dui/app/views/dui/index.rhtml:36: syntax error, unexpected ',', expecting ')'
+...'Font Awesome', id: 'my-icon', class: 'strong') ).to_s); @ou...
+                              ^
+/Users/msmiller/Work/DialedIn/DEV/dui/app/views/dui/index.rhtml:36: syntax error, unexpected ')', expecting kEND
+...con', class: 'strong') ).to_s); @output_buffer.concat "<br>"...
+                              ^
+Function body:           def _run_rhtml_app47views47dui47index46rhtml(local_assigns)
+            old_output_buffer = output_buffer;;@output_buffer = '';  __in_erb_template=true ; @output_buffer.concat "<h1>DUI IS ALIVE</h1>\n<i class=\"fa fa-flag strong\"></i>\n\n<h4>jQuery Install Test</h4>\nThis next DIV should get changed to say \"Ack Oop!\" by jQuery:\n<br><br>\n<div id=\"changeme\" style=\"color:red;\">Is this working?</div>\n<script type=\"text/javascript\">\n$(\"#changeme\").html(\"Ack Oop!\");\n</script>\n<hr>\n<h4>Knockout Install Test</h4>\nIf Knockout is installed and running, then changing the fields will change the message ...\n<p>First name: <input data-bind=\"value: firstName\" /></p>\n<p>Last name: <input data-bind=\"value: lastName\" /></p>\n<h2>Hello, <span data-bind=\"text: fullName\"> </span>!</h2>\n\n<script type=\"text/javascript\">\n// Here's my data model\nvar ViewModel = function(first, last) {\n    this.firstName = ko.observable(first);\n    this.lastName = ko.observable(last);\n \n    this.fullName = ko.computed(function() {\n        // Knockout tracks dependencies automatically. It knows that fullName depends on firstName and lastName, because these get called when evaluating fullName.\n        return this.firstName() + \" \" + this.lastName();\n    }, this);\n};\n \nko.applyBindings(new ViewModel(\"Planet\", \"Earth\")); // This makes Knockout get to work\n</script>\n<hr>\n<h2>Font-Awesome Test</h2>\n"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+; @output_buffer.concat(( icon('flag') ).to_s); @output_buffer.concat "<br>\n"
+; @output_buffer.concat(( icon('flag', '', class: 'strong') ).to_s); @output_buffer.concat "<br>\n"
+; @output_buffer.concat(( icon('flag', 'Font Awesome', id: 'my-icon', class: 'strong') ).to_s); @output_buffer.concat "<br>"; @output_buffer
+          ensure
+            self.output_buffer = old_output_buffer
+          end
+Backtrace: /Users/msmiller/Work/DialedIn/DEV/dui/app/views/dui/index.rhtml:39:in `compile!'
+/Users/msmiller/.rvm/gems/ree-1.8.7-2012.02@glonal/gems/actionpack-2.3.17/lib/action_view/renderable.rb:61:in `compile'
+/Users/msmiller/.rvm/gems/ree-1.8.7-2012.02@glonal/gems/actionpack-2.3.17/lib/action_view/renderable.rb:28:in `render'
+/Users/msmiller/.rvm/gems/ree-1.8.7-2012.02@glonal/gems/actionpack-2.3.17/lib/action_view/template.rb:205:in `render_template'
+/Users/msmiller/.rvm/gems/ree-1.8.7-2012.02@glonal/gems/actionpack-2.3.17/lib/action_view/base.rb:265:in `render'
+/Users/msmiller/.rvm/gems/ree-1.8.7-2012.02@glonal/gems/actionpack-2.3.17/lib/action_view/base.rb:348:in `_render_with_layout'
+/Users/msmiller/.rvm/gems/ree-1.8.7-2012.02@glonal/gems/actionpack-2.3.17/lib/action_view/base.rb:262:in `render'
+/Users/msmiller/.rvm/gems/ree-1.8.7-2012.02@glonal/gems/actionpack-2.3.17/lib/action_controller/base.rb:1252:in `render_for_file'
+/Users/msmiller/.rvm/gems/ree-1.8.7-2012.02@glonal/gems/actionpack-2.3.17/lib/action_controller/base.rb:936:in `render_without_benchmark'
+/Users/msmiller/.rvm/gems/ree-1.8.7-2012.02@glonal/gems/actionpack-2.3.17/lib/action_controller/benchmarking.rb:51:in `render'
+/Users/msmiller/.rvm/gems/ree-1.8.7-2012.02@glonal/gems/activesupport-2.3.17/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/Users/msmiller/.rvm/rubies/ree-1.8.7-2012.02/lib/ruby/1.8/benchmark.rb:308:in `realtime'
+/Users/msmiller/.rvm/gems/ree-1.8.7-2012.02@glonal/gems/activesupport-2.3.17/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/Users/msmiller/.rvm/gems/ree-1.8.7-2012.02@glonal/gems/actionpack-2.3.17/lib/action_controller/benchmarking.rb:51:in `render'
+/Users/msmiller/.rvm/gems/ree-1.8.7-2012.02@glonal/gems/actionpack-2.3.17/lib/action_controller/base.rb:1328:in `default_render'
+/Users/msmiller/.rvm/gems/ree-1.8.7-2012.02@glonal/gems/actionpack-2.3.17/lib/action_controller/base.rb:1334:in `perform_action_without_filters'
+/Users/msmiller/.rvm/gems/ree-1.8.7-2012.02@glonal/gems/actionpack-2.3.17/lib/action_controller/filters.rb:617:in `call_filters'
+/Users/msmiller/.rvm/gems/ree-1.8.7-2012.02@glonal/gems/actionpack-2.3.17/lib/action_controller/filters.rb:610:in `perform_action_without_benchmark'
+/Users/msmiller/.rvm/gems/ree-1.8.7-2012.02@glonal/gems/actionpack-2.3.17/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+/Users/msmiller/.rvm/gems/ree-1.8.7-2012.02@glonal/gems/activesupport-2.3.17/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/Users/msmiller/.rvm/rubies/ree-1.8.7-2012.02/lib/ruby/1.8/benchmark.rb:308:in `realtime'
+/Users/msmiller/.rvm/gems/ree-1.8.7-2012.02@glonal/gems/activesupport-2.3.17/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/Users/msmiller/.rvm/gems/ree-1.8.7-2012.02@glonal/gems/actionpack-2.3.17/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+/Users/msmiller/.rvm/gems/ree-1.8.7-2012.02@glonal/gems/actionpack-2.3.17/lib/action_controller/rescue.rb:160:in `perform_action_without_flash'
+/Users/msmiller/.rvm/gems/ree-1.8.7-2012.02@glonal/gems/actionpack-2.3.17/lib/action_controller/flash.rb:151:in `perform_action'
+/Users/msmiller/.rvm/gems/ree-1.8.7-2012.02@glonal/gems/actionpack-2.3.17/lib/action_controller/base.rb:532:in `send'
+/Users/msmiller/.rvm/gems/ree-1.8.7-2012.02@glonal/gems/actionpack-2.3.17/lib/action_controller/base.rb:532:in `process_without_filters'
+/Users/msmiller/.rvm/gems/ree-1.8.7-2012.02@glonal/gems/actionpack-2.3.17/lib/action_controller/filters.rb:606:in `process'
+/Users/msmiller/.rvm/gems/ree-1.8.7-2012.02@glonal/gems/actionpack-2.3.17/lib/action_controller/base.rb:391:in `process'
+/Users/msmiller/.rvm/gems/ree-1.8.7-2012.02@glonal/gems/actionpack-2.3.17/lib/action_controller/base.rb:386:in `call'
+/Users/msmiller/.rvm/gems/ree-1.8.7-2012.02@glonal/gems/actionpack-2.3.17/lib/action_controller/routing/route_set.rb:438:in `call'
+/Users/msmiller/.rvm/gems/ree-1.8.7-2012.02@glonal/gems/actionpack-2.3.17/lib/action_controller/dispatcher.rb:87:in `dispatch'
+/Users/msmiller/.rvm/gems/ree-1.8.7-2012.02@glonal/gems/actionpack-2.3.17/lib/action_controller/dispatcher.rb:121:in `_call'
+/Users/msmiller/.rvm/gems/ree-1.8.7-2012.02@glonal/gems/actionpack-2.3.17/lib/action_controller/dispatcher.rb:130:in `build_middleware_stack'
+/Users/msmiller/.rvm/gems/ree-1.8.7-2012.02@glonal/gems/activerecord-2.3.17/lib/active_record/query_cache.rb:29:in `call'
+/Users/msmiller/.rvm/gems/ree-1.8.7-2012.02@glonal/gems/activerecord-2.3.17/lib/active_record/query_cache.rb:29:in `call'
+/Users/msmiller/.rvm/gems/ree-1.8.7-2012.02@glonal/gems/activerecord-2.3.17/lib/active_record/connection_adapters/abstract/query_cache.rb:34:in `cache'
+/Users/msmiller/.rvm/gems/ree-1.8.7-2012.02@glonal/gems/activerecord-2.3.17/lib/active_record/query_cache.rb:9:in `cache'
+/Users/msmiller/.rvm/gems/ree-1.8.7-2012.02@glonal/gems/activerecord-2.3.17/lib/active_record/query_cache.rb:28:in `call'
+/Users/msmiller/.rvm/gems/ree-1.8.7-2012.02@glonal/gems/activerecord-2.3.17/lib/active_record/connection_adapters/abstract/connection_pool.rb:361:in `call'
+/Users/msmiller/.rvm/gems/ree-1.8.7-2012.02@glonal/gems/actionpack-2.3.17/lib/action_controller/string_coercion.rb:25:in `call'
+/Users/msmiller/.rvm/gems/ree-1.8.7-2012.02@glonal/gems/rack-1.1.6/lib/rack/head.rb:9:in `call'
+/Users/msmiller/.rvm/gems/ree-1.8.7-2012.02@glonal/gems/rack-1.1.6/lib/rack/methodoverride.rb:24:in `call'
+/Users/msmiller/.rvm/gems/ree-1.8.7-2012.02@glonal/gems/actionpack-2.3.17/lib/action_controller/params_parser.rb:15:in `call'
+/Users/msmiller/.rvm/gems/ree-1.8.7-2012.02@glonal/gems/actionpack-2.3.17/lib/action_controller/session/cookie_store.rb:99:in `call'
+/Users/msmiller/.rvm/gems/ree-1.8.7-2012.02@glonal/gems/actionpack-2.3.17/lib/action_controller/failsafe.rb:26:in `call'
+/Users/msmiller/.rvm/gems/ree-1.8.7-2012.02@glonal/gems/rack-1.1.6/lib/rack/lock.rb:11:in `call'
+/Users/msmiller/.rvm/gems/ree-1.8.7-2012.02@glonal/gems/rack-1.1.6/lib/rack/lock.rb:11:in `synchronize'
+/Users/msmiller/.rvm/gems/ree-1.8.7-2012.02@glonal/gems/rack-1.1.6/lib/rack/lock.rb:11:in `call'
+/Users/msmiller/.rvm/gems/ree-1.8.7-2012.02@glonal/gems/actionpack-2.3.17/lib/action_controller/dispatcher.rb:114:in `call'
+/Users/msmiller/.rvm/gems/ree-1.8.7-2012.02@glonal/gems/actionpack-2.3.17/lib/action_controller/reloader.rb:34:in `run'
+/Users/msmiller/.rvm/gems/ree-1.8.7-2012.02@glonal/gems/actionpack-2.3.17/lib/action_controller/dispatcher.rb:108:in `call'
+/Users/msmiller/.rvm/gems/ree-1.8.7-2012.02@glonal/gems/rails-2.3.17/lib/rails/rack/static.rb:31:in `call'
+/Users/msmiller/.rvm/gems/ree-1.8.7-2012.02@glonal/gems/rails-2.3.17/lib/rails/rack/log_tailer.rb:17:in `call'
+/Users/msmiller/.rvm/gems/ree-1.8.7-2012.02@glonal/gems/rack-1.1.6/lib/rack/urlmap.rb:47:in `call'
+/Users/msmiller/.rvm/gems/ree-1.8.7-2012.02@glonal/gems/rack-1.1.6/lib/rack/urlmap.rb:41:in `each'
+/Users/msmiller/.rvm/gems/ree-1.8.7-2012.02@glonal/gems/rack-1.1.6/lib/rack/urlmap.rb:41:in `call'
+/Users/msmiller/.rvm/gems/ree-1.8.7-2012.02@glonal/gems/rack-1.1.6/lib/rack/lint.rb:47:in `_call'
+/Users/msmiller/.rvm/gems/ree-1.8.7-2012.02@glonal/gems/rack-1.1.6/lib/rack/lint.rb:35:in `call'
+/Users/msmiller/.rvm/gems/ree-1.8.7-2012.02@glonal/gems/rack-1.1.6/lib/rack/showexceptions.rb:24:in `call'
+/Users/msmiller/.rvm/gems/ree-1.8.7-2012.02@glonal/gems/rack-1.1.6/lib/rack/commonlogger.rb:18:in `call'
+/Users/msmiller/.rvm/gems/ree-1.8.7-2012.02@glonal/gems/rack-1.1.6/lib/rack/chunked.rb:15:in `call'
+/Users/msmiller/.rvm/gems/ree-1.8.7-2012.02@glonal/gems/rack-1.1.6/lib/rack/content_length.rb:13:in `call'
+/Users/msmiller/.rvm/gems/ree-1.8.7-2012.02@glonal/gems/unicorn-4.3.1/lib/unicorn/http_server.rb:531:in `process_client'
+/Users/msmiller/.rvm/gems/ree-1.8.7-2012.02@glonal/gems/unicorn-4.3.1/lib/unicorn/http_server.rb:606:in `worker_loop'
+/Users/msmiller/.rvm/gems/ree-1.8.7-2012.02@glonal/gems/unicorn-4.3.1/lib/unicorn/http_server.rb:487:in `spawn_missing_workers'
+/Users/msmiller/.rvm/gems/ree-1.8.7-2012.02@glonal/gems/unicorn-4.3.1/lib/unicorn/http_server.rb:137:in `start'
+/Users/msmiller/.rvm/gems/ree-1.8.7-2012.02@glonal/gems/unicorn-4.3.1/bin/unicorn:121
+/Users/msmiller/.rvm/gems/ree-1.8.7-2012.02@glonal/bin/unicorn:23:in `load'
+/Users/msmiller/.rvm/gems/ree-1.8.7-2012.02@glonal/bin/unicorn:23
+
+ActionView::TemplateError (compile error
+/Users/msmiller/Work/DialedIn/DEV/dui/app/views/dui/index.rhtml:35: syntax error, unexpected ':'
+...ncat(( icon('flag', '', class: 'strong') ).to_s); @output_bu...
+                              ^
+/Users/msmiller/Work/DialedIn/DEV/dui/app/views/dui/index.rhtml:35: syntax error, unexpected ')', expecting kEND
+..., '', class: 'strong') ).to_s); @output_buffer.concat "<br>\...
+                              ^
+/Users/msmiller/Work/DialedIn/DEV/dui/app/views/dui/index.rhtml:36: syntax error, unexpected ':', expecting ')'
+...on('flag', 'Font Awesome', id: 'my-icon', class: 'strong') )...
+                              ^
+/Users/msmiller/Work/DialedIn/DEV/dui/app/views/dui/index.rhtml:36: syntax error, unexpected ',', expecting ')'
+...'Font Awesome', id: 'my-icon', class: 'strong') ).to_s); @ou...
+                              ^
+/Users/msmiller/Work/DialedIn/DEV/dui/app/views/dui/index.rhtml:36: syntax error, unexpected ')', expecting kEND
+...con', class: 'strong') ).to_s); @output_buffer.concat "<br>"...
+                              ^) on line #35 of app/views/dui/index.rhtml:
+32: <hr>
+33: <h2>Font-Awesome Test</h2>
+34: <%= icon('flag') %><br>
+35: <%= icon('flag', '', class: 'strong') %><br>
+36: <%= icon('flag', 'Font Awesome', id: 'my-icon', class: 'strong') %><br>
+
+    app/views/dui/index.rhtml:39:in `compile!'
+    unicorn (4.3.1) lib/unicorn/http_server.rb:531:in `process_client'
+    unicorn (4.3.1) lib/unicorn/http_server.rb:606:in `worker_loop'
+    unicorn (4.3.1) lib/unicorn/http_server.rb:487:in `spawn_missing_workers'
+    unicorn (4.3.1) lib/unicorn/http_server.rb:137:in `start'
+    unicorn (4.3.1) bin/unicorn:121
+    /Users/msmiller/.rvm/gems/ree-1.8.7-2012.02@glonal/bin/unicorn:23:in `load'
+    /Users/msmiller/.rvm/gems/ree-1.8.7-2012.02@glonal/bin/unicorn:23
+
+Rendered rescues/_trace (24.3ms)
+Rendered rescues/_request_and_response (0.2ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing DuiController#index (for 127.0.0.1 at 2014-10-23 13:10:38) [GET]
+Rendering template within layouts/application
+Rendering dui/index
+ERROR: compiling _run_rhtml_app47views47dui47index46rhtml RAISED compile error
+/Users/msmiller/Work/DialedIn/DEV/dui/app/views/dui/index.rhtml:35: syntax error, unexpected ':'
+...(( dui_icon('flag', '', class: 'strong') ).to_s); @output_bu...
+                              ^
+/Users/msmiller/Work/DialedIn/DEV/dui/app/views/dui/index.rhtml:35: syntax error, unexpected ')', expecting kEND
+..., '', class: 'strong') ).to_s); @output_buffer.concat "<br>\...
+                              ^
+/Users/msmiller/Work/DialedIn/DEV/dui/app/views/dui/index.rhtml:36: syntax error, unexpected ':', expecting ')'
+...on('flag', 'Font Awesome', id: 'my-icon', class: 'strong') )...
+                              ^
+/Users/msmiller/Work/DialedIn/DEV/dui/app/views/dui/index.rhtml:36: syntax error, unexpected ',', expecting ')'
+...'Font Awesome', id: 'my-icon', class: 'strong') ).to_s); @ou...
+                              ^
+/Users/msmiller/Work/DialedIn/DEV/dui/app/views/dui/index.rhtml:36: syntax error, unexpected ')', expecting kEND
+...con', class: 'strong') ).to_s); @output_buffer.concat "\n<hr...
+                              ^
+Function body:           def _run_rhtml_app47views47dui47index46rhtml(local_assigns)
+            old_output_buffer = output_buffer;;@output_buffer = '';  __in_erb_template=true ; @output_buffer.concat "<h1>DUI IS ALIVE</h1>\n<i class=\"fa fa-flag strong\"></i>\n\n<h4>jQuery Install Test</h4>\nThis next DIV should get changed to say \"Ack Oop!\" by jQuery:\n<br><br>\n<div id=\"changeme\" style=\"color:red;\">Is this working?</div>\n<script type=\"text/javascript\">\n$(\"#changeme\").html(\"Ack Oop!\");\n</script>\n<hr>\n<h4>Knockout Install Test</h4>\nIf Knockout is installed and running, then changing the fields will change the message ...\n<p>First name: <input data-bind=\"value: firstName\" /></p>\n<p>Last name: <input data-bind=\"value: lastName\" /></p>\n<h2>Hello, <span data-bind=\"text: fullName\"> </span>!</h2>\n\n<script type=\"text/javascript\">\n// Here's my data model\nvar ViewModel = function(first, last) {\n    this.firstName = ko.observable(first);\n    this.lastName = ko.observable(last);\n \n    this.fullName = ko.computed(function() {\n        // Knockout tracks dependencies automatically. It knows that fullName depends on firstName and lastName, because these get called when evaluating fullName.\n        return this.firstName() + \" \" + this.lastName();\n    }, this);\n};\n \nko.applyBindings(new ViewModel(\"Planet\", \"Earth\")); // This makes Knockout get to work\n</script>\n<hr>\n<h2>Font-Awesome Test</h2>\n"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+; @output_buffer.concat(( dui_icon('flag') ).to_s); @output_buffer.concat "<br>\n"
+; @output_buffer.concat(( dui_icon('flag', '', class: 'strong') ).to_s); @output_buffer.concat "<br>\n"
+; @output_buffer.concat(( dui_icon('flag', 'Font Awesome', id: 'my-icon', class: 'strong') ).to_s); @output_buffer.concat "\n<hr>\n\n"
+
+
+; @output_buffer
+          ensure
+            self.output_buffer = old_output_buffer
+          end
+Backtrace: /Users/msmiller/Work/DialedIn/DEV/dui/app/views/dui/index.rhtml:42:in `compile!'
+/Users/msmiller/.rvm/gems/ree-1.8.7-2012.02@glonal/gems/actionpack-2.3.17/lib/action_view/renderable.rb:61:in `compile'
+/Users/msmiller/.rvm/gems/ree-1.8.7-2012.02@glonal/gems/actionpack-2.3.17/lib/action_view/renderable.rb:28:in `render'
+/Users/msmiller/.rvm/gems/ree-1.8.7-2012.02@glonal/gems/actionpack-2.3.17/lib/action_view/template.rb:205:in `render_template'
+/Users/msmiller/.rvm/gems/ree-1.8.7-2012.02@glonal/gems/actionpack-2.3.17/lib/action_view/base.rb:265:in `render'
+/Users/msmiller/.rvm/gems/ree-1.8.7-2012.02@glonal/gems/actionpack-2.3.17/lib/action_view/base.rb:348:in `_render_with_layout'
+/Users/msmiller/.rvm/gems/ree-1.8.7-2012.02@glonal/gems/actionpack-2.3.17/lib/action_view/base.rb:262:in `render'
+/Users/msmiller/.rvm/gems/ree-1.8.7-2012.02@glonal/gems/actionpack-2.3.17/lib/action_controller/base.rb:1252:in `render_for_file'
+/Users/msmiller/.rvm/gems/ree-1.8.7-2012.02@glonal/gems/actionpack-2.3.17/lib/action_controller/base.rb:936:in `render_without_benchmark'
+/Users/msmiller/.rvm/gems/ree-1.8.7-2012.02@glonal/gems/actionpack-2.3.17/lib/action_controller/benchmarking.rb:51:in `render'
+/Users/msmiller/.rvm/gems/ree-1.8.7-2012.02@glonal/gems/activesupport-2.3.17/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/Users/msmiller/.rvm/rubies/ree-1.8.7-2012.02/lib/ruby/1.8/benchmark.rb:308:in `realtime'
+/Users/msmiller/.rvm/gems/ree-1.8.7-2012.02@glonal/gems/activesupport-2.3.17/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/Users/msmiller/.rvm/gems/ree-1.8.7-2012.02@glonal/gems/actionpack-2.3.17/lib/action_controller/benchmarking.rb:51:in `render'
+/Users/msmiller/.rvm/gems/ree-1.8.7-2012.02@glonal/gems/actionpack-2.3.17/lib/action_controller/base.rb:1328:in `default_render'
+/Users/msmiller/.rvm/gems/ree-1.8.7-2012.02@glonal/gems/actionpack-2.3.17/lib/action_controller/base.rb:1334:in `perform_action_without_filters'
+/Users/msmiller/.rvm/gems/ree-1.8.7-2012.02@glonal/gems/actionpack-2.3.17/lib/action_controller/filters.rb:617:in `call_filters'
+/Users/msmiller/.rvm/gems/ree-1.8.7-2012.02@glonal/gems/actionpack-2.3.17/lib/action_controller/filters.rb:610:in `perform_action_without_benchmark'
+/Users/msmiller/.rvm/gems/ree-1.8.7-2012.02@glonal/gems/actionpack-2.3.17/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+/Users/msmiller/.rvm/gems/ree-1.8.7-2012.02@glonal/gems/activesupport-2.3.17/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/Users/msmiller/.rvm/rubies/ree-1.8.7-2012.02/lib/ruby/1.8/benchmark.rb:308:in `realtime'
+/Users/msmiller/.rvm/gems/ree-1.8.7-2012.02@glonal/gems/activesupport-2.3.17/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/Users/msmiller/.rvm/gems/ree-1.8.7-2012.02@glonal/gems/actionpack-2.3.17/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+/Users/msmiller/.rvm/gems/ree-1.8.7-2012.02@glonal/gems/actionpack-2.3.17/lib/action_controller/rescue.rb:160:in `perform_action_without_flash'
+/Users/msmiller/.rvm/gems/ree-1.8.7-2012.02@glonal/gems/actionpack-2.3.17/lib/action_controller/flash.rb:151:in `perform_action'
+/Users/msmiller/.rvm/gems/ree-1.8.7-2012.02@glonal/gems/actionpack-2.3.17/lib/action_controller/base.rb:532:in `send'
+/Users/msmiller/.rvm/gems/ree-1.8.7-2012.02@glonal/gems/actionpack-2.3.17/lib/action_controller/base.rb:532:in `process_without_filters'
+/Users/msmiller/.rvm/gems/ree-1.8.7-2012.02@glonal/gems/actionpack-2.3.17/lib/action_controller/filters.rb:606:in `process'
+/Users/msmiller/.rvm/gems/ree-1.8.7-2012.02@glonal/gems/actionpack-2.3.17/lib/action_controller/base.rb:391:in `process'
+/Users/msmiller/.rvm/gems/ree-1.8.7-2012.02@glonal/gems/actionpack-2.3.17/lib/action_controller/base.rb:386:in `call'
+/Users/msmiller/.rvm/gems/ree-1.8.7-2012.02@glonal/gems/actionpack-2.3.17/lib/action_controller/routing/route_set.rb:438:in `call'
+/Users/msmiller/.rvm/gems/ree-1.8.7-2012.02@glonal/gems/actionpack-2.3.17/lib/action_controller/dispatcher.rb:87:in `dispatch'
+/Users/msmiller/.rvm/gems/ree-1.8.7-2012.02@glonal/gems/actionpack-2.3.17/lib/action_controller/dispatcher.rb:121:in `_call'
+/Users/msmiller/.rvm/gems/ree-1.8.7-2012.02@glonal/gems/actionpack-2.3.17/lib/action_controller/dispatcher.rb:130:in `build_middleware_stack'
+/Users/msmiller/.rvm/gems/ree-1.8.7-2012.02@glonal/gems/activerecord-2.3.17/lib/active_record/query_cache.rb:29:in `call'
+/Users/msmiller/.rvm/gems/ree-1.8.7-2012.02@glonal/gems/activerecord-2.3.17/lib/active_record/query_cache.rb:29:in `call'
+/Users/msmiller/.rvm/gems/ree-1.8.7-2012.02@glonal/gems/activerecord-2.3.17/lib/active_record/connection_adapters/abstract/query_cache.rb:34:in `cache'
+/Users/msmiller/.rvm/gems/ree-1.8.7-2012.02@glonal/gems/activerecord-2.3.17/lib/active_record/query_cache.rb:9:in `cache'
+/Users/msmiller/.rvm/gems/ree-1.8.7-2012.02@glonal/gems/activerecord-2.3.17/lib/active_record/query_cache.rb:28:in `call'
+/Users/msmiller/.rvm/gems/ree-1.8.7-2012.02@glonal/gems/activerecord-2.3.17/lib/active_record/connection_adapters/abstract/connection_pool.rb:361:in `call'
+/Users/msmiller/.rvm/gems/ree-1.8.7-2012.02@glonal/gems/actionpack-2.3.17/lib/action_controller/string_coercion.rb:25:in `call'
+/Users/msmiller/.rvm/gems/ree-1.8.7-2012.02@glonal/gems/rack-1.1.6/lib/rack/head.rb:9:in `call'
+/Users/msmiller/.rvm/gems/ree-1.8.7-2012.02@glonal/gems/rack-1.1.6/lib/rack/methodoverride.rb:24:in `call'
+/Users/msmiller/.rvm/gems/ree-1.8.7-2012.02@glonal/gems/actionpack-2.3.17/lib/action_controller/params_parser.rb:15:in `call'
+/Users/msmiller/.rvm/gems/ree-1.8.7-2012.02@glonal/gems/actionpack-2.3.17/lib/action_controller/session/cookie_store.rb:99:in `call'
+/Users/msmiller/.rvm/gems/ree-1.8.7-2012.02@glonal/gems/actionpack-2.3.17/lib/action_controller/failsafe.rb:26:in `call'
+/Users/msmiller/.rvm/gems/ree-1.8.7-2012.02@glonal/gems/rack-1.1.6/lib/rack/lock.rb:11:in `call'
+/Users/msmiller/.rvm/gems/ree-1.8.7-2012.02@glonal/gems/rack-1.1.6/lib/rack/lock.rb:11:in `synchronize'
+/Users/msmiller/.rvm/gems/ree-1.8.7-2012.02@glonal/gems/rack-1.1.6/lib/rack/lock.rb:11:in `call'
+/Users/msmiller/.rvm/gems/ree-1.8.7-2012.02@glonal/gems/actionpack-2.3.17/lib/action_controller/dispatcher.rb:114:in `call'
+/Users/msmiller/.rvm/gems/ree-1.8.7-2012.02@glonal/gems/actionpack-2.3.17/lib/action_controller/reloader.rb:34:in `run'
+/Users/msmiller/.rvm/gems/ree-1.8.7-2012.02@glonal/gems/actionpack-2.3.17/lib/action_controller/dispatcher.rb:108:in `call'
+/Users/msmiller/.rvm/gems/ree-1.8.7-2012.02@glonal/gems/rails-2.3.17/lib/rails/rack/static.rb:31:in `call'
+/Users/msmiller/.rvm/gems/ree-1.8.7-2012.02@glonal/gems/rails-2.3.17/lib/rails/rack/log_tailer.rb:17:in `call'
+/Users/msmiller/.rvm/gems/ree-1.8.7-2012.02@glonal/gems/rack-1.1.6/lib/rack/urlmap.rb:47:in `call'
+/Users/msmiller/.rvm/gems/ree-1.8.7-2012.02@glonal/gems/rack-1.1.6/lib/rack/urlmap.rb:41:in `each'
+/Users/msmiller/.rvm/gems/ree-1.8.7-2012.02@glonal/gems/rack-1.1.6/lib/rack/urlmap.rb:41:in `call'
+/Users/msmiller/.rvm/gems/ree-1.8.7-2012.02@glonal/gems/rack-1.1.6/lib/rack/lint.rb:47:in `_call'
+/Users/msmiller/.rvm/gems/ree-1.8.7-2012.02@glonal/gems/rack-1.1.6/lib/rack/lint.rb:35:in `call'
+/Users/msmiller/.rvm/gems/ree-1.8.7-2012.02@glonal/gems/rack-1.1.6/lib/rack/showexceptions.rb:24:in `call'
+/Users/msmiller/.rvm/gems/ree-1.8.7-2012.02@glonal/gems/rack-1.1.6/lib/rack/commonlogger.rb:18:in `call'
+/Users/msmiller/.rvm/gems/ree-1.8.7-2012.02@glonal/gems/rack-1.1.6/lib/rack/chunked.rb:15:in `call'
+/Users/msmiller/.rvm/gems/ree-1.8.7-2012.02@glonal/gems/rack-1.1.6/lib/rack/content_length.rb:13:in `call'
+/Users/msmiller/.rvm/gems/ree-1.8.7-2012.02@glonal/gems/unicorn-4.3.1/lib/unicorn/http_server.rb:531:in `process_client'
+/Users/msmiller/.rvm/gems/ree-1.8.7-2012.02@glonal/gems/unicorn-4.3.1/lib/unicorn/http_server.rb:606:in `worker_loop'
+/Users/msmiller/.rvm/gems/ree-1.8.7-2012.02@glonal/gems/unicorn-4.3.1/lib/unicorn/http_server.rb:487:in `spawn_missing_workers'
+/Users/msmiller/.rvm/gems/ree-1.8.7-2012.02@glonal/gems/unicorn-4.3.1/lib/unicorn/http_server.rb:137:in `start'
+/Users/msmiller/.rvm/gems/ree-1.8.7-2012.02@glonal/gems/unicorn-4.3.1/bin/unicorn:121
+/Users/msmiller/.rvm/gems/ree-1.8.7-2012.02@glonal/bin/unicorn:23:in `load'
+/Users/msmiller/.rvm/gems/ree-1.8.7-2012.02@glonal/bin/unicorn:23
+
+ActionView::TemplateError (compile error
+/Users/msmiller/Work/DialedIn/DEV/dui/app/views/dui/index.rhtml:35: syntax error, unexpected ':'
+...(( dui_icon('flag', '', class: 'strong') ).to_s); @output_bu...
+                              ^
+/Users/msmiller/Work/DialedIn/DEV/dui/app/views/dui/index.rhtml:35: syntax error, unexpected ')', expecting kEND
+..., '', class: 'strong') ).to_s); @output_buffer.concat "<br>\...
+                              ^
+/Users/msmiller/Work/DialedIn/DEV/dui/app/views/dui/index.rhtml:36: syntax error, unexpected ':', expecting ')'
+...on('flag', 'Font Awesome', id: 'my-icon', class: 'strong') )...
+                              ^
+/Users/msmiller/Work/DialedIn/DEV/dui/app/views/dui/index.rhtml:36: syntax error, unexpected ',', expecting ')'
+...'Font Awesome', id: 'my-icon', class: 'strong') ).to_s); @ou...
+                              ^
+/Users/msmiller/Work/DialedIn/DEV/dui/app/views/dui/index.rhtml:36: syntax error, unexpected ')', expecting kEND
+...con', class: 'strong') ).to_s); @output_buffer.concat "\n<hr...
+                              ^) on line #35 of app/views/dui/index.rhtml:
+32: <hr>
+33: <h2>Font-Awesome Test</h2>
+34: <%= dui_icon('flag') %><br>
+35: <%= dui_icon('flag', '', class: 'strong') %><br>
+36: <%= dui_icon('flag', 'Font Awesome', id: 'my-icon', class: 'strong') %>
+37: <hr>
+
+    app/views/dui/index.rhtml:42:in `compile!'
+    unicorn (4.3.1) lib/unicorn/http_server.rb:531:in `process_client'
+    unicorn (4.3.1) lib/unicorn/http_server.rb:606:in `worker_loop'
+    unicorn (4.3.1) lib/unicorn/http_server.rb:487:in `spawn_missing_workers'
+    unicorn (4.3.1) lib/unicorn/http_server.rb:137:in `start'
+    unicorn (4.3.1) bin/unicorn:121
+    /Users/msmiller/.rvm/gems/ree-1.8.7-2012.02@glonal/bin/unicorn:23:in `load'
+    /Users/msmiller/.rvm/gems/ree-1.8.7-2012.02@glonal/bin/unicorn:23
+
+Rendered rescues/_trace (25.2ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing DuiController#index (for 127.0.0.1 at 2014-10-23 13:11:21) [GET]
+Rendering template within layouts/application
+Rendering dui/index
+ERROR: compiling _run_rhtml_app47views47dui47index46rhtml RAISED compile error
+/Users/msmiller/Work/DialedIn/DEV/dui/app/views/dui/index.rhtml:35: syntax error, unexpected tIDENTIFIER, expecting ')'
+...icon('flag', ', class: 'strong') ).to_s); @output_buffer.con...
+                              ^
+/Users/msmiller/Work/DialedIn/DEV/dui/app/views/dui/index.rhtml:36: syntax error, unexpected tIDENTIFIER, expecting ')'
+...buffer.concat(( dui_icon('flag', 'Font Awesome', id: 'my-ico...
+                              ^
+/Users/msmiller/Work/DialedIn/DEV/dui/app/views/dui/index.rhtml:36: syntax error, unexpected tCONSTANT, expecting ')'
+...oncat(( dui_icon('flag', 'Font Awesome', id: 'my-icon', clas...
+                              ^
+/Users/msmiller/Work/DialedIn/DEV/dui/app/views/dui/index.rhtml:36: syntax error, unexpected tIDENTIFIER, expecting ')'
+...flag', 'Font Awesome', id: 'my-icon', class: 'strong') ).to_...
+                              ^
+/Users/msmiller/Work/DialedIn/DEV/dui/app/views/dui/index.rhtml:36: syntax error, unexpected tSTRING_BEG, expecting kDO or '{' or '('
+... 'Font Awesome', id: 'my-icon', class: 'strong') ).to_s); @o...
+                              ^
+/Users/msmiller/Work/DialedIn/DEV/dui/app/views/dui/index.rhtml:36: syntax error, unexpected tIDENTIFIER, expecting ')'
+... id: 'my-icon', class: 'strong') ).to_s); @output_buffer.con...
+                              ^
+/Users/msmiller/Work/DialedIn/DEV/dui/app/views/dui/index.rhtml:36: unterminated string meets end of file
+/Users/msmiller/Work/DialedIn/DEV/dui/app/views/dui/index.rhtml:36: syntax error, unexpected $end, expecting ')'
+Function body:           def _run_rhtml_app47views47dui47index46rhtml(local_assigns)
+            old_output_buffer = output_buffer;;@output_buffer = '';  __in_erb_template=true ; @output_buffer.concat "<h1>DUI IS ALIVE</h1>\n<i class=\"fa fa-flag strong\"></i>\n\n<h4>jQuery Install Test</h4>\nThis next DIV should get changed to say \"Ack Oop!\" by jQuery:\n<br><br>\n<div id=\"changeme\" style=\"color:red;\">Is this working?</div>\n<script type=\"text/javascript\">\n$(\"#changeme\").html(\"Ack Oop!\");\n</script>\n<hr>\n<h4>Knockout Install Test</h4>\nIf Knockout is installed and running, then changing the fields will change the message ...\n<p>First name: <input data-bind=\"value: firstName\" /></p>\n<p>Last name: <input data-bind=\"value: lastName\" /></p>\n<h2>Hello, <span data-bind=\"text: fullName\"> </span>!</h2>\n\n<script type=\"text/javascript\">\n// Here's my data model\nvar ViewModel = function(first, last) {\n    this.firstName = ko.observable(first);\n    this.lastName = ko.observable(last);\n \n    this.fullName = ko.computed(function() {\n        // Knockout tracks dependencies automatically. It knows that fullName depends on firstName and lastName, because these get called when evaluating fullName.\n        return this.firstName() + \" \" + this.lastName();\n    }, this);\n};\n \nko.applyBindings(new ViewModel(\"Planet\", \"Earth\")); // This makes Knockout get to work\n</script>\n<hr>\n<h2>Font-Awesome Test</h2>\n"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+; @output_buffer.concat(( dui_icon('flag') ).to_s); @output_buffer.concat "<br>\n"
+; @output_buffer.concat(( dui_icon('flag', ', class: 'strong') ).to_s); @output_buffer.concat "<br>\n"
+; @output_buffer.concat(( dui_icon('flag', 'Font Awesome', id: 'my-icon', class: 'strong') ).to_s); @output_buffer.concat "\n<hr>\n\n"
+
+
+; @output_buffer
+          ensure
+            self.output_buffer = old_output_buffer
+          end
+Backtrace: /Users/msmiller/Work/DialedIn/DEV/dui/app/views/dui/index.rhtml:36:in `compile!'
+/Users/msmiller/.rvm/gems/ree-1.8.7-2012.02@glonal/gems/actionpack-2.3.17/lib/action_view/renderable.rb:61:in `compile'
+/Users/msmiller/.rvm/gems/ree-1.8.7-2012.02@glonal/gems/actionpack-2.3.17/lib/action_view/renderable.rb:28:in `render'
+/Users/msmiller/.rvm/gems/ree-1.8.7-2012.02@glonal/gems/actionpack-2.3.17/lib/action_view/template.rb:205:in `render_template'
+/Users/msmiller/.rvm/gems/ree-1.8.7-2012.02@glonal/gems/actionpack-2.3.17/lib/action_view/base.rb:265:in `render'
+/Users/msmiller/.rvm/gems/ree-1.8.7-2012.02@glonal/gems/actionpack-2.3.17/lib/action_view/base.rb:348:in `_render_with_layout'
+/Users/msmiller/.rvm/gems/ree-1.8.7-2012.02@glonal/gems/actionpack-2.3.17/lib/action_view/base.rb:262:in `render'
+/Users/msmiller/.rvm/gems/ree-1.8.7-2012.02@glonal/gems/actionpack-2.3.17/lib/action_controller/base.rb:1252:in `render_for_file'
+/Users/msmiller/.rvm/gems/ree-1.8.7-2012.02@glonal/gems/actionpack-2.3.17/lib/action_controller/base.rb:936:in `render_without_benchmark'
+/Users/msmiller/.rvm/gems/ree-1.8.7-2012.02@glonal/gems/actionpack-2.3.17/lib/action_controller/benchmarking.rb:51:in `render'
+/Users/msmiller/.rvm/gems/ree-1.8.7-2012.02@glonal/gems/activesupport-2.3.17/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/Users/msmiller/.rvm/rubies/ree-1.8.7-2012.02/lib/ruby/1.8/benchmark.rb:308:in `realtime'
+/Users/msmiller/.rvm/gems/ree-1.8.7-2012.02@glonal/gems/activesupport-2.3.17/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/Users/msmiller/.rvm/gems/ree-1.8.7-2012.02@glonal/gems/actionpack-2.3.17/lib/action_controller/benchmarking.rb:51:in `render'
+/Users/msmiller/.rvm/gems/ree-1.8.7-2012.02@glonal/gems/actionpack-2.3.17/lib/action_controller/base.rb:1328:in `default_render'
+/Users/msmiller/.rvm/gems/ree-1.8.7-2012.02@glonal/gems/actionpack-2.3.17/lib/action_controller/base.rb:1334:in `perform_action_without_filters'
+/Users/msmiller/.rvm/gems/ree-1.8.7-2012.02@glonal/gems/actionpack-2.3.17/lib/action_controller/filters.rb:617:in `call_filters'
+/Users/msmiller/.rvm/gems/ree-1.8.7-2012.02@glonal/gems/actionpack-2.3.17/lib/action_controller/filters.rb:610:in `perform_action_without_benchmark'
+/Users/msmiller/.rvm/gems/ree-1.8.7-2012.02@glonal/gems/actionpack-2.3.17/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+/Users/msmiller/.rvm/gems/ree-1.8.7-2012.02@glonal/gems/activesupport-2.3.17/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/Users/msmiller/.rvm/rubies/ree-1.8.7-2012.02/lib/ruby/1.8/benchmark.rb:308:in `realtime'
+/Users/msmiller/.rvm/gems/ree-1.8.7-2012.02@glonal/gems/activesupport-2.3.17/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/Users/msmiller/.rvm/gems/ree-1.8.7-2012.02@glonal/gems/actionpack-2.3.17/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+/Users/msmiller/.rvm/gems/ree-1.8.7-2012.02@glonal/gems/actionpack-2.3.17/lib/action_controller/rescue.rb:160:in `perform_action_without_flash'
+/Users/msmiller/.rvm/gems/ree-1.8.7-2012.02@glonal/gems/actionpack-2.3.17/lib/action_controller/flash.rb:151:in `perform_action'
+/Users/msmiller/.rvm/gems/ree-1.8.7-2012.02@glonal/gems/actionpack-2.3.17/lib/action_controller/base.rb:532:in `send'
+/Users/msmiller/.rvm/gems/ree-1.8.7-2012.02@glonal/gems/actionpack-2.3.17/lib/action_controller/base.rb:532:in `process_without_filters'
+/Users/msmiller/.rvm/gems/ree-1.8.7-2012.02@glonal/gems/actionpack-2.3.17/lib/action_controller/filters.rb:606:in `process'
+/Users/msmiller/.rvm/gems/ree-1.8.7-2012.02@glonal/gems/actionpack-2.3.17/lib/action_controller/base.rb:391:in `process'
+/Users/msmiller/.rvm/gems/ree-1.8.7-2012.02@glonal/gems/actionpack-2.3.17/lib/action_controller/base.rb:386:in `call'
+/Users/msmiller/.rvm/gems/ree-1.8.7-2012.02@glonal/gems/actionpack-2.3.17/lib/action_controller/routing/route_set.rb:438:in `call'
+/Users/msmiller/.rvm/gems/ree-1.8.7-2012.02@glonal/gems/actionpack-2.3.17/lib/action_controller/dispatcher.rb:87:in `dispatch'
+/Users/msmiller/.rvm/gems/ree-1.8.7-2012.02@glonal/gems/actionpack-2.3.17/lib/action_controller/dispatcher.rb:121:in `_call'
+/Users/msmiller/.rvm/gems/ree-1.8.7-2012.02@glonal/gems/actionpack-2.3.17/lib/action_controller/dispatcher.rb:130:in `build_middleware_stack'
+/Users/msmiller/.rvm/gems/ree-1.8.7-2012.02@glonal/gems/activerecord-2.3.17/lib/active_record/query_cache.rb:29:in `call'
+/Users/msmiller/.rvm/gems/ree-1.8.7-2012.02@glonal/gems/activerecord-2.3.17/lib/active_record/query_cache.rb:29:in `call'
+/Users/msmiller/.rvm/gems/ree-1.8.7-2012.02@glonal/gems/activerecord-2.3.17/lib/active_record/connection_adapters/abstract/query_cache.rb:34:in `cache'
+/Users/msmiller/.rvm/gems/ree-1.8.7-2012.02@glonal/gems/activerecord-2.3.17/lib/active_record/query_cache.rb:9:in `cache'
+/Users/msmiller/.rvm/gems/ree-1.8.7-2012.02@glonal/gems/activerecord-2.3.17/lib/active_record/query_cache.rb:28:in `call'
+/Users/msmiller/.rvm/gems/ree-1.8.7-2012.02@glonal/gems/activerecord-2.3.17/lib/active_record/connection_adapters/abstract/connection_pool.rb:361:in `call'
+/Users/msmiller/.rvm/gems/ree-1.8.7-2012.02@glonal/gems/actionpack-2.3.17/lib/action_controller/string_coercion.rb:25:in `call'
+/Users/msmiller/.rvm/gems/ree-1.8.7-2012.02@glonal/gems/rack-1.1.6/lib/rack/head.rb:9:in `call'
+/Users/msmiller/.rvm/gems/ree-1.8.7-2012.02@glonal/gems/rack-1.1.6/lib/rack/methodoverride.rb:24:in `call'
+/Users/msmiller/.rvm/gems/ree-1.8.7-2012.02@glonal/gems/actionpack-2.3.17/lib/action_controller/params_parser.rb:15:in `call'
+/Users/msmiller/.rvm/gems/ree-1.8.7-2012.02@glonal/gems/actionpack-2.3.17/lib/action_controller/session/cookie_store.rb:99:in `call'
+/Users/msmiller/.rvm/gems/ree-1.8.7-2012.02@glonal/gems/actionpack-2.3.17/lib/action_controller/failsafe.rb:26:in `call'
+/Users/msmiller/.rvm/gems/ree-1.8.7-2012.02@glonal/gems/rack-1.1.6/lib/rack/lock.rb:11:in `call'
+/Users/msmiller/.rvm/gems/ree-1.8.7-2012.02@glonal/gems/rack-1.1.6/lib/rack/lock.rb:11:in `synchronize'
+/Users/msmiller/.rvm/gems/ree-1.8.7-2012.02@glonal/gems/rack-1.1.6/lib/rack/lock.rb:11:in `call'
+/Users/msmiller/.rvm/gems/ree-1.8.7-2012.02@glonal/gems/actionpack-2.3.17/lib/action_controller/dispatcher.rb:114:in `call'
+/Users/msmiller/.rvm/gems/ree-1.8.7-2012.02@glonal/gems/actionpack-2.3.17/lib/action_controller/reloader.rb:34:in `run'
+/Users/msmiller/.rvm/gems/ree-1.8.7-2012.02@glonal/gems/actionpack-2.3.17/lib/action_controller/dispatcher.rb:108:in `call'
+/Users/msmiller/.rvm/gems/ree-1.8.7-2012.02@glonal/gems/rails-2.3.17/lib/rails/rack/static.rb:31:in `call'
+/Users/msmiller/.rvm/gems/ree-1.8.7-2012.02@glonal/gems/rails-2.3.17/lib/rails/rack/log_tailer.rb:17:in `call'
+/Users/msmiller/.rvm/gems/ree-1.8.7-2012.02@glonal/gems/rack-1.1.6/lib/rack/urlmap.rb:47:in `call'
+/Users/msmiller/.rvm/gems/ree-1.8.7-2012.02@glonal/gems/rack-1.1.6/lib/rack/urlmap.rb:41:in `each'
+/Users/msmiller/.rvm/gems/ree-1.8.7-2012.02@glonal/gems/rack-1.1.6/lib/rack/urlmap.rb:41:in `call'
+/Users/msmiller/.rvm/gems/ree-1.8.7-2012.02@glonal/gems/rack-1.1.6/lib/rack/lint.rb:47:in `_call'
+/Users/msmiller/.rvm/gems/ree-1.8.7-2012.02@glonal/gems/rack-1.1.6/lib/rack/lint.rb:35:in `call'
+/Users/msmiller/.rvm/gems/ree-1.8.7-2012.02@glonal/gems/rack-1.1.6/lib/rack/showexceptions.rb:24:in `call'
+/Users/msmiller/.rvm/gems/ree-1.8.7-2012.02@glonal/gems/rack-1.1.6/lib/rack/commonlogger.rb:18:in `call'
+/Users/msmiller/.rvm/gems/ree-1.8.7-2012.02@glonal/gems/rack-1.1.6/lib/rack/chunked.rb:15:in `call'
+/Users/msmiller/.rvm/gems/ree-1.8.7-2012.02@glonal/gems/rack-1.1.6/lib/rack/content_length.rb:13:in `call'
+/Users/msmiller/.rvm/gems/ree-1.8.7-2012.02@glonal/gems/unicorn-4.3.1/lib/unicorn/http_server.rb:531:in `process_client'
+/Users/msmiller/.rvm/gems/ree-1.8.7-2012.02@glonal/gems/unicorn-4.3.1/lib/unicorn/http_server.rb:606:in `worker_loop'
+/Users/msmiller/.rvm/gems/ree-1.8.7-2012.02@glonal/gems/unicorn-4.3.1/lib/unicorn/http_server.rb:487:in `spawn_missing_workers'
+/Users/msmiller/.rvm/gems/ree-1.8.7-2012.02@glonal/gems/unicorn-4.3.1/lib/unicorn/http_server.rb:137:in `start'
+/Users/msmiller/.rvm/gems/ree-1.8.7-2012.02@glonal/gems/unicorn-4.3.1/bin/unicorn:121
+/Users/msmiller/.rvm/gems/ree-1.8.7-2012.02@glonal/bin/unicorn:23:in `load'
+/Users/msmiller/.rvm/gems/ree-1.8.7-2012.02@glonal/bin/unicorn:23
+
+ActionView::TemplateError (compile error
+/Users/msmiller/Work/DialedIn/DEV/dui/app/views/dui/index.rhtml:35: syntax error, unexpected tIDENTIFIER, expecting ')'
+...icon('flag', ', class: 'strong') ).to_s); @output_buffer.con...
+                              ^
+/Users/msmiller/Work/DialedIn/DEV/dui/app/views/dui/index.rhtml:36: syntax error, unexpected tIDENTIFIER, expecting ')'
+...buffer.concat(( dui_icon('flag', 'Font Awesome', id: 'my-ico...
+                              ^
+/Users/msmiller/Work/DialedIn/DEV/dui/app/views/dui/index.rhtml:36: syntax error, unexpected tCONSTANT, expecting ')'
+...oncat(( dui_icon('flag', 'Font Awesome', id: 'my-icon', clas...
+                              ^
+/Users/msmiller/Work/DialedIn/DEV/dui/app/views/dui/index.rhtml:36: syntax error, unexpected tIDENTIFIER, expecting ')'
+...flag', 'Font Awesome', id: 'my-icon', class: 'strong') ).to_...
+                              ^
+/Users/msmiller/Work/DialedIn/DEV/dui/app/views/dui/index.rhtml:36: syntax error, unexpected tSTRING_BEG, expecting kDO or '{' or '('
+... 'Font Awesome', id: 'my-icon', class: 'strong') ).to_s); @o...
+                              ^
+/Users/msmiller/Work/DialedIn/DEV/dui/app/views/dui/index.rhtml:36: syntax error, unexpected tIDENTIFIER, expecting ')'
+... id: 'my-icon', class: 'strong') ).to_s); @output_buffer.con...
+                              ^
+/Users/msmiller/Work/DialedIn/DEV/dui/app/views/dui/index.rhtml:36: unterminated string meets end of file
+/Users/msmiller/Work/DialedIn/DEV/dui/app/views/dui/index.rhtml:36: syntax error, unexpected $end, expecting ')') on line #35 of app/views/dui/index.rhtml:
+32: <hr>
+33: <h2>Font-Awesome Test</h2>
+34: <%= dui_icon('flag') %><br>
+35: <%= dui_icon('flag', ', class: 'strong') %><br>
+36: <%= dui_icon('flag', 'Font Awesome', id: 'my-icon', class: 'strong') %>
+37: <hr>
+
+    app/views/dui/index.rhtml:36:in `compile!'
+    unicorn (4.3.1) lib/unicorn/http_server.rb:531:in `process_client'
+    unicorn (4.3.1) lib/unicorn/http_server.rb:606:in `worker_loop'
+    unicorn (4.3.1) lib/unicorn/http_server.rb:487:in `spawn_missing_workers'
+    unicorn (4.3.1) lib/unicorn/http_server.rb:137:in `start'
+    unicorn (4.3.1) bin/unicorn:121
+    /Users/msmiller/.rvm/gems/ree-1.8.7-2012.02@glonal/bin/unicorn:23:in `load'
+    /Users/msmiller/.rvm/gems/ree-1.8.7-2012.02@glonal/bin/unicorn:23
+
+Rendered rescues/_trace (24.7ms)
+Rendered rescues/_request_and_response (0.2ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing DuiController#index (for 127.0.0.1 at 2014-10-23 13:11:42) [GET]
+Rendering template within layouts/application
+Rendering dui/index
+ERROR: compiling _run_rhtml_app47views47dui47index46rhtml RAISED compile error
+/Users/msmiller/Work/DialedIn/DEV/dui/app/views/dui/index.rhtml:35: syntax error, unexpected ':'
+...(( dui_icon('flag', '', class: 'strong') ).to_s); @output_bu...
+                              ^
+/Users/msmiller/Work/DialedIn/DEV/dui/app/views/dui/index.rhtml:35: syntax error, unexpected ')', expecting kEND
+..., '', class: 'strong') ).to_s); @output_buffer.concat "<br>\...
+                              ^
+/Users/msmiller/Work/DialedIn/DEV/dui/app/views/dui/index.rhtml:36: syntax error, unexpected ':', expecting ')'
+...on('flag', 'Font Awesome', id: 'my-icon', class: 'strong') )...
+                              ^
+/Users/msmiller/Work/DialedIn/DEV/dui/app/views/dui/index.rhtml:36: syntax error, unexpected ',', expecting ')'
+...'Font Awesome', id: 'my-icon', class: 'strong') ).to_s); @ou...
+                              ^
+/Users/msmiller/Work/DialedIn/DEV/dui/app/views/dui/index.rhtml:36: syntax error, unexpected ')', expecting kEND
+...con', class: 'strong') ).to_s); @output_buffer.concat "\n<hr...
+                              ^
+Function body:           def _run_rhtml_app47views47dui47index46rhtml(local_assigns)
+            old_output_buffer = output_buffer;;@output_buffer = '';  __in_erb_template=true ; @output_buffer.concat "<h1>DUI IS ALIVE</h1>\n<i class=\"fa fa-flag strong\"></i>\n\n<h4>jQuery Install Test</h4>\nThis next DIV should get changed to say \"Ack Oop!\" by jQuery:\n<br><br>\n<div id=\"changeme\" style=\"color:red;\">Is this working?</div>\n<script type=\"text/javascript\">\n$(\"#changeme\").html(\"Ack Oop!\");\n</script>\n<hr>\n<h4>Knockout Install Test</h4>\nIf Knockout is installed and running, then changing the fields will change the message ...\n<p>First name: <input data-bind=\"value: firstName\" /></p>\n<p>Last name: <input data-bind=\"value: lastName\" /></p>\n<h2>Hello, <span data-bind=\"text: fullName\"> </span>!</h2>\n\n<script type=\"text/javascript\">\n// Here's my data model\nvar ViewModel = function(first, last) {\n    this.firstName = ko.observable(first);\n    this.lastName = ko.observable(last);\n \n    this.fullName = ko.computed(function() {\n        // Knockout tracks dependencies automatically. It knows that fullName depends on firstName and lastName, because these get called when evaluating fullName.\n        return this.firstName() + \" \" + this.lastName();\n    }, this);\n};\n \nko.applyBindings(new ViewModel(\"Planet\", \"Earth\")); // This makes Knockout get to work\n</script>\n<hr>\n<h2>Font-Awesome Test</h2>\n"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+; @output_buffer.concat(( dui_icon('flag') ).to_s); @output_buffer.concat "<br>\n"
+; @output_buffer.concat(( dui_icon('flag', '', class: 'strong') ).to_s); @output_buffer.concat "<br>\n"
+; @output_buffer.concat(( dui_icon('flag', 'Font Awesome', id: 'my-icon', class: 'strong') ).to_s); @output_buffer.concat "\n<hr>\n\n"
+
+
+; @output_buffer
+          ensure
+            self.output_buffer = old_output_buffer
+          end
+Backtrace: /Users/msmiller/Work/DialedIn/DEV/dui/app/views/dui/index.rhtml:42:in `compile!'
+/Users/msmiller/.rvm/gems/ree-1.8.7-2012.02@glonal/gems/actionpack-2.3.17/lib/action_view/renderable.rb:61:in `compile'
+/Users/msmiller/.rvm/gems/ree-1.8.7-2012.02@glonal/gems/actionpack-2.3.17/lib/action_view/renderable.rb:28:in `render'
+/Users/msmiller/.rvm/gems/ree-1.8.7-2012.02@glonal/gems/actionpack-2.3.17/lib/action_view/template.rb:205:in `render_template'
+/Users/msmiller/.rvm/gems/ree-1.8.7-2012.02@glonal/gems/actionpack-2.3.17/lib/action_view/base.rb:265:in `render'
+/Users/msmiller/.rvm/gems/ree-1.8.7-2012.02@glonal/gems/actionpack-2.3.17/lib/action_view/base.rb:348:in `_render_with_layout'
+/Users/msmiller/.rvm/gems/ree-1.8.7-2012.02@glonal/gems/actionpack-2.3.17/lib/action_view/base.rb:262:in `render'
+/Users/msmiller/.rvm/gems/ree-1.8.7-2012.02@glonal/gems/actionpack-2.3.17/lib/action_controller/base.rb:1252:in `render_for_file'
+/Users/msmiller/.rvm/gems/ree-1.8.7-2012.02@glonal/gems/actionpack-2.3.17/lib/action_controller/base.rb:936:in `render_without_benchmark'
+/Users/msmiller/.rvm/gems/ree-1.8.7-2012.02@glonal/gems/actionpack-2.3.17/lib/action_controller/benchmarking.rb:51:in `render'
+/Users/msmiller/.rvm/gems/ree-1.8.7-2012.02@glonal/gems/activesupport-2.3.17/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/Users/msmiller/.rvm/rubies/ree-1.8.7-2012.02/lib/ruby/1.8/benchmark.rb:308:in `realtime'
+/Users/msmiller/.rvm/gems/ree-1.8.7-2012.02@glonal/gems/activesupport-2.3.17/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/Users/msmiller/.rvm/gems/ree-1.8.7-2012.02@glonal/gems/actionpack-2.3.17/lib/action_controller/benchmarking.rb:51:in `render'
+/Users/msmiller/.rvm/gems/ree-1.8.7-2012.02@glonal/gems/actionpack-2.3.17/lib/action_controller/base.rb:1328:in `default_render'
+/Users/msmiller/.rvm/gems/ree-1.8.7-2012.02@glonal/gems/actionpack-2.3.17/lib/action_controller/base.rb:1334:in `perform_action_without_filters'
+/Users/msmiller/.rvm/gems/ree-1.8.7-2012.02@glonal/gems/actionpack-2.3.17/lib/action_controller/filters.rb:617:in `call_filters'
+/Users/msmiller/.rvm/gems/ree-1.8.7-2012.02@glonal/gems/actionpack-2.3.17/lib/action_controller/filters.rb:610:in `perform_action_without_benchmark'
+/Users/msmiller/.rvm/gems/ree-1.8.7-2012.02@glonal/gems/actionpack-2.3.17/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+/Users/msmiller/.rvm/gems/ree-1.8.7-2012.02@glonal/gems/activesupport-2.3.17/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/Users/msmiller/.rvm/rubies/ree-1.8.7-2012.02/lib/ruby/1.8/benchmark.rb:308:in `realtime'
+/Users/msmiller/.rvm/gems/ree-1.8.7-2012.02@glonal/gems/activesupport-2.3.17/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/Users/msmiller/.rvm/gems/ree-1.8.7-2012.02@glonal/gems/actionpack-2.3.17/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+/Users/msmiller/.rvm/gems/ree-1.8.7-2012.02@glonal/gems/actionpack-2.3.17/lib/action_controller/rescue.rb:160:in `perform_action_without_flash'
+/Users/msmiller/.rvm/gems/ree-1.8.7-2012.02@glonal/gems/actionpack-2.3.17/lib/action_controller/flash.rb:151:in `perform_action'
+/Users/msmiller/.rvm/gems/ree-1.8.7-2012.02@glonal/gems/actionpack-2.3.17/lib/action_controller/base.rb:532:in `send'
+/Users/msmiller/.rvm/gems/ree-1.8.7-2012.02@glonal/gems/actionpack-2.3.17/lib/action_controller/base.rb:532:in `process_without_filters'
+/Users/msmiller/.rvm/gems/ree-1.8.7-2012.02@glonal/gems/actionpack-2.3.17/lib/action_controller/filters.rb:606:in `process'
+/Users/msmiller/.rvm/gems/ree-1.8.7-2012.02@glonal/gems/actionpack-2.3.17/lib/action_controller/base.rb:391:in `process'
+/Users/msmiller/.rvm/gems/ree-1.8.7-2012.02@glonal/gems/actionpack-2.3.17/lib/action_controller/base.rb:386:in `call'
+/Users/msmiller/.rvm/gems/ree-1.8.7-2012.02@glonal/gems/actionpack-2.3.17/lib/action_controller/routing/route_set.rb:438:in `call'
+/Users/msmiller/.rvm/gems/ree-1.8.7-2012.02@glonal/gems/actionpack-2.3.17/lib/action_controller/dispatcher.rb:87:in `dispatch'
+/Users/msmiller/.rvm/gems/ree-1.8.7-2012.02@glonal/gems/actionpack-2.3.17/lib/action_controller/dispatcher.rb:121:in `_call'
+/Users/msmiller/.rvm/gems/ree-1.8.7-2012.02@glonal/gems/actionpack-2.3.17/lib/action_controller/dispatcher.rb:130:in `build_middleware_stack'
+/Users/msmiller/.rvm/gems/ree-1.8.7-2012.02@glonal/gems/activerecord-2.3.17/lib/active_record/query_cache.rb:29:in `call'
+/Users/msmiller/.rvm/gems/ree-1.8.7-2012.02@glonal/gems/activerecord-2.3.17/lib/active_record/query_cache.rb:29:in `call'
+/Users/msmiller/.rvm/gems/ree-1.8.7-2012.02@glonal/gems/activerecord-2.3.17/lib/active_record/connection_adapters/abstract/query_cache.rb:34:in `cache'
+/Users/msmiller/.rvm/gems/ree-1.8.7-2012.02@glonal/gems/activerecord-2.3.17/lib/active_record/query_cache.rb:9:in `cache'
+/Users/msmiller/.rvm/gems/ree-1.8.7-2012.02@glonal/gems/activerecord-2.3.17/lib/active_record/query_cache.rb:28:in `call'
+/Users/msmiller/.rvm/gems/ree-1.8.7-2012.02@glonal/gems/activerecord-2.3.17/lib/active_record/connection_adapters/abstract/connection_pool.rb:361:in `call'
+/Users/msmiller/.rvm/gems/ree-1.8.7-2012.02@glonal/gems/actionpack-2.3.17/lib/action_controller/string_coercion.rb:25:in `call'
+/Users/msmiller/.rvm/gems/ree-1.8.7-2012.02@glonal/gems/rack-1.1.6/lib/rack/head.rb:9:in `call'
+/Users/msmiller/.rvm/gems/ree-1.8.7-2012.02@glonal/gems/rack-1.1.6/lib/rack/methodoverride.rb:24:in `call'
+/Users/msmiller/.rvm/gems/ree-1.8.7-2012.02@glonal/gems/actionpack-2.3.17/lib/action_controller/params_parser.rb:15:in `call'
+/Users/msmiller/.rvm/gems/ree-1.8.7-2012.02@glonal/gems/actionpack-2.3.17/lib/action_controller/session/cookie_store.rb:99:in `call'
+/Users/msmiller/.rvm/gems/ree-1.8.7-2012.02@glonal/gems/actionpack-2.3.17/lib/action_controller/failsafe.rb:26:in `call'
+/Users/msmiller/.rvm/gems/ree-1.8.7-2012.02@glonal/gems/rack-1.1.6/lib/rack/lock.rb:11:in `call'
+/Users/msmiller/.rvm/gems/ree-1.8.7-2012.02@glonal/gems/rack-1.1.6/lib/rack/lock.rb:11:in `synchronize'
+/Users/msmiller/.rvm/gems/ree-1.8.7-2012.02@glonal/gems/rack-1.1.6/lib/rack/lock.rb:11:in `call'
+/Users/msmiller/.rvm/gems/ree-1.8.7-2012.02@glonal/gems/actionpack-2.3.17/lib/action_controller/dispatcher.rb:114:in `call'
+/Users/msmiller/.rvm/gems/ree-1.8.7-2012.02@glonal/gems/actionpack-2.3.17/lib/action_controller/reloader.rb:34:in `run'
+/Users/msmiller/.rvm/gems/ree-1.8.7-2012.02@glonal/gems/actionpack-2.3.17/lib/action_controller/dispatcher.rb:108:in `call'
+/Users/msmiller/.rvm/gems/ree-1.8.7-2012.02@glonal/gems/rails-2.3.17/lib/rails/rack/static.rb:31:in `call'
+/Users/msmiller/.rvm/gems/ree-1.8.7-2012.02@glonal/gems/rails-2.3.17/lib/rails/rack/log_tailer.rb:17:in `call'
+/Users/msmiller/.rvm/gems/ree-1.8.7-2012.02@glonal/gems/rack-1.1.6/lib/rack/urlmap.rb:47:in `call'
+/Users/msmiller/.rvm/gems/ree-1.8.7-2012.02@glonal/gems/rack-1.1.6/lib/rack/urlmap.rb:41:in `each'
+/Users/msmiller/.rvm/gems/ree-1.8.7-2012.02@glonal/gems/rack-1.1.6/lib/rack/urlmap.rb:41:in `call'
+/Users/msmiller/.rvm/gems/ree-1.8.7-2012.02@glonal/gems/rack-1.1.6/lib/rack/lint.rb:47:in `_call'
+/Users/msmiller/.rvm/gems/ree-1.8.7-2012.02@glonal/gems/rack-1.1.6/lib/rack/lint.rb:35:in `call'
+/Users/msmiller/.rvm/gems/ree-1.8.7-2012.02@glonal/gems/rack-1.1.6/lib/rack/showexceptions.rb:24:in `call'
+/Users/msmiller/.rvm/gems/ree-1.8.7-2012.02@glonal/gems/rack-1.1.6/lib/rack/commonlogger.rb:18:in `call'
+/Users/msmiller/.rvm/gems/ree-1.8.7-2012.02@glonal/gems/rack-1.1.6/lib/rack/chunked.rb:15:in `call'
+/Users/msmiller/.rvm/gems/ree-1.8.7-2012.02@glonal/gems/rack-1.1.6/lib/rack/content_length.rb:13:in `call'
+/Users/msmiller/.rvm/gems/ree-1.8.7-2012.02@glonal/gems/unicorn-4.3.1/lib/unicorn/http_server.rb:531:in `process_client'
+/Users/msmiller/.rvm/gems/ree-1.8.7-2012.02@glonal/gems/unicorn-4.3.1/lib/unicorn/http_server.rb:606:in `worker_loop'
+/Users/msmiller/.rvm/gems/ree-1.8.7-2012.02@glonal/gems/unicorn-4.3.1/lib/unicorn/http_server.rb:487:in `spawn_missing_workers'
+/Users/msmiller/.rvm/gems/ree-1.8.7-2012.02@glonal/gems/unicorn-4.3.1/lib/unicorn/http_server.rb:137:in `start'
+/Users/msmiller/.rvm/gems/ree-1.8.7-2012.02@glonal/gems/unicorn-4.3.1/bin/unicorn:121
+/Users/msmiller/.rvm/gems/ree-1.8.7-2012.02@glonal/bin/unicorn:23:in `load'
+/Users/msmiller/.rvm/gems/ree-1.8.7-2012.02@glonal/bin/unicorn:23
+
+ActionView::TemplateError (compile error
+/Users/msmiller/Work/DialedIn/DEV/dui/app/views/dui/index.rhtml:35: syntax error, unexpected ':'
+...(( dui_icon('flag', '', class: 'strong') ).to_s); @output_bu...
+                              ^
+/Users/msmiller/Work/DialedIn/DEV/dui/app/views/dui/index.rhtml:35: syntax error, unexpected ')', expecting kEND
+..., '', class: 'strong') ).to_s); @output_buffer.concat "<br>\...
+                              ^
+/Users/msmiller/Work/DialedIn/DEV/dui/app/views/dui/index.rhtml:36: syntax error, unexpected ':', expecting ')'
+...on('flag', 'Font Awesome', id: 'my-icon', class: 'strong') )...
+                              ^
+/Users/msmiller/Work/DialedIn/DEV/dui/app/views/dui/index.rhtml:36: syntax error, unexpected ',', expecting ')'
+...'Font Awesome', id: 'my-icon', class: 'strong') ).to_s); @ou...
+                              ^
+/Users/msmiller/Work/DialedIn/DEV/dui/app/views/dui/index.rhtml:36: syntax error, unexpected ')', expecting kEND
+...con', class: 'strong') ).to_s); @output_buffer.concat "\n<hr...
+                              ^) on line #35 of app/views/dui/index.rhtml:
+32: <hr>
+33: <h2>Font-Awesome Test</h2>
+34: <%= dui_icon('flag') %><br>
+35: <%= dui_icon('flag', '', class: 'strong') %><br>
+36: <%= dui_icon('flag', 'Font Awesome', id: 'my-icon', class: 'strong') %>
+37: <hr>
+
+    app/views/dui/index.rhtml:42:in `compile!'
+    unicorn (4.3.1) lib/unicorn/http_server.rb:531:in `process_client'
+    unicorn (4.3.1) lib/unicorn/http_server.rb:606:in `worker_loop'
+    unicorn (4.3.1) lib/unicorn/http_server.rb:487:in `spawn_missing_workers'
+    unicorn (4.3.1) lib/unicorn/http_server.rb:137:in `start'
+    unicorn (4.3.1) bin/unicorn:121
+    /Users/msmiller/.rvm/gems/ree-1.8.7-2012.02@glonal/bin/unicorn:23:in `load'
+    /Users/msmiller/.rvm/gems/ree-1.8.7-2012.02@glonal/bin/unicorn:23
+
+Rendered rescues/_trace (24.1ms)
+Rendered rescues/_request_and_response (0.2ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing DuiController#index (for 127.0.0.1 at 2014-10-23 13:12:00) [GET]
+Rendering template within layouts/application
+Rendering dui/index
+ERROR: compiling _run_rhtml_app47views47dui47index46rhtml RAISED compile error
+/Users/msmiller/Work/DialedIn/DEV/dui/app/views/dui/index.rhtml:36: syntax error, unexpected ':', expecting ')'
+...on('flag', 'Font Awesome', id: 'my-icon', class: 'strong') )...
+                              ^
+/Users/msmiller/Work/DialedIn/DEV/dui/app/views/dui/index.rhtml:36: syntax error, unexpected ',', expecting ')'
+...'Font Awesome', id: 'my-icon', class: 'strong') ).to_s); @ou...
+                              ^
+/Users/msmiller/Work/DialedIn/DEV/dui/app/views/dui/index.rhtml:36: syntax error, unexpected ')', expecting kEND
+...con', class: 'strong') ).to_s); @output_buffer.concat "\n<hr...
+                              ^
+Function body:           def _run_rhtml_app47views47dui47index46rhtml(local_assigns)
+            old_output_buffer = output_buffer;;@output_buffer = '';  __in_erb_template=true ; @output_buffer.concat "<h1>DUI IS ALIVE</h1>\n<i class=\"fa fa-flag strong\"></i>\n\n<h4>jQuery Install Test</h4>\nThis next DIV should get changed to say \"Ack Oop!\" by jQuery:\n<br><br>\n<div id=\"changeme\" style=\"color:red;\">Is this working?</div>\n<script type=\"text/javascript\">\n$(\"#changeme\").html(\"Ack Oop!\");\n</script>\n<hr>\n<h4>Knockout Install Test</h4>\nIf Knockout is installed and running, then changing the fields will change the message ...\n<p>First name: <input data-bind=\"value: firstName\" /></p>\n<p>Last name: <input data-bind=\"value: lastName\" /></p>\n<h2>Hello, <span data-bind=\"text: fullName\"> </span>!</h2>\n\n<script type=\"text/javascript\">\n// Here's my data model\nvar ViewModel = function(first, last) {\n    this.firstName = ko.observable(first);\n    this.lastName = ko.observable(last);\n \n    this.fullName = ko.computed(function() {\n        // Knockout tracks dependencies automatically. It knows that fullName depends on firstName and lastName, because these get called when evaluating fullName.\n        return this.firstName() + \" \" + this.lastName();\n    }, this);\n};\n \nko.applyBindings(new ViewModel(\"Planet\", \"Earth\")); // This makes Knockout get to work\n</script>\n<hr>\n<h2>Font-Awesome Test</h2>\n"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+; @output_buffer.concat(( dui_icon('flag') ).to_s); @output_buffer.concat "<br>\n"
+; @output_buffer.concat(( dui_icon('flag', '', :class => 'strong') ).to_s); @output_buffer.concat "<br>\n"
+; @output_buffer.concat(( dui_icon('flag', 'Font Awesome', id: 'my-icon', class: 'strong') ).to_s); @output_buffer.concat "\n<hr>\n\n"
+
+
+; @output_buffer
+          ensure
+            self.output_buffer = old_output_buffer
+          end
+Backtrace: /Users/msmiller/Work/DialedIn/DEV/dui/app/views/dui/index.rhtml:42:in `compile!'
+/Users/msmiller/.rvm/gems/ree-1.8.7-2012.02@glonal/gems/actionpack-2.3.17/lib/action_view/renderable.rb:61:in `compile'
+/Users/msmiller/.rvm/gems/ree-1.8.7-2012.02@glonal/gems/actionpack-2.3.17/lib/action_view/renderable.rb:28:in `render'
+/Users/msmiller/.rvm/gems/ree-1.8.7-2012.02@glonal/gems/actionpack-2.3.17/lib/action_view/template.rb:205:in `render_template'
+/Users/msmiller/.rvm/gems/ree-1.8.7-2012.02@glonal/gems/actionpack-2.3.17/lib/action_view/base.rb:265:in `render'
+/Users/msmiller/.rvm/gems/ree-1.8.7-2012.02@glonal/gems/actionpack-2.3.17/lib/action_view/base.rb:348:in `_render_with_layout'
+/Users/msmiller/.rvm/gems/ree-1.8.7-2012.02@glonal/gems/actionpack-2.3.17/lib/action_view/base.rb:262:in `render'
+/Users/msmiller/.rvm/gems/ree-1.8.7-2012.02@glonal/gems/actionpack-2.3.17/lib/action_controller/base.rb:1252:in `render_for_file'
+/Users/msmiller/.rvm/gems/ree-1.8.7-2012.02@glonal/gems/actionpack-2.3.17/lib/action_controller/base.rb:936:in `render_without_benchmark'
+/Users/msmiller/.rvm/gems/ree-1.8.7-2012.02@glonal/gems/actionpack-2.3.17/lib/action_controller/benchmarking.rb:51:in `render'
+/Users/msmiller/.rvm/gems/ree-1.8.7-2012.02@glonal/gems/activesupport-2.3.17/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/Users/msmiller/.rvm/rubies/ree-1.8.7-2012.02/lib/ruby/1.8/benchmark.rb:308:in `realtime'
+/Users/msmiller/.rvm/gems/ree-1.8.7-2012.02@glonal/gems/activesupport-2.3.17/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/Users/msmiller/.rvm/gems/ree-1.8.7-2012.02@glonal/gems/actionpack-2.3.17/lib/action_controller/benchmarking.rb:51:in `render'
+/Users/msmiller/.rvm/gems/ree-1.8.7-2012.02@glonal/gems/actionpack-2.3.17/lib/action_controller/base.rb:1328:in `default_render'
+/Users/msmiller/.rvm/gems/ree-1.8.7-2012.02@glonal/gems/actionpack-2.3.17/lib/action_controller/base.rb:1334:in `perform_action_without_filters'
+/Users/msmiller/.rvm/gems/ree-1.8.7-2012.02@glonal/gems/actionpack-2.3.17/lib/action_controller/filters.rb:617:in `call_filters'
+/Users/msmiller/.rvm/gems/ree-1.8.7-2012.02@glonal/gems/actionpack-2.3.17/lib/action_controller/filters.rb:610:in `perform_action_without_benchmark'
+/Users/msmiller/.rvm/gems/ree-1.8.7-2012.02@glonal/gems/actionpack-2.3.17/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+/Users/msmiller/.rvm/gems/ree-1.8.7-2012.02@glonal/gems/activesupport-2.3.17/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/Users/msmiller/.rvm/rubies/ree-1.8.7-2012.02/lib/ruby/1.8/benchmark.rb:308:in `realtime'
+/Users/msmiller/.rvm/gems/ree-1.8.7-2012.02@glonal/gems/activesupport-2.3.17/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/Users/msmiller/.rvm/gems/ree-1.8.7-2012.02@glonal/gems/actionpack-2.3.17/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+/Users/msmiller/.rvm/gems/ree-1.8.7-2012.02@glonal/gems/actionpack-2.3.17/lib/action_controller/rescue.rb:160:in `perform_action_without_flash'
+/Users/msmiller/.rvm/gems/ree-1.8.7-2012.02@glonal/gems/actionpack-2.3.17/lib/action_controller/flash.rb:151:in `perform_action'
+/Users/msmiller/.rvm/gems/ree-1.8.7-2012.02@glonal/gems/actionpack-2.3.17/lib/action_controller/base.rb:532:in `send'
+/Users/msmiller/.rvm/gems/ree-1.8.7-2012.02@glonal/gems/actionpack-2.3.17/lib/action_controller/base.rb:532:in `process_without_filters'
+/Users/msmiller/.rvm/gems/ree-1.8.7-2012.02@glonal/gems/actionpack-2.3.17/lib/action_controller/filters.rb:606:in `process'
+/Users/msmiller/.rvm/gems/ree-1.8.7-2012.02@glonal/gems/actionpack-2.3.17/lib/action_controller/base.rb:391:in `process'
+/Users/msmiller/.rvm/gems/ree-1.8.7-2012.02@glonal/gems/actionpack-2.3.17/lib/action_controller/base.rb:386:in `call'
+/Users/msmiller/.rvm/gems/ree-1.8.7-2012.02@glonal/gems/actionpack-2.3.17/lib/action_controller/routing/route_set.rb:438:in `call'
+/Users/msmiller/.rvm/gems/ree-1.8.7-2012.02@glonal/gems/actionpack-2.3.17/lib/action_controller/dispatcher.rb:87:in `dispatch'
+/Users/msmiller/.rvm/gems/ree-1.8.7-2012.02@glonal/gems/actionpack-2.3.17/lib/action_controller/dispatcher.rb:121:in `_call'
+/Users/msmiller/.rvm/gems/ree-1.8.7-2012.02@glonal/gems/actionpack-2.3.17/lib/action_controller/dispatcher.rb:130:in `build_middleware_stack'
+/Users/msmiller/.rvm/gems/ree-1.8.7-2012.02@glonal/gems/activerecord-2.3.17/lib/active_record/query_cache.rb:29:in `call'
+/Users/msmiller/.rvm/gems/ree-1.8.7-2012.02@glonal/gems/activerecord-2.3.17/lib/active_record/query_cache.rb:29:in `call'
+/Users/msmiller/.rvm/gems/ree-1.8.7-2012.02@glonal/gems/activerecord-2.3.17/lib/active_record/connection_adapters/abstract/query_cache.rb:34:in `cache'
+/Users/msmiller/.rvm/gems/ree-1.8.7-2012.02@glonal/gems/activerecord-2.3.17/lib/active_record/query_cache.rb:9:in `cache'
+/Users/msmiller/.rvm/gems/ree-1.8.7-2012.02@glonal/gems/activerecord-2.3.17/lib/active_record/query_cache.rb:28:in `call'
+/Users/msmiller/.rvm/gems/ree-1.8.7-2012.02@glonal/gems/activerecord-2.3.17/lib/active_record/connection_adapters/abstract/connection_pool.rb:361:in `call'
+/Users/msmiller/.rvm/gems/ree-1.8.7-2012.02@glonal/gems/actionpack-2.3.17/lib/action_controller/string_coercion.rb:25:in `call'
+/Users/msmiller/.rvm/gems/ree-1.8.7-2012.02@glonal/gems/rack-1.1.6/lib/rack/head.rb:9:in `call'
+/Users/msmiller/.rvm/gems/ree-1.8.7-2012.02@glonal/gems/rack-1.1.6/lib/rack/methodoverride.rb:24:in `call'
+/Users/msmiller/.rvm/gems/ree-1.8.7-2012.02@glonal/gems/actionpack-2.3.17/lib/action_controller/params_parser.rb:15:in `call'
+/Users/msmiller/.rvm/gems/ree-1.8.7-2012.02@glonal/gems/actionpack-2.3.17/lib/action_controller/session/cookie_store.rb:99:in `call'
+/Users/msmiller/.rvm/gems/ree-1.8.7-2012.02@glonal/gems/actionpack-2.3.17/lib/action_controller/failsafe.rb:26:in `call'
+/Users/msmiller/.rvm/gems/ree-1.8.7-2012.02@glonal/gems/rack-1.1.6/lib/rack/lock.rb:11:in `call'
+/Users/msmiller/.rvm/gems/ree-1.8.7-2012.02@glonal/gems/rack-1.1.6/lib/rack/lock.rb:11:in `synchronize'
+/Users/msmiller/.rvm/gems/ree-1.8.7-2012.02@glonal/gems/rack-1.1.6/lib/rack/lock.rb:11:in `call'
+/Users/msmiller/.rvm/gems/ree-1.8.7-2012.02@glonal/gems/actionpack-2.3.17/lib/action_controller/dispatcher.rb:114:in `call'
+/Users/msmiller/.rvm/gems/ree-1.8.7-2012.02@glonal/gems/actionpack-2.3.17/lib/action_controller/reloader.rb:34:in `run'
+/Users/msmiller/.rvm/gems/ree-1.8.7-2012.02@glonal/gems/actionpack-2.3.17/lib/action_controller/dispatcher.rb:108:in `call'
+/Users/msmiller/.rvm/gems/ree-1.8.7-2012.02@glonal/gems/rails-2.3.17/lib/rails/rack/static.rb:31:in `call'
+/Users/msmiller/.rvm/gems/ree-1.8.7-2012.02@glonal/gems/rails-2.3.17/lib/rails/rack/log_tailer.rb:17:in `call'
+/Users/msmiller/.rvm/gems/ree-1.8.7-2012.02@glonal/gems/rack-1.1.6/lib/rack/urlmap.rb:47:in `call'
+/Users/msmiller/.rvm/gems/ree-1.8.7-2012.02@glonal/gems/rack-1.1.6/lib/rack/urlmap.rb:41:in `each'
+/Users/msmiller/.rvm/gems/ree-1.8.7-2012.02@glonal/gems/rack-1.1.6/lib/rack/urlmap.rb:41:in `call'
+/Users/msmiller/.rvm/gems/ree-1.8.7-2012.02@glonal/gems/rack-1.1.6/lib/rack/lint.rb:47:in `_call'
+/Users/msmiller/.rvm/gems/ree-1.8.7-2012.02@glonal/gems/rack-1.1.6/lib/rack/lint.rb:35:in `call'
+/Users/msmiller/.rvm/gems/ree-1.8.7-2012.02@glonal/gems/rack-1.1.6/lib/rack/showexceptions.rb:24:in `call'
+/Users/msmiller/.rvm/gems/ree-1.8.7-2012.02@glonal/gems/rack-1.1.6/lib/rack/commonlogger.rb:18:in `call'
+/Users/msmiller/.rvm/gems/ree-1.8.7-2012.02@glonal/gems/rack-1.1.6/lib/rack/chunked.rb:15:in `call'
+/Users/msmiller/.rvm/gems/ree-1.8.7-2012.02@glonal/gems/rack-1.1.6/lib/rack/content_length.rb:13:in `call'
+/Users/msmiller/.rvm/gems/ree-1.8.7-2012.02@glonal/gems/unicorn-4.3.1/lib/unicorn/http_server.rb:531:in `process_client'
+/Users/msmiller/.rvm/gems/ree-1.8.7-2012.02@glonal/gems/unicorn-4.3.1/lib/unicorn/http_server.rb:606:in `worker_loop'
+/Users/msmiller/.rvm/gems/ree-1.8.7-2012.02@glonal/gems/unicorn-4.3.1/lib/unicorn/http_server.rb:487:in `spawn_missing_workers'
+/Users/msmiller/.rvm/gems/ree-1.8.7-2012.02@glonal/gems/unicorn-4.3.1/lib/unicorn/http_server.rb:137:in `start'
+/Users/msmiller/.rvm/gems/ree-1.8.7-2012.02@glonal/gems/unicorn-4.3.1/bin/unicorn:121
+/Users/msmiller/.rvm/gems/ree-1.8.7-2012.02@glonal/bin/unicorn:23:in `load'
+/Users/msmiller/.rvm/gems/ree-1.8.7-2012.02@glonal/bin/unicorn:23
+
+ActionView::TemplateError (compile error
+/Users/msmiller/Work/DialedIn/DEV/dui/app/views/dui/index.rhtml:36: syntax error, unexpected ':', expecting ')'
+...on('flag', 'Font Awesome', id: 'my-icon', class: 'strong') )...
+                              ^
+/Users/msmiller/Work/DialedIn/DEV/dui/app/views/dui/index.rhtml:36: syntax error, unexpected ',', expecting ')'
+...'Font Awesome', id: 'my-icon', class: 'strong') ).to_s); @ou...
+                              ^
+/Users/msmiller/Work/DialedIn/DEV/dui/app/views/dui/index.rhtml:36: syntax error, unexpected ')', expecting kEND
+...con', class: 'strong') ).to_s); @output_buffer.concat "\n<hr...
+                              ^) on line #36 of app/views/dui/index.rhtml:
+33: <h2>Font-Awesome Test</h2>
+34: <%= dui_icon('flag') %><br>
+35: <%= dui_icon('flag', '', :class => 'strong') %><br>
+36: <%= dui_icon('flag', 'Font Awesome', id: 'my-icon', class: 'strong') %>
+37: <hr>
+
+    app/views/dui/index.rhtml:42:in `compile!'
+    unicorn (4.3.1) lib/unicorn/http_server.rb:531:in `process_client'
+    unicorn (4.3.1) lib/unicorn/http_server.rb:606:in `worker_loop'
+    unicorn (4.3.1) lib/unicorn/http_server.rb:487:in `spawn_missing_workers'
+    unicorn (4.3.1) lib/unicorn/http_server.rb:137:in `start'
+    unicorn (4.3.1) bin/unicorn:121
+    /Users/msmiller/.rvm/gems/ree-1.8.7-2012.02@glonal/bin/unicorn:23:in `load'
+    /Users/msmiller/.rvm/gems/ree-1.8.7-2012.02@glonal/bin/unicorn:23
+
+Rendered rescues/_trace (24.6ms)
+Rendered rescues/_request_and_response (0.2ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing DuiController#index (for 127.0.0.1 at 2014-10-23 13:12:16) [GET]
+Rendering template within layouts/application
+Rendering dui/index
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing DuiController#index (for 127.0.0.1 at 2014-10-23 13:12:47) [GET]
+Rendering template within layouts/application
+Rendering dui/index
+Completed in 5ms (View: 4, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing DuiController#index (for 127.0.0.1 at 2014-10-23 13:12:57) [GET]
+Rendering template within layouts/application
+Rendering dui/index
+Completed in 6ms (View: 5, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing DuiController#index (for 127.0.0.1 at 2014-10-23 13:13:01) [GET]
+Rendering template within layouts/application
+Rendering dui/index
+Completed in 5ms (View: 4, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing DuiController#index (for 127.0.0.1 at 2014-10-23 13:13:27) [GET]
+Rendering template within layouts/application
+Rendering dui/index
+Completed in 57ms (View: 56, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing DuiController#index (for 127.0.0.1 at 2014-10-23 13:13:42) [GET]
+Rendering template within layouts/application
+Rendering dui/index
+Completed in 4ms (View: 4, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing DuiController#index (for 127.0.0.1 at 2014-10-23 13:13:52) [GET]
+Rendering template within layouts/application
+Rendering dui/index
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://localhost/]

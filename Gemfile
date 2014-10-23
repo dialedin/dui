@@ -62,3 +62,6 @@ gem 'cells', '~> 3.3.9'
 
 gem "rails2_asset_pipeline"
 gem "execjs", "2.0.2"
+
+# For now we have to do without the gem's helpers ...
+# gem 'font-awesome-less', '~> 4.2.0'
