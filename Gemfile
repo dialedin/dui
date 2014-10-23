@@ -3,6 +3,7 @@ source "http://rubygems.org"
 
 # Rails gems
 gem "rails", "2.3.17", :require => nil              # 2.3.17 mar13 / upgraded to 2.3.15 jan2013 // upgraded from 2.3.8 may2012
+gem 'rdoc'                                          # added jan2013
 
 gem "rack", "~> 1.1.4"
 
@@ -25,8 +26,9 @@ group :development do
   gem 'pry-nav'
   gem 'ruby18_source_location'
 
-  gem "coffee-script", :require => false # need coffee ?
-  gem "sass", :require => false
+  gem "coffee-script", "2.2.0", :require => false # need coffee ?
+  gem "coffee-script-source", "1.6.3"
+  gem "sass", "3.2.10", :require => false
   gem "sprockets-sass", :require => false
   gem "sprockets-helpers", :require => false
   gem "ejs", :require => false # support for jst templates server side
@@ -55,4 +57,4 @@ gem 'cells', '~> 3.3.9'
 gem 'jrails', '~> 0.6.0'
 
 gem "rails2_asset_pipeline"
-
+gem "execjs", "2.0.2"

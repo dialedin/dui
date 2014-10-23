@@ -70,3 +70,8 @@ Completed in 3ms (View: 2, DB: 0) | 200 OK [http://localhost/dui]
 Processing DuiController#index (for 127.0.0.1 at 2014-10-22 20:17:30) [GET]
 Rendering dui/index
 Completed in 1ms (View: 0, DB: 0) | 200 OK [http://localhost/dui]
+
+
+Processing DuiController#index (for 127.0.0.1 at 2014-10-22 20:57:12) [GET]
+Rendering dui/index
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://localhost/dui]
