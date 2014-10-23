@@ -1,0 +1,72 @@
+/!\ FAILSAFE /!\  Wed Oct 22 20:12:50 -0700 2014
+  Status: 500 Internal Server Error
+  no such file to load -- sqlite3
+    /Users/msmiller/.rvm/rubies/ree-1.8.7-2012.02/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:55:in `gem_original_require'
+    /Users/msmiller/.rvm/rubies/ree-1.8.7-2012.02/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:55:in `require'
+    /Users/msmiller/.rvm/gems/ree-1.8.7-2012.02@glonal/gems/activesupport-2.3.17/lib/active_support/dependencies.rb:182:in `require'
+    /Users/msmiller/.rvm/gems/ree-1.8.7-2012.02@glonal/gems/activesupport-2.3.17/lib/active_support/dependencies.rb:547:in `new_constants_in'
+    /Users/msmiller/.rvm/gems/ree-1.8.7-2012.02@glonal/gems/activesupport-2.3.17/lib/active_support/dependencies.rb:182:in `require'
+    /Users/msmiller/.rvm/gems/ree-1.8.7-2012.02@glonal/gems/activesupport-2.3.17/lib/active_support/core_ext/kernel/requires.rb:7:in `require_library_or_gem'
+    /Users/msmiller/.rvm/gems/ree-1.8.7-2012.02@glonal/gems/activesupport-2.3.17/lib/active_support/core_ext/kernel/reporting.rb:11:in `silence_warnings'
+    /Users/msmiller/.rvm/gems/ree-1.8.7-2012.02@glonal/gems/activesupport-2.3.17/lib/active_support/core_ext/kernel/requires.rb:5:in `require_library_or_gem'
+    /Users/msmiller/.rvm/gems/ree-1.8.7-2012.02@glonal/gems/activerecord-2.3.17/lib/active_record/connection_adapters/sqlite3_adapter.rb:10:in `sqlite3_connection'
+    /Users/msmiller/.rvm/gems/ree-1.8.7-2012.02@glonal/gems/activerecord-2.3.17/lib/active_record/connection_adapters/abstract/connection_pool.rb:223:in `send'
+    /Users/msmiller/.rvm/gems/ree-1.8.7-2012.02@glonal/gems/activerecord-2.3.17/lib/active_record/connection_adapters/abstract/connection_pool.rb:223:in `new_connection'
+    /Users/msmiller/.rvm/gems/ree-1.8.7-2012.02@glonal/gems/activerecord-2.3.17/lib/active_record/connection_adapters/abstract/connection_pool.rb:245:in `checkout_new_connection'
+    /Users/msmiller/.rvm/gems/ree-1.8.7-2012.02@glonal/gems/activerecord-2.3.17/lib/active_record/connection_adapters/abstract/connection_pool.rb:188:in `checkout'
+    /Users/msmiller/.rvm/gems/ree-1.8.7-2012.02@glonal/gems/activerecord-2.3.17/lib/active_record/connection_adapters/abstract/connection_pool.rb:184:in `loop'
+    /Users/msmiller/.rvm/gems/ree-1.8.7-2012.02@glonal/gems/activerecord-2.3.17/lib/active_record/connection_adapters/abstract/connection_pool.rb:184:in `checkout'
+    /Users/msmiller/.rvm/rubies/ree-1.8.7-2012.02/lib/ruby/1.8/monitor.rb:242:in `synchronize'
+    /Users/msmiller/.rvm/gems/ree-1.8.7-2012.02@glonal/gems/activerecord-2.3.17/lib/active_record/connection_adapters/abstract/connection_pool.rb:183:in `checkout'
+    /Users/msmiller/.rvm/gems/ree-1.8.7-2012.02@glonal/gems/activerecord-2.3.17/lib/active_record/connection_adapters/abstract/connection_pool.rb:98:in `connection'
+    /Users/msmiller/.rvm/gems/ree-1.8.7-2012.02@glonal/gems/activerecord-2.3.17/lib/active_record/connection_adapters/abstract/connection_pool.rb:326:in `retrieve_connection'
+    /Users/msmiller/.rvm/gems/ree-1.8.7-2012.02@glonal/gems/activerecord-2.3.17/lib/active_record/connection_adapters/abstract/connection_specification.rb:123:in `retrieve_connection'
+    /Users/msmiller/.rvm/gems/ree-1.8.7-2012.02@glonal/gems/activerecord-2.3.17/lib/active_record/connection_adapters/abstract/connection_specification.rb:115:in `connection'
+    /Users/msmiller/.rvm/gems/ree-1.8.7-2012.02@glonal/gems/activerecord-2.3.17/lib/active_record/query_cache.rb:9:in `cache'
+    /Users/msmiller/.rvm/gems/ree-1.8.7-2012.02@glonal/gems/activerecord-2.3.17/lib/active_record/query_cache.rb:28:in `call'
+    /Users/msmiller/.rvm/gems/ree-1.8.7-2012.02@glonal/gems/activerecord-2.3.17/lib/active_record/connection_adapters/abstract/connection_pool.rb:361:in `call'
+    /Users/msmiller/.rvm/gems/ree-1.8.7-2012.02@glonal/gems/actionpack-2.3.17/lib/action_controller/string_coercion.rb:25:in `call'
+    /Users/msmiller/.rvm/gems/ree-1.8.7-2012.02@glonal/gems/rack-1.1.6/lib/rack/head.rb:9:in `call'
+    /Users/msmiller/.rvm/gems/ree-1.8.7-2012.02@glonal/gems/rack-1.1.6/lib/rack/methodoverride.rb:24:in `call'
+    /Users/msmiller/.rvm/gems/ree-1.8.7-2012.02@glonal/gems/actionpack-2.3.17/lib/action_controller/params_parser.rb:15:in `call'
+    /Users/msmiller/.rvm/gems/ree-1.8.7-2012.02@glonal/gems/actionpack-2.3.17/lib/action_controller/session/cookie_store.rb:99:in `call'
+    /Users/msmiller/.rvm/gems/ree-1.8.7-2012.02@glonal/gems/actionpack-2.3.17/lib/action_controller/failsafe.rb:26:in `call'
+    /Users/msmiller/.rvm/gems/ree-1.8.7-2012.02@glonal/gems/rack-1.1.6/lib/rack/lock.rb:11:in `call'
+    /Users/msmiller/.rvm/gems/ree-1.8.7-2012.02@glonal/gems/rack-1.1.6/lib/rack/lock.rb:11:in `synchronize'
+    /Users/msmiller/.rvm/gems/ree-1.8.7-2012.02@glonal/gems/rack-1.1.6/lib/rack/lock.rb:11:in `call'
+    /Users/msmiller/.rvm/gems/ree-1.8.7-2012.02@glonal/gems/actionpack-2.3.17/lib/action_controller/dispatcher.rb:114:in `call'
+    /Users/msmiller/.rvm/gems/ree-1.8.7-2012.02@glonal/gems/actionpack-2.3.17/lib/action_controller/reloader.rb:34:in `run'
+    /Users/msmiller/.rvm/gems/ree-1.8.7-2012.02@glonal/gems/actionpack-2.3.17/lib/action_controller/dispatcher.rb:108:in `call'
+    /Users/msmiller/.rvm/gems/ree-1.8.7-2012.02@glonal/gems/rails-2.3.17/lib/rails/rack/static.rb:31:in `call'
+    /Users/msmiller/.rvm/gems/ree-1.8.7-2012.02@glonal/gems/rails-2.3.17/lib/rails/rack/log_tailer.rb:17:in `call'
+    /Users/msmiller/.rvm/gems/ree-1.8.7-2012.02@glonal/gems/rack-1.1.6/lib/rack/urlmap.rb:47:in `call'
+    /Users/msmiller/.rvm/gems/ree-1.8.7-2012.02@glonal/gems/rack-1.1.6/lib/rack/urlmap.rb:41:in `each'
+    /Users/msmiller/.rvm/gems/ree-1.8.7-2012.02@glonal/gems/rack-1.1.6/lib/rack/urlmap.rb:41:in `call'
+    /Users/msmiller/.rvm/gems/ree-1.8.7-2012.02@glonal/gems/rack-1.1.6/lib/rack/lint.rb:47:in `_call'
+    /Users/msmiller/.rvm/gems/ree-1.8.7-2012.02@glonal/gems/rack-1.1.6/lib/rack/lint.rb:35:in `call'
+    /Users/msmiller/.rvm/gems/ree-1.8.7-2012.02@glonal/gems/rack-1.1.6/lib/rack/showexceptions.rb:24:in `call'
+    /Users/msmiller/.rvm/gems/ree-1.8.7-2012.02@glonal/gems/rack-1.1.6/lib/rack/commonlogger.rb:18:in `call'
+    /Users/msmiller/.rvm/gems/ree-1.8.7-2012.02@glonal/gems/rack-1.1.6/lib/rack/chunked.rb:15:in `call'
+    /Users/msmiller/.rvm/gems/ree-1.8.7-2012.02@glonal/gems/rack-1.1.6/lib/rack/content_length.rb:13:in `call'
+    /Users/msmiller/.rvm/gems/ree-1.8.7-2012.02@glonal/gems/unicorn-4.3.1/lib/unicorn/http_server.rb:531:in `process_client'
+    /Users/msmiller/.rvm/gems/ree-1.8.7-2012.02@glonal/gems/unicorn-4.3.1/lib/unicorn/http_server.rb:606:in `worker_loop'
+    /Users/msmiller/.rvm/gems/ree-1.8.7-2012.02@glonal/gems/unicorn-4.3.1/lib/unicorn/http_server.rb:487:in `spawn_missing_workers'
+    /Users/msmiller/.rvm/gems/ree-1.8.7-2012.02@glonal/gems/unicorn-4.3.1/lib/unicorn/http_server.rb:137:in `start'
+    /Users/msmiller/.rvm/gems/ree-1.8.7-2012.02@glonal/gems/unicorn-4.3.1/bin/unicorn:121
+    /Users/msmiller/.rvm/gems/ree-1.8.7-2012.02@glonal/bin/unicorn:23:in `load'
+    /Users/msmiller/.rvm/gems/ree-1.8.7-2012.02@glonal/bin/unicorn:23
+
+
+Processing DuiController#index (for 127.0.0.1 at 2014-10-22 20:14:44) [GET]
+Rendering dui/index
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://localhost/dui]
+
+
+Processing DuiController#index (for 127.0.0.1 at 2014-10-22 20:17:26) [GET]
+Rendering dui/index
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://localhost/dui]
+
+
+Processing DuiController#index (for 127.0.0.1 at 2014-10-22 20:17:30) [GET]
+Rendering dui/index
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://localhost/dui]
