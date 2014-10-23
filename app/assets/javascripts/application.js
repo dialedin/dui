@@ -8,3 +8,4 @@
 //= require jquery-ui/jquery-ui
 //x= require lodash.underscore
 //
+//= require knockout-3.2.0

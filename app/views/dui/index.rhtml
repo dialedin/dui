@@ -1,8 +1,29 @@
-<h2>DUI IS ALIVE</h2>
-<br><br>
+<h1>DUI IS ALIVE</h1>
+<h4>jQuery Install Test</h4>
 This next DIV should get changed to say "Ack Oop!" by jQuery:
 <br><br>
-<div id="changeme">Is this working?</div>
+<div id="changeme" style="color:red;">Is this working?</div>
 <script type="text/javascript">
 $("#changeme").html("Ack Oop!");
+</script>
+<hr>
+<h4>Knockout Install Test</h4>
+If Knockout is installed and running, then changing the fields will change the message ...
+<p>First name: <input data-bind="value: firstName" /></p>
+<p>Last name: <input data-bind="value: lastName" /></p>
+<h2>Hello, <span data-bind="text: fullName"> </span>!</h2>
+
+<script type="text/javascript">
+// Here's my data model
+var ViewModel = function(first, last) {
+    this.firstName = ko.observable(first);
+    this.lastName = ko.observable(last);
+ 
+    this.fullName = ko.computed(function() {
+        // Knockout tracks dependencies automatically. It knows that fullName depends on firstName and lastName, because these get called when evaluating fullName.
+        return this.firstName() + " " + this.lastName();
+    }, this);
+};
+ 
+ko.applyBindings(new ViewModel("Planet", "Earth")); // This makes Knockout get to work
 </script>
