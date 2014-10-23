@@ -106,3 +106,18 @@ Menu Bars ...<br>
 </nav>
 
 <br><br><br><br><br><br><br><br>
+<h2>Cells Test</h2>
+This here should be a block which is derived from a Cell model ...
+<% @passed_var = "I can pass in a variable!" %>
+<div style="border:1px solid #ccc; border-radius: 5px; margin: 12px; padding: 5px; width:500px;">
+  <%= render_cell :testcell, :show %>
+</div>
+<div style="border:1px solid #ccc; border-radius: 5px; margin: 12px; padding: 5px; width:500px;">
+  <%= render_cell(:testcell, :show2) %>
+</div>
+
+
+
+
+
+

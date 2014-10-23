@@ -55,7 +55,9 @@ end
 #####################
 
 # See: https://github.com/apotonick/cells/tree/31f6ed82b87b3f92613698442fae6fd61cc16de9#rails-23-note
-gem 'cells', '~> 3.3.9'
+# script/plugin install git://github.com/apotonick/cells.git
+# script/plugin install git://github.com/apotonick/cells.git -r 'tag v3.3.9
+#gem 'cells', '~> 2.3.0' # '~> 3.3.9'
 
 #gem 'jrails', '~> 0.6.0'
 # Using script/plugin install git://github.com/aaronchi/jrails.git instead

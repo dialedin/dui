@@ -2322,3 +2322,839 @@ Processing DuiController#index (for 127.0.0.1 at 2014-10-23 14:08:00) [GET]
 Rendering template within layouts/application
 Rendering dui/index
 Completed in 5ms (View: 4, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing DuiController#index (for 127.0.0.1 at 2014-10-23 14:18:39) [GET]
+Rendering template within layouts/application
+Rendering dui/index
+Completed in 123ms (View: 122, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing DuiController#index (for 127.0.0.1 at 2014-10-23 14:18:47) [GET]
+Rendering template within layouts/application
+Rendering dui/index
+
+ActionView::TemplateError (undefined method `render_cell' for #<ActionView::Base:0x107cf35c0>) on line #112 of app/views/dui/index.rhtml:
+109: <h2>Cells Test</h2>
+110: This here should be a block which is derived from a Cell model ...
+111: <div style="border:1px solid #ccc; border-radius: 5px; margin: 12px;">
+112:   <%= render_cell "testcell" %>
+113:   </div>
+
+    app/views/dui/index.rhtml:112:in `_run_rhtml_app47views47dui47index46rhtml'
+    unicorn (4.3.1) lib/unicorn/http_server.rb:531:in `process_client'
+    unicorn (4.3.1) lib/unicorn/http_server.rb:606:in `worker_loop'
+    unicorn (4.3.1) lib/unicorn/http_server.rb:487:in `spawn_missing_workers'
+    unicorn (4.3.1) lib/unicorn/http_server.rb:137:in `start'
+    unicorn (4.3.1) bin/unicorn:121
+    /Users/msmiller/.rvm/gems/ree-1.8.7-2012.02@glonal/bin/unicorn:23:in `load'
+    /Users/msmiller/.rvm/gems/ree-1.8.7-2012.02@glonal/bin/unicorn:23
+
+Rendered rescues/_trace (71.7ms)
+Rendered rescues/_request_and_response (0.8ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing DuiController#index (for 127.0.0.1 at 2014-10-23 14:19:50) [GET]
+Rendering template within layouts/application
+Rendering dui/index
+
+ActionView::TemplateError (undefined method `render_cell' for #<ActionView::Base:0x107dfb440>) on line #112 of app/views/dui/index.rhtml:
+109: <h2>Cells Test</h2>
+110: This here should be a block which is derived from a Cell model ...
+111: <div style="border:1px solid #ccc; border-radius: 5px; margin: 12px;">
+112:   <%= render_cell "testcell" %>
+113:   </div>
+
+    app/views/dui/index.rhtml:112:in `_run_rhtml_app47views47dui47index46rhtml'
+    unicorn (4.3.1) lib/unicorn/http_server.rb:531:in `process_client'
+    unicorn (4.3.1) lib/unicorn/http_server.rb:606:in `worker_loop'
+    unicorn (4.3.1) lib/unicorn/http_server.rb:487:in `spawn_missing_workers'
+    unicorn (4.3.1) lib/unicorn/http_server.rb:137:in `start'
+    unicorn (4.3.1) bin/unicorn:121
+    /Users/msmiller/.rvm/gems/ree-1.8.7-2012.02@glonal/bin/unicorn:23:in `load'
+    /Users/msmiller/.rvm/gems/ree-1.8.7-2012.02@glonal/bin/unicorn:23
+
+Rendered rescues/_trace (26.3ms)
+Rendered rescues/_request_and_response (0.2ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing DuiController#index (for 127.0.0.1 at 2014-10-23 14:21:42) [GET]
+Rendering template within layouts/application
+Rendering dui/index
+
+ActionView::TemplateError (undefined method `render_cell' for #<ActionView::Base:0x107a73f98>) on line #112 of app/views/dui/index.rhtml:
+109: <h2>Cells Test</h2>
+110: This here should be a block which is derived from a Cell model ...
+111: <div style="border:1px solid #ccc; border-radius: 5px; margin: 12px;">
+112:   <%= render_cell "testcell" %>
+113:   </div>
+
+    app/views/dui/index.rhtml:112:in `_run_rhtml_app47views47dui47index46rhtml'
+    unicorn (4.3.1) lib/unicorn/http_server.rb:531:in `process_client'
+    unicorn (4.3.1) lib/unicorn/http_server.rb:606:in `worker_loop'
+    unicorn (4.3.1) lib/unicorn/http_server.rb:487:in `spawn_missing_workers'
+    unicorn (4.3.1) lib/unicorn/http_server.rb:137:in `start'
+    unicorn (4.3.1) bin/unicorn:121
+    /Users/msmiller/.rvm/gems/ree-1.8.7-2012.02@glonal/bin/unicorn:23:in `load'
+    /Users/msmiller/.rvm/gems/ree-1.8.7-2012.02@glonal/bin/unicorn:23
+
+Rendered rescues/_trace (74.7ms)
+Rendered rescues/_request_and_response (0.2ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing DuiController#index (for 127.0.0.1 at 2014-10-23 14:23:26) [GET]
+Rendering template within layouts/application
+Rendering dui/index
+
+ActionView::TemplateError (undefined method `render_cell' for #<ActionView::Base:0x10626e1f0>) on line #112 of app/views/dui/index.rhtml:
+109: <h2>Cells Test</h2>
+110: This here should be a block which is derived from a Cell model ...
+111: <div style="border:1px solid #ccc; border-radius: 5px; margin: 12px;">
+112:   <%= render_cell "testcell" %>
+113:   </div>
+
+    app/views/dui/index.rhtml:112:in `_run_rhtml_app47views47dui47index46rhtml'
+    unicorn (4.3.1) lib/unicorn/http_server.rb:531:in `process_client'
+    unicorn (4.3.1) lib/unicorn/http_server.rb:606:in `worker_loop'
+    unicorn (4.3.1) lib/unicorn/http_server.rb:487:in `spawn_missing_workers'
+    unicorn (4.3.1) lib/unicorn/http_server.rb:137:in `start'
+    unicorn (4.3.1) bin/unicorn:121
+    /Users/msmiller/.rvm/gems/ree-1.8.7-2012.02@glonal/bin/unicorn:23:in `load'
+    /Users/msmiller/.rvm/gems/ree-1.8.7-2012.02@glonal/bin/unicorn:23
+
+Rendered rescues/_trace (26.0ms)
+Rendered rescues/_request_and_response (0.8ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing DuiController#index (for 127.0.0.1 at 2014-10-23 14:23:30) [GET]
+Rendering template within layouts/application
+Rendering dui/index
+
+ActionView::TemplateError (undefined method `render_cell' for #<ActionView::Base:0x105e892d8>) on line #112 of app/views/dui/index.rhtml:
+109: <h2>Cells Test</h2>
+110: This here should be a block which is derived from a Cell model ...
+111: <div style="border:1px solid #ccc; border-radius: 5px; margin: 12px;">
+112:   <%= render_cell "testcell" %>
+113:   </div>
+
+    app/views/dui/index.rhtml:112:in `_run_rhtml_app47views47dui47index46rhtml'
+    unicorn (4.3.1) lib/unicorn/http_server.rb:531:in `process_client'
+    unicorn (4.3.1) lib/unicorn/http_server.rb:606:in `worker_loop'
+    unicorn (4.3.1) lib/unicorn/http_server.rb:487:in `spawn_missing_workers'
+    unicorn (4.3.1) lib/unicorn/http_server.rb:137:in `start'
+    unicorn (4.3.1) bin/unicorn:121
+    /Users/msmiller/.rvm/gems/ree-1.8.7-2012.02@glonal/bin/unicorn:23:in `load'
+    /Users/msmiller/.rvm/gems/ree-1.8.7-2012.02@glonal/bin/unicorn:23
+
+Rendered rescues/_trace (71.8ms)
+Rendered rescues/_request_and_response (0.2ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing DuiController#index (for 127.0.0.1 at 2014-10-23 14:23:31) [GET]
+Rendering template within layouts/application
+Rendering dui/index
+
+ActionView::TemplateError (undefined method `render_cell' for #<ActionView::Base:0x1061a92d8>) on line #112 of app/views/dui/index.rhtml:
+109: <h2>Cells Test</h2>
+110: This here should be a block which is derived from a Cell model ...
+111: <div style="border:1px solid #ccc; border-radius: 5px; margin: 12px;">
+112:   <%= render_cell "testcell" %>
+113:   </div>
+
+    app/views/dui/index.rhtml:112:in `_run_rhtml_app47views47dui47index46rhtml'
+    unicorn (4.3.1) lib/unicorn/http_server.rb:531:in `process_client'
+    unicorn (4.3.1) lib/unicorn/http_server.rb:606:in `worker_loop'
+    unicorn (4.3.1) lib/unicorn/http_server.rb:487:in `spawn_missing_workers'
+    unicorn (4.3.1) lib/unicorn/http_server.rb:137:in `start'
+    unicorn (4.3.1) bin/unicorn:121
+    /Users/msmiller/.rvm/gems/ree-1.8.7-2012.02@glonal/bin/unicorn:23:in `load'
+    /Users/msmiller/.rvm/gems/ree-1.8.7-2012.02@glonal/bin/unicorn:23
+
+Rendered rescues/_trace (26.7ms)
+Rendered rescues/_request_and_response (0.2ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing DuiController#index (for 127.0.0.1 at 2014-10-23 14:23:32) [GET]
+Rendering template within layouts/application
+Rendering dui/index
+
+ActionView::TemplateError (undefined method `render_cell' for #<ActionView::Base:0x105e401f0>) on line #112 of app/views/dui/index.rhtml:
+109: <h2>Cells Test</h2>
+110: This here should be a block which is derived from a Cell model ...
+111: <div style="border:1px solid #ccc; border-radius: 5px; margin: 12px;">
+112:   <%= render_cell "testcell" %>
+113:   </div>
+
+    app/views/dui/index.rhtml:112:in `_run_rhtml_app47views47dui47index46rhtml'
+    unicorn (4.3.1) lib/unicorn/http_server.rb:531:in `process_client'
+    unicorn (4.3.1) lib/unicorn/http_server.rb:606:in `worker_loop'
+    unicorn (4.3.1) lib/unicorn/http_server.rb:487:in `spawn_missing_workers'
+    unicorn (4.3.1) lib/unicorn/http_server.rb:137:in `start'
+    unicorn (4.3.1) bin/unicorn:121
+    /Users/msmiller/.rvm/gems/ree-1.8.7-2012.02@glonal/bin/unicorn:23:in `load'
+    /Users/msmiller/.rvm/gems/ree-1.8.7-2012.02@glonal/bin/unicorn:23
+
+Rendered rescues/_trace (25.1ms)
+Rendered rescues/_request_and_response (0.2ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing DuiController#index (for 127.0.0.1 at 2014-10-23 14:25:25) [GET]
+Rendering template within layouts/application
+Rendering dui/index
+
+ActionView::TemplateError (undefined method `cell' for #<ActionView::Base:0x10678f328>) on line #112 of app/views/dui/index.rhtml:
+109: <h2>Cells Test</h2>
+110: This here should be a block which is derived from a Cell model ...
+111: <div style="border:1px solid #ccc; border-radius: 5px; margin: 12px;">
+112:   <%= cell "testcell" %>
+113:   </div>
+
+    app/views/dui/index.rhtml:112:in `_run_rhtml_app47views47dui47index46rhtml'
+    unicorn (4.3.1) lib/unicorn/http_server.rb:531:in `process_client'
+    unicorn (4.3.1) lib/unicorn/http_server.rb:606:in `worker_loop'
+    unicorn (4.3.1) lib/unicorn/http_server.rb:487:in `spawn_missing_workers'
+    unicorn (4.3.1) lib/unicorn/http_server.rb:137:in `start'
+    unicorn (4.3.1) bin/unicorn:121
+    /Users/msmiller/.rvm/gems/ree-1.8.7-2012.02@glonal/bin/unicorn:23:in `load'
+    /Users/msmiller/.rvm/gems/ree-1.8.7-2012.02@glonal/bin/unicorn:23
+
+Rendered rescues/_trace (26.5ms)
+Rendered rescues/_request_and_response (0.8ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing DuiController#index (for 127.0.0.1 at 2014-10-23 14:25:27) [GET]
+Rendering template within layouts/application
+Rendering dui/index
+
+ActionView::TemplateError (undefined method `cell' for #<ActionView::Base:0x106d4a510>) on line #112 of app/views/dui/index.rhtml:
+109: <h2>Cells Test</h2>
+110: This here should be a block which is derived from a Cell model ...
+111: <div style="border:1px solid #ccc; border-radius: 5px; margin: 12px;">
+112:   <%= cell "testcell" %>
+113:   </div>
+
+    app/views/dui/index.rhtml:112:in `_run_rhtml_app47views47dui47index46rhtml'
+    unicorn (4.3.1) lib/unicorn/http_server.rb:531:in `process_client'
+    unicorn (4.3.1) lib/unicorn/http_server.rb:606:in `worker_loop'
+    unicorn (4.3.1) lib/unicorn/http_server.rb:487:in `spawn_missing_workers'
+    unicorn (4.3.1) lib/unicorn/http_server.rb:137:in `start'
+    unicorn (4.3.1) bin/unicorn:121
+    /Users/msmiller/.rvm/gems/ree-1.8.7-2012.02@glonal/bin/unicorn:23:in `load'
+    /Users/msmiller/.rvm/gems/ree-1.8.7-2012.02@glonal/bin/unicorn:23
+
+Rendered rescues/_trace (29.4ms)
+Rendered rescues/_request_and_response (0.2ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing DuiController#index (for 127.0.0.1 at 2014-10-23 14:27:32) [GET]
+Rendering template within layouts/application
+Rendering dui/index
+
+ActionView::TemplateError (undefined method `render_cell' for #<ActionView::Base:0x106a29e80>) on line #112 of app/views/dui/index.rhtml:
+109: <h2>Cells Test</h2>
+110: This here should be a block which is derived from a Cell model ...
+111: <div style="border:1px solid #ccc; border-radius: 5px; margin: 12px;">
+112:   <%= render_cell :testcell %>
+113:   </div>
+
+    app/views/dui/index.rhtml:112:in `_run_rhtml_app47views47dui47index46rhtml'
+    unicorn (4.3.1) lib/unicorn/http_server.rb:531:in `process_client'
+    unicorn (4.3.1) lib/unicorn/http_server.rb:606:in `worker_loop'
+    unicorn (4.3.1) lib/unicorn/http_server.rb:487:in `spawn_missing_workers'
+    unicorn (4.3.1) lib/unicorn/http_server.rb:137:in `start'
+    unicorn (4.3.1) bin/unicorn:121
+    /Users/msmiller/.rvm/gems/ree-1.8.7-2012.02@glonal/bin/unicorn:23:in `load'
+    /Users/msmiller/.rvm/gems/ree-1.8.7-2012.02@glonal/bin/unicorn:23
+
+Rendered rescues/_trace (26.5ms)
+Rendered rescues/_request_and_response (0.2ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing DuiController#index (for 127.0.0.1 at 2014-10-23 14:29:03) [GET]
+Rendering template within layouts/application
+Rendering dui/index
+
+ActionView::TemplateError (undefined method `render_cell' for #<ActionView::Base:0x106f8f280>) on line #112 of app/views/dui/index.rhtml:
+109: <h2>Cells Test</h2>
+110: This here should be a block which is derived from a Cell model ...
+111: <div style="border:1px solid #ccc; border-radius: 5px; margin: 12px;">
+112:   <%= render_cell :testcell %>
+113:   </div>
+
+    app/views/dui/index.rhtml:112:in `_run_rhtml_app47views47dui47index46rhtml'
+    unicorn (4.3.1) lib/unicorn/http_server.rb:531:in `process_client'
+    unicorn (4.3.1) lib/unicorn/http_server.rb:606:in `worker_loop'
+    unicorn (4.3.1) lib/unicorn/http_server.rb:487:in `spawn_missing_workers'
+    unicorn (4.3.1) lib/unicorn/http_server.rb:137:in `start'
+    unicorn (4.3.1) bin/unicorn:121
+    /Users/msmiller/.rvm/gems/ree-1.8.7-2012.02@glonal/bin/unicorn:23:in `load'
+    /Users/msmiller/.rvm/gems/ree-1.8.7-2012.02@glonal/bin/unicorn:23
+
+Rendered rescues/_trace (27.5ms)
+Rendered rescues/_request_and_response (0.8ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing DuiController#index (for 127.0.0.1 at 2014-10-23 14:35:52) [GET]
+Rendering template within layouts/application
+Rendering dui/index
+
+ActionView::TemplateError (undefined method `render_cell' for #<ActionView::Base:0x10754b070>) on line #112 of app/views/dui/index.rhtml:
+109: <h2>Cells Test</h2>
+110: This here should be a block which is derived from a Cell model ...
+111: <div style="border:1px solid #ccc; border-radius: 5px; margin: 12px;">
+112:   <%= render_cell :testcell %>
+113:   </div>
+
+    app/views/dui/index.rhtml:112:in `_run_rhtml_app47views47dui47index46rhtml'
+    unicorn (4.3.1) lib/unicorn/http_server.rb:531:in `process_client'
+    unicorn (4.3.1) lib/unicorn/http_server.rb:606:in `worker_loop'
+    unicorn (4.3.1) lib/unicorn/http_server.rb:487:in `spawn_missing_workers'
+    unicorn (4.3.1) lib/unicorn/http_server.rb:137:in `start'
+    unicorn (4.3.1) bin/unicorn:121
+    /Users/msmiller/.rvm/gems/ree-1.8.7-2012.02@glonal/bin/unicorn:23:in `load'
+    /Users/msmiller/.rvm/gems/ree-1.8.7-2012.02@glonal/bin/unicorn:23
+
+Rendered rescues/_trace (26.3ms)
+Rendered rescues/_request_and_response (0.2ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing DuiController#index (for 127.0.0.1 at 2014-10-23 14:35:57) [GET]
+Rendering template within layouts/application
+Rendering dui/index
+
+ActionView::TemplateError (undefined method `render_cell' for #<ActionView::Base:0x10722b7c8>) on line #112 of app/views/dui/index.rhtml:
+109: <h2>Cells Test</h2>
+110: This here should be a block which is derived from a Cell model ...
+111: <div style="border:1px solid #ccc; border-radius: 5px; margin: 12px;">
+112:   <%= render_cell :testcell %>
+113:   </div>
+
+    app/views/dui/index.rhtml:112:in `_run_rhtml_app47views47dui47index46rhtml'
+    unicorn (4.3.1) lib/unicorn/http_server.rb:531:in `process_client'
+    unicorn (4.3.1) lib/unicorn/http_server.rb:606:in `worker_loop'
+    unicorn (4.3.1) lib/unicorn/http_server.rb:487:in `spawn_missing_workers'
+    unicorn (4.3.1) lib/unicorn/http_server.rb:137:in `start'
+    unicorn (4.3.1) bin/unicorn:121
+    /Users/msmiller/.rvm/gems/ree-1.8.7-2012.02@glonal/bin/unicorn:23:in `load'
+    /Users/msmiller/.rvm/gems/ree-1.8.7-2012.02@glonal/bin/unicorn:23
+
+Rendered rescues/_trace (26.4ms)
+Rendered rescues/_request_and_response (0.2ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing DuiController#index (for 127.0.0.1 at 2014-10-23 14:37:06) [GET]
+Rendering template within layouts/application
+Rendering dui/index
+
+ActionView::TemplateError (undefined method `render_cell' for #<ActionView::Base:0x107554698>) on line #112 of app/views/dui/index.rhtml:
+109: <h2>Cells Test</h2>
+110: This here should be a block which is derived from a Cell model ...
+111: <div style="border:1px solid #ccc; border-radius: 5px; margin: 12px;">
+112:   <%= render_cell :testcell %>
+113:   </div>
+
+    app/views/dui/index.rhtml:112:in `_run_rhtml_app47views47dui47index46rhtml'
+    unicorn (4.3.1) lib/unicorn/http_server.rb:531:in `process_client'
+    unicorn (4.3.1) lib/unicorn/http_server.rb:606:in `worker_loop'
+    unicorn (4.3.1) lib/unicorn/http_server.rb:487:in `spawn_missing_workers'
+    unicorn (4.3.1) lib/unicorn/http_server.rb:137:in `start'
+    unicorn (4.3.1) bin/unicorn:121
+    /Users/msmiller/.rvm/gems/ree-1.8.7-2012.02@glonal/bin/unicorn:23:in `load'
+    /Users/msmiller/.rvm/gems/ree-1.8.7-2012.02@glonal/bin/unicorn:23
+
+Rendered rescues/_trace (26.6ms)
+Rendered rescues/_request_and_response (0.2ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing DuiController#index (for 127.0.0.1 at 2014-10-23 14:39:37) [GET]
+Rendering template within layouts/application
+Rendering dui/index
+
+ActionView::TemplateError (undefined method `render_cell' for #<ActionView::Base:0x107e6f638>) on line #112 of app/views/dui/index.rhtml:
+109: <h2>Cells Test</h2>
+110: This here should be a block which is derived from a Cell model ...
+111: <div style="border:1px solid #ccc; border-radius: 5px; margin: 12px;">
+112:   <%= render_cell :testcell %>
+113:   </div>
+
+    app/views/dui/index.rhtml:112:in `_run_rhtml_app47views47dui47index46rhtml'
+    unicorn (4.3.1) lib/unicorn/http_server.rb:531:in `process_client'
+    unicorn (4.3.1) lib/unicorn/http_server.rb:606:in `worker_loop'
+    unicorn (4.3.1) lib/unicorn/http_server.rb:487:in `spawn_missing_workers'
+    unicorn (4.3.1) lib/unicorn/http_server.rb:137:in `start'
+    unicorn (4.3.1) bin/unicorn:121
+    /Users/msmiller/.rvm/gems/ree-1.8.7-2012.02@glonal/bin/unicorn:23:in `load'
+    /Users/msmiller/.rvm/gems/ree-1.8.7-2012.02@glonal/bin/unicorn:23
+
+Rendered rescues/_trace (26.8ms)
+Rendered rescues/_request_and_response (0.8ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing DuiController#index (for 127.0.0.1 at 2014-10-23 14:42:04) [GET]
+Rendering template within layouts/application
+Rendering dui/index
+
+ActionView::TemplateError (undefined method `render_cell' for #<ActionView::Base:0x10746d5e0>) on line #112 of app/views/dui/index.rhtml:
+109: <h2>Cells Test</h2>
+110: This here should be a block which is derived from a Cell model ...
+111: <div style="border:1px solid #ccc; border-radius: 5px; margin: 12px;">
+112:   <%= render_cell :testcell %>
+113:   </div>
+
+    app/views/dui/index.rhtml:112:in `_run_rhtml_app47views47dui47index46rhtml'
+    unicorn (4.3.1) lib/unicorn/http_server.rb:531:in `process_client'
+    unicorn (4.3.1) lib/unicorn/http_server.rb:606:in `worker_loop'
+    unicorn (4.3.1) lib/unicorn/http_server.rb:487:in `spawn_missing_workers'
+    unicorn (4.3.1) lib/unicorn/http_server.rb:137:in `start'
+    unicorn (4.3.1) bin/unicorn:121
+    /Users/msmiller/.rvm/gems/ree-1.8.7-2012.02@glonal/bin/unicorn:23:in `load'
+    /Users/msmiller/.rvm/gems/ree-1.8.7-2012.02@glonal/bin/unicorn:23
+
+Rendered rescues/_trace (26.8ms)
+Rendered rescues/_request_and_response (0.8ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing DuiController#index (for 127.0.0.1 at 2014-10-23 14:42:14) [GET]
+Rendering template within layouts/application
+Rendering dui/index
+
+ActionView::TemplateError (undefined method `cell' for #<ActionView::Base:0x107088970>) on line #112 of app/views/dui/index.rhtml:
+109: <h2>Cells Test</h2>
+110: This here should be a block which is derived from a Cell model ...
+111: <div style="border:1px solid #ccc; border-radius: 5px; margin: 12px;">
+112:   <%= cell :testcell %>
+113:   </div>
+
+    app/views/dui/index.rhtml:112:in `_run_rhtml_app47views47dui47index46rhtml'
+    unicorn (4.3.1) lib/unicorn/http_server.rb:531:in `process_client'
+    unicorn (4.3.1) lib/unicorn/http_server.rb:606:in `worker_loop'
+    unicorn (4.3.1) lib/unicorn/http_server.rb:487:in `spawn_missing_workers'
+    unicorn (4.3.1) lib/unicorn/http_server.rb:137:in `start'
+    unicorn (4.3.1) bin/unicorn:121
+    /Users/msmiller/.rvm/gems/ree-1.8.7-2012.02@glonal/bin/unicorn:23:in `load'
+    /Users/msmiller/.rvm/gems/ree-1.8.7-2012.02@glonal/bin/unicorn:23
+
+Rendered rescues/_trace (26.0ms)
+Rendered rescues/_request_and_response (0.2ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing DuiController#index (for 127.0.0.1 at 2014-10-23 14:44:22) [GET]
+Rendering template within layouts/application
+Rendering dui/index
+
+ActionView::TemplateError (undefined method `cell' for #<ActionView::Base:0x105b03460>) on line #112 of app/views/dui/index.rhtml:
+109: <h2>Cells Test</h2>
+110: This here should be a block which is derived from a Cell model ...
+111: <div style="border:1px solid #ccc; border-radius: 5px; margin: 12px;">
+112:   <%= cell :testcell %>
+113:   </div>
+
+    app/views/dui/index.rhtml:112:in `_run_rhtml_app47views47dui47index46rhtml'
+    unicorn (4.3.1) lib/unicorn/http_server.rb:531:in `process_client'
+    unicorn (4.3.1) lib/unicorn/http_server.rb:606:in `worker_loop'
+    unicorn (4.3.1) lib/unicorn/http_server.rb:487:in `spawn_missing_workers'
+    unicorn (4.3.1) lib/unicorn/http_server.rb:137:in `start'
+    unicorn (4.3.1) bin/unicorn:121
+    /Users/msmiller/.rvm/gems/ree-1.8.7-2012.02@glonal/bin/unicorn:23:in `load'
+    /Users/msmiller/.rvm/gems/ree-1.8.7-2012.02@glonal/bin/unicorn:23
+
+Rendered rescues/_trace (26.2ms)
+Rendered rescues/_request_and_response (0.8ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing DuiController#index (for 127.0.0.1 at 2014-10-23 14:44:26) [GET]
+Rendering template within layouts/application
+Rendering dui/index
+
+ActionView::TemplateError (wrong number of arguments (1 for 2)) on line #112 of app/views/dui/index.rhtml:
+109: <h2>Cells Test</h2>
+110: This here should be a block which is derived from a Cell model ...
+111: <div style="border:1px solid #ccc; border-radius: 5px; margin: 12px;">
+112:   <%= render_cell :testcell %>
+113:   </div>
+
+    app/views/dui/index.rhtml:112:in `render_cell'
+    app/views/dui/index.rhtml:112:in `_run_rhtml_app47views47dui47index46rhtml'
+    unicorn (4.3.1) lib/unicorn/http_server.rb:531:in `process_client'
+    unicorn (4.3.1) lib/unicorn/http_server.rb:606:in `worker_loop'
+    unicorn (4.3.1) lib/unicorn/http_server.rb:487:in `spawn_missing_workers'
+    unicorn (4.3.1) lib/unicorn/http_server.rb:137:in `start'
+    unicorn (4.3.1) bin/unicorn:121
+    /Users/msmiller/.rvm/gems/ree-1.8.7-2012.02@glonal/bin/unicorn:23:in `load'
+    /Users/msmiller/.rvm/gems/ree-1.8.7-2012.02@glonal/bin/unicorn:23
+
+Rendered rescues/_trace (26.6ms)
+Rendered rescues/_request_and_response (0.2ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing DuiController#index (for 127.0.0.1 at 2014-10-23 14:44:36) [GET]
+Rendering template within layouts/application
+Rendering dui/index
+
+ActionView::TemplateError (nil is not a symbol) on line #112 of app/views/dui/index.rhtml:
+109: <h2>Cells Test</h2>
+110: This here should be a block which is derived from a Cell model ...
+111: <div style="border:1px solid #ccc; border-radius: 5px; margin: 12px;">
+112:   <%= render_cell :testcell, nil %>
+113:   </div>
+
+    app/views/dui/index.rhtml:112:in `_run_rhtml_app47views47dui47index46rhtml'
+    unicorn (4.3.1) lib/unicorn/http_server.rb:531:in `process_client'
+    unicorn (4.3.1) lib/unicorn/http_server.rb:606:in `worker_loop'
+    unicorn (4.3.1) lib/unicorn/http_server.rb:487:in `spawn_missing_workers'
+    unicorn (4.3.1) lib/unicorn/http_server.rb:137:in `start'
+    unicorn (4.3.1) bin/unicorn:121
+    /Users/msmiller/.rvm/gems/ree-1.8.7-2012.02@glonal/bin/unicorn:23:in `load'
+    /Users/msmiller/.rvm/gems/ree-1.8.7-2012.02@glonal/bin/unicorn:23
+
+Rendered rescues/_trace (85.9ms)
+Rendered rescues/_request_and_response (0.2ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing DuiController#index (for 127.0.0.1 at 2014-10-23 14:44:43) [GET]
+Rendering template within layouts/application
+Rendering dui/index
+
+ActionView::TemplateError (undefined method `foo' for #<TestcellCell:0x106312930>) on line #112 of app/views/dui/index.rhtml:
+109: <h2>Cells Test</h2>
+110: This here should be a block which is derived from a Cell model ...
+111: <div style="border:1px solid #ccc; border-radius: 5px; margin: 12px;">
+112:   <%= render_cell :testcell, "foo" %>
+113:   </div>
+
+    app/views/dui/index.rhtml:112:in `_run_rhtml_app47views47dui47index46rhtml'
+    unicorn (4.3.1) lib/unicorn/http_server.rb:531:in `process_client'
+    unicorn (4.3.1) lib/unicorn/http_server.rb:606:in `worker_loop'
+    unicorn (4.3.1) lib/unicorn/http_server.rb:487:in `spawn_missing_workers'
+    unicorn (4.3.1) lib/unicorn/http_server.rb:137:in `start'
+    unicorn (4.3.1) bin/unicorn:121
+    /Users/msmiller/.rvm/gems/ree-1.8.7-2012.02@glonal/bin/unicorn:23:in `load'
+    /Users/msmiller/.rvm/gems/ree-1.8.7-2012.02@glonal/bin/unicorn:23
+
+Rendered rescues/_trace (27.1ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing DuiController#index (for 127.0.0.1 at 2014-10-23 14:44:50) [GET]
+Rendering template within layouts/application
+Rendering dui/index
+
+ActionView::TemplateError (wrong number of arguments (0 for 1)) on line #112 of app/views/dui/index.rhtml:
+109: <h2>Cells Test</h2>
+110: This here should be a block which is derived from a Cell model ...
+111: <div style="border:1px solid #ccc; border-radius: 5px; margin: 12px;">
+112:   <%= render_cell :testcell, "show" %>
+113:   </div>
+
+    app/views/dui/index.rhtml:112:in `_run_rhtml_app47views47dui47index46rhtml'
+    unicorn (4.3.1) lib/unicorn/http_server.rb:531:in `process_client'
+    unicorn (4.3.1) lib/unicorn/http_server.rb:606:in `worker_loop'
+    unicorn (4.3.1) lib/unicorn/http_server.rb:487:in `spawn_missing_workers'
+    unicorn (4.3.1) lib/unicorn/http_server.rb:137:in `start'
+    unicorn (4.3.1) bin/unicorn:121
+    /Users/msmiller/.rvm/gems/ree-1.8.7-2012.02@glonal/bin/unicorn:23:in `load'
+    /Users/msmiller/.rvm/gems/ree-1.8.7-2012.02@glonal/bin/unicorn:23
+
+Rendered rescues/_trace (74.4ms)
+Rendered rescues/_request_and_response (0.2ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing DuiController#index (for 127.0.0.1 at 2014-10-23 14:44:58) [GET]
+Rendering template within layouts/application
+Rendering dui/index
+
+ActionView::TemplateError (wrong number of arguments (0 for 1)) on line #112 of app/views/dui/index.rhtml:
+109: <h2>Cells Test</h2>
+110: This here should be a block which is derived from a Cell model ...
+111: <div style="border:1px solid #ccc; border-radius: 5px; margin: 12px;">
+112:   <%= render_cell "testcell", "show" %>
+113:   </div>
+
+    app/views/dui/index.rhtml:112:in `_run_rhtml_app47views47dui47index46rhtml'
+    unicorn (4.3.1) lib/unicorn/http_server.rb:531:in `process_client'
+    unicorn (4.3.1) lib/unicorn/http_server.rb:606:in `worker_loop'
+    unicorn (4.3.1) lib/unicorn/http_server.rb:487:in `spawn_missing_workers'
+    unicorn (4.3.1) lib/unicorn/http_server.rb:137:in `start'
+    unicorn (4.3.1) bin/unicorn:121
+    /Users/msmiller/.rvm/gems/ree-1.8.7-2012.02@glonal/bin/unicorn:23:in `load'
+    /Users/msmiller/.rvm/gems/ree-1.8.7-2012.02@glonal/bin/unicorn:23
+
+Rendered rescues/_trace (27.1ms)
+Rendered rescues/_request_and_response (0.2ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing DuiController#index (for 127.0.0.1 at 2014-10-23 14:46:57) [GET]
+Rendering template within layouts/application
+Rendering dui/index
+
+ActionView::TemplateError (wrong number of arguments (0 for 1)) on line #112 of app/views/dui/index.rhtml:
+109: <h2>Cells Test</h2>
+110: This here should be a block which is derived from a Cell model ...
+111: <div style="border:1px solid #ccc; border-radius: 5px; margin: 12px;">
+112:   <%= render_cell :testcell, :show, {} %>
+113:   </div>
+
+    app/views/dui/index.rhtml:112:in `_run_rhtml_app47views47dui47index46rhtml'
+    unicorn (4.3.1) lib/unicorn/http_server.rb:531:in `process_client'
+    unicorn (4.3.1) lib/unicorn/http_server.rb:606:in `worker_loop'
+    unicorn (4.3.1) lib/unicorn/http_server.rb:487:in `spawn_missing_workers'
+    unicorn (4.3.1) lib/unicorn/http_server.rb:137:in `start'
+    unicorn (4.3.1) bin/unicorn:121
+    /Users/msmiller/.rvm/gems/ree-1.8.7-2012.02@glonal/bin/unicorn:23:in `load'
+    /Users/msmiller/.rvm/gems/ree-1.8.7-2012.02@glonal/bin/unicorn:23
+
+Rendered rescues/_trace (26.6ms)
+Rendered rescues/_request_and_response (0.2ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing DuiController#index (for 127.0.0.1 at 2014-10-23 14:47:22) [GET]
+Rendering template within layouts/application
+Rendering dui/index
+Completed in 162ms (View: 161, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing DuiController#index (for 127.0.0.1 at 2014-10-23 14:48:44) [GET]
+Rendering template within layouts/application
+Rendering dui/index
+
+ActionView::TemplateError (wrong number of arguments (0 for 1)) on line #115 of app/views/dui/index.rhtml:
+112:   <%= render_cell :testcell, :show %>
+113: </div>
+114: <div style="border:1px solid #ccc; border-radius: 5px; margin: 12px;width:200px;">
+115:   <%= render_cell :testcell, :show2, { :foo => "Foo is an argument" } %>
+116: </div>
+
+    app/views/dui/index.rhtml:115:in `_run_rhtml_app47views47dui47index46rhtml'
+    unicorn (4.3.1) lib/unicorn/http_server.rb:531:in `process_client'
+    unicorn (4.3.1) lib/unicorn/http_server.rb:606:in `worker_loop'
+    unicorn (4.3.1) lib/unicorn/http_server.rb:487:in `spawn_missing_workers'
+    unicorn (4.3.1) lib/unicorn/http_server.rb:137:in `start'
+    unicorn (4.3.1) bin/unicorn:121
+    /Users/msmiller/.rvm/gems/ree-1.8.7-2012.02@glonal/bin/unicorn:23:in `load'
+    /Users/msmiller/.rvm/gems/ree-1.8.7-2012.02@glonal/bin/unicorn:23
+
+Rendered rescues/_trace (76.9ms)
+Rendered rescues/_request_and_response (0.2ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing DuiController#index (for 127.0.0.1 at 2014-10-23 14:49:36) [GET]
+Rendering template within layouts/application
+Rendering dui/index
+
+ActionView::TemplateError (wrong number of arguments (0 for 1)) on line #115 of app/views/dui/index.rhtml:
+112:   <%= render_cell :testcell, :show %>
+113: </div>
+114: <div style="border:1px solid #ccc; border-radius: 5px; margin: 12px;width:200px;">
+115:   <%= render_cell(:testcell, :show2, { :foo => "Foo is an argument" }) %>
+116: </div>
+
+    app/views/dui/index.rhtml:115:in `_run_rhtml_app47views47dui47index46rhtml'
+    unicorn (4.3.1) lib/unicorn/http_server.rb:531:in `process_client'
+    unicorn (4.3.1) lib/unicorn/http_server.rb:606:in `worker_loop'
+    unicorn (4.3.1) lib/unicorn/http_server.rb:487:in `spawn_missing_workers'
+    unicorn (4.3.1) lib/unicorn/http_server.rb:137:in `start'
+    unicorn (4.3.1) bin/unicorn:121
+    /Users/msmiller/.rvm/gems/ree-1.8.7-2012.02@glonal/bin/unicorn:23:in `load'
+    /Users/msmiller/.rvm/gems/ree-1.8.7-2012.02@glonal/bin/unicorn:23
+
+Rendered rescues/_trace (27.8ms)
+Rendered rescues/_request_and_response (0.2ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing DuiController#index (for 127.0.0.1 at 2014-10-23 14:49:55) [GET]
+Rendering template within layouts/application
+Rendering dui/index
+
+ActionView::TemplateError (undefined local variable or method `args' for #<TestcellCell:0x105fc3658>) on line #115 of app/views/dui/index.rhtml:
+112:   <%= render_cell :testcell, :show %>
+113: </div>
+114: <div style="border:1px solid #ccc; border-radius: 5px; margin: 12px;width:200px;">
+115:   <%= render_cell(:testcell, :show2, { :foo => "Foo is an argument" }) %>
+116: </div>
+
+    app/cells/testcell_cell.rb:8:in `show2'
+    app/views/dui/index.rhtml:115:in `_run_rhtml_app47views47dui47index46rhtml'
+    unicorn (4.3.1) lib/unicorn/http_server.rb:531:in `process_client'
+    unicorn (4.3.1) lib/unicorn/http_server.rb:606:in `worker_loop'
+    unicorn (4.3.1) lib/unicorn/http_server.rb:487:in `spawn_missing_workers'
+    unicorn (4.3.1) lib/unicorn/http_server.rb:137:in `start'
+    unicorn (4.3.1) bin/unicorn:121
+    /Users/msmiller/.rvm/gems/ree-1.8.7-2012.02@glonal/bin/unicorn:23:in `load'
+    /Users/msmiller/.rvm/gems/ree-1.8.7-2012.02@glonal/bin/unicorn:23
+
+Rendered rescues/_trace (77.8ms)
+Rendered rescues/_request_and_response (0.2ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing DuiController#index (for 127.0.0.1 at 2014-10-23 14:50:05) [GET]
+Rendering template within layouts/application
+Rendering dui/index
+Completed in 7ms (View: 6, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing DuiController#index (for 127.0.0.1 at 2014-10-23 14:50:28) [GET]
+Rendering template within layouts/application
+Rendering dui/index
+Completed in 7ms (View: 6, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing DuiController#index (for 127.0.0.1 at 2014-10-23 14:51:47) [GET]
+Rendering template within layouts/application
+Rendering dui/index
+Completed in 8ms (View: 7, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing DuiController#index (for 127.0.0.1 at 2014-10-23 14:52:01) [GET]
+Rendering template within layouts/application
+Rendering dui/index
+
+ActionView::TemplateError (wrong number of arguments (0 for 1)) on line #115 of app/views/dui/index.rhtml:
+112:   <%= render_cell :testcell, :show %>
+113: </div>
+114: <div style="border:1px solid #ccc; border-radius: 5px; margin: 12px;width:200px;">
+115:   <%= render_cell(:testcell, :show2, :foo => "Foo is an argument", :bar => "Bar is an argument" ) %>
+116: </div>
+
+    app/views/dui/index.rhtml:115:in `_run_rhtml_app47views47dui47index46rhtml'
+    unicorn (4.3.1) lib/unicorn/http_server.rb:531:in `process_client'
+    unicorn (4.3.1) lib/unicorn/http_server.rb:606:in `worker_loop'
+    unicorn (4.3.1) lib/unicorn/http_server.rb:487:in `spawn_missing_workers'
+    unicorn (4.3.1) lib/unicorn/http_server.rb:137:in `start'
+    unicorn (4.3.1) bin/unicorn:121
+    /Users/msmiller/.rvm/gems/ree-1.8.7-2012.02@glonal/bin/unicorn:23:in `load'
+    /Users/msmiller/.rvm/gems/ree-1.8.7-2012.02@glonal/bin/unicorn:23
+
+Rendered rescues/_trace (27.1ms)
+Rendered rescues/_request_and_response (0.2ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing DuiController#index (for 127.0.0.1 at 2014-10-23 14:54:18) [GET]
+Rendering template within layouts/application
+Rendering dui/index
+
+ActionView::TemplateError (wrong number of arguments (0 for 1)) on line #116 of app/views/dui/index.rhtml:
+113:   <%= render_cell :testcell, :show %>
+114: </div>
+115: <div style="border:1px solid #ccc; border-radius: 5px; margin: 12px;width:200px;">
+116:   <%= render_cell(:testcell, :show2, :foo => "Foo is an argument", :bar => "Bar is an argument" ) %>
+117: </div>
+
+    app/views/dui/index.rhtml:116:in `_run_rhtml_app47views47dui47index46rhtml'
+    unicorn (4.3.1) lib/unicorn/http_server.rb:531:in `process_client'
+    unicorn (4.3.1) lib/unicorn/http_server.rb:606:in `worker_loop'
+    unicorn (4.3.1) lib/unicorn/http_server.rb:487:in `spawn_missing_workers'
+    unicorn (4.3.1) lib/unicorn/http_server.rb:137:in `start'
+    unicorn (4.3.1) bin/unicorn:121
+    /Users/msmiller/.rvm/gems/ree-1.8.7-2012.02@glonal/bin/unicorn:23:in `load'
+    /Users/msmiller/.rvm/gems/ree-1.8.7-2012.02@glonal/bin/unicorn:23
+
+Rendered rescues/_trace (78.1ms)
+Rendered rescues/_request_and_response (0.8ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing DuiController#index (for 127.0.0.1 at 2014-10-23 14:54:25) [GET]
+Rendering template within layouts/application
+Rendering dui/index
+
+ActionView::TemplateError (wrong number of arguments (0 for 1)) on line #116 of app/views/dui/index.rhtml:
+113:   <%= render_cell :testcell, :show %>
+114: </div>
+115: <div style="border:1px solid #ccc; border-radius: 5px; margin: 12px;width:200px;">
+116:   <%= render_cell(:testcell, :show2) %>
+117: </div>
+
+    app/views/dui/index.rhtml:116:in `_run_rhtml_app47views47dui47index46rhtml'
+    unicorn (4.3.1) lib/unicorn/http_server.rb:531:in `process_client'
+    unicorn (4.3.1) lib/unicorn/http_server.rb:606:in `worker_loop'
+    unicorn (4.3.1) lib/unicorn/http_server.rb:487:in `spawn_missing_workers'
+    unicorn (4.3.1) lib/unicorn/http_server.rb:137:in `start'
+    unicorn (4.3.1) bin/unicorn:121
+    /Users/msmiller/.rvm/gems/ree-1.8.7-2012.02@glonal/bin/unicorn:23:in `load'
+    /Users/msmiller/.rvm/gems/ree-1.8.7-2012.02@glonal/bin/unicorn:23
+
+Rendered rescues/_trace (27.2ms)
+Rendered rescues/_request_and_response (0.2ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing DuiController#index (for 127.0.0.1 at 2014-10-23 14:54:33) [GET]
+Rendering template within layouts/application
+Rendering dui/index
+Completed in 128ms (View: 127, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing DuiController#index (for 127.0.0.1 at 2014-10-23 14:57:37) [GET]
+Rendering template within layouts/application
+Rendering dui/index
+Completed in 7ms (View: 6, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing DuiController#index (for 127.0.0.1 at 2014-10-23 14:57:49) [GET]
+Rendering template within layouts/application
+Rendering dui/index
+Completed in 5ms (View: 4, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing DuiController#index (for 127.0.0.1 at 2014-10-23 14:57:57) [GET]
+Rendering template within layouts/application
+Rendering dui/index
+Completed in 4ms (View: 4, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing DuiController#index (for 127.0.0.1 at 2014-10-23 14:58:26) [GET]
+Rendering template within layouts/application
+Rendering dui/index
+Completed in 8ms (View: 6, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing DuiController#index (for 127.0.0.1 at 2014-10-23 14:58:43) [GET]
+Rendering template within layouts/application
+Rendering dui/index
+Completed in 7ms (View: 6, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing DuiController#index (for 127.0.0.1 at 2014-10-23 14:58:57) [GET]
+Rendering template within layouts/application
+Rendering dui/index
+Completed in 55ms (View: 7, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing DuiController#index (for 127.0.0.1 at 2014-10-23 14:59:17) [GET]
+Rendering template within layouts/application
+Rendering dui/index
+Completed in 7ms (View: 6, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing DuiController#index (for 127.0.0.1 at 2014-10-23 14:59:23) [GET]
+Rendering template within layouts/application
+Rendering dui/index
+Completed in 8ms (View: 7, DB: 0) | 200 OK [http://localhost/]
