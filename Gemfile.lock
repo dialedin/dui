@@ -20,7 +20,6 @@ GEM
       execjs
     coffee-script-source (1.6.3)
     columnize (0.3.6)
-    commonjs (0.2.7)
     compass (0.12.2)
       chunky_png (~> 1.2)
       fssm (>= 0.2.7)
@@ -29,8 +28,6 @@ GEM
       compass (>= 0.12.2, < 0.14)
     ejs (1.1.1)
     execjs (2.0.2)
-    font-awesome-less (4.2.0)
-      less (~> 2.4.0)
     fssm (0.2.10)
     git (1.2.5)
     hike (1.2.3)
@@ -38,8 +35,6 @@ GEM
     json (1.7.7)
     json_pure (1.7.7)
     kgio (2.9.1)
-    less (2.4.0)
-      commonjs (~> 0.2.7)
     linecache (0.43)
     method_source (0.8.1)
     multi_json (1.9.2)
@@ -106,7 +101,6 @@ DEPENDENCIES
   compass-rails
   ejs
   execjs (= 2.0.2)
-  font-awesome-less (~> 4.2.0)
   git (= 1.2.5)
   image_science (= 1.2.1)
   json (= 1.7.7)

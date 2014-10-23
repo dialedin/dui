@@ -1790,3 +1790,535 @@ Processing DuiController#index (for 127.0.0.1 at 2014-10-23 13:13:52) [GET]
 Rendering template within layouts/application
 Rendering dui/index
 Completed in 4ms (View: 3, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing DuiController#index (for 127.0.0.1 at 2014-10-23 13:32:08) [GET]
+Rendering template within layouts/application
+Rendering dui/index
+Completed in 126ms (View: 125, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing DuiController#index (for 127.0.0.1 at 2014-10-23 13:33:41) [GET]
+Rendering template within layouts/application
+Rendering dui/index
+
+ActionView::TemplateError (couldn't find file 'foundation'
+  (in /Users/msmiller/Work/DialedIn/DEV/dui/app/assets/javascripts/application.js:12)) on line #10 of app/views/layouts/application.rhtml:
+7:   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+8: 
+9: 
+10:   <%= javascript_include_tag 'assets/application' %>
+11: 
+12:   <%= stylesheet_link_tag 'assets/dui' %>
+13: 
+
+    sprockets (2.12.2) lib/sprockets/context.rb:106:in `resolve'
+    sprockets (2.12.2) lib/sprockets/context.rb:146:in `require_asset'
+    sprockets (2.12.2) lib/sprockets/directive_processor.rb:217:in `process_require_directive'
+    sprockets (2.12.2) lib/sprockets/directive_processor.rb:167:in `send'
+    sprockets (2.12.2) lib/sprockets/directive_processor.rb:167:in `process_directives'
+    sprockets (2.12.2) lib/sprockets/directive_processor.rb:165:in `each'
+    sprockets (2.12.2) lib/sprockets/directive_processor.rb:165:in `process_directives'
+    sprockets (2.12.2) lib/sprockets/directive_processor.rb:99:in `evaluate'
+    tilt (1.4.1) lib/tilt/template.rb:103:in `render'
+    sprockets (2.12.2) lib/sprockets/context.rb:197:in `evaluate'
+    sprockets (2.12.2) lib/sprockets/context.rb:194:in `each'
+    sprockets (2.12.2) lib/sprockets/context.rb:194:in `evaluate'
+    sprockets (2.12.2) lib/sprockets/processed_asset.rb:12:in `initialize'
+    sprockets (2.12.2) lib/sprockets/base.rb:374:in `new'
+    sprockets (2.12.2) lib/sprockets/base.rb:374:in `build_asset'
+    sprockets (2.12.2) lib/sprockets/base.rb:395:in `circular_call_protection'
+    sprockets (2.12.2) lib/sprockets/base.rb:373:in `build_asset'
+    sprockets (2.12.2) lib/sprockets/index.rb:94:in `build_asset'
+    sprockets (2.12.2) lib/sprockets/caching.rb:51:in `cache_asset'
+    sprockets (2.12.2) lib/sprockets/index.rb:93:in `build_asset'
+    sprockets (2.12.2) lib/sprockets/base.rb:287:in `find_asset'
+    sprockets (2.12.2) lib/sprockets/index.rb:61:in `find_asset'
+    sprockets (2.12.2) lib/sprockets/bundled_asset.rb:16:in `initialize'
+    sprockets (2.12.2) lib/sprockets/base.rb:377:in `new'
+    sprockets (2.12.2) lib/sprockets/base.rb:377:in `build_asset'
+    sprockets (2.12.2) lib/sprockets/index.rb:94:in `build_asset'
+    sprockets (2.12.2) lib/sprockets/caching.rb:51:in `cache_asset'
+    sprockets (2.12.2) lib/sprockets/index.rb:93:in `build_asset'
+    sprockets (2.12.2) lib/sprockets/base.rb:287:in `find_asset'
+    sprockets (2.12.2) lib/sprockets/index.rb:61:in `find_asset'
+    sprockets (2.12.2) lib/sprockets/environment.rb:75:in `find_asset'
+    sprockets (2.12.2) lib/sprockets/base.rb:295:in `[]'
+    /Users/msmiller/.rvm/gems/ree-1.8.7-2012.02@glonal/gems/rails2_asset_pipeline-0.3.2/lib/rails2_asset_pipeline/view_helpers.rb:45:in `asset_path'
+    /Users/msmiller/.rvm/gems/ree-1.8.7-2012.02@glonal/gems/rails2_asset_pipeline-0.3.2/lib/rails2_asset_pipeline/view_helpers.rb:20:in `compute_public_path'
+    app/helpers/application_helper.rb:15:in `compute_public_path'
+    app/views/layouts/application.rhtml:10:in `_run_rhtml_app47views47layouts47application46rhtml'
+    unicorn (4.3.1) lib/unicorn/http_server.rb:531:in `process_client'
+    unicorn (4.3.1) lib/unicorn/http_server.rb:606:in `worker_loop'
+    unicorn (4.3.1) lib/unicorn/http_server.rb:487:in `spawn_missing_workers'
+    unicorn (4.3.1) lib/unicorn/http_server.rb:137:in `start'
+    unicorn (4.3.1) bin/unicorn:121
+    /Users/msmiller/.rvm/gems/ree-1.8.7-2012.02@glonal/bin/unicorn:23:in `load'
+    /Users/msmiller/.rvm/gems/ree-1.8.7-2012.02@glonal/bin/unicorn:23
+
+Rendered rescues/_trace (43.3ms)
+Rendered rescues/_request_and_response (0.8ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing DuiController#index (for 127.0.0.1 at 2014-10-23 13:36:32) [GET]
+Rendering template within layouts/application
+Rendering dui/index
+
+ActionView::TemplateError (couldn't find file 'foundation'
+  (in /Users/msmiller/Work/DialedIn/DEV/dui/app/assets/javascripts/application.js:12)) on line #10 of app/views/layouts/application.rhtml:
+7:   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+8: 
+9: 
+10:   <%= javascript_include_tag 'assets/application' %>
+11: 
+12:   <%= stylesheet_link_tag 'assets/application' %>
+13: 
+
+    sprockets (2.12.2) lib/sprockets/context.rb:106:in `resolve'
+    sprockets (2.12.2) lib/sprockets/context.rb:146:in `require_asset'
+    sprockets (2.12.2) lib/sprockets/directive_processor.rb:217:in `process_require_directive'
+    sprockets (2.12.2) lib/sprockets/directive_processor.rb:167:in `send'
+    sprockets (2.12.2) lib/sprockets/directive_processor.rb:167:in `process_directives'
+    sprockets (2.12.2) lib/sprockets/directive_processor.rb:165:in `each'
+    sprockets (2.12.2) lib/sprockets/directive_processor.rb:165:in `process_directives'
+    sprockets (2.12.2) lib/sprockets/directive_processor.rb:99:in `evaluate'
+    tilt (1.4.1) lib/tilt/template.rb:103:in `render'
+    sprockets (2.12.2) lib/sprockets/context.rb:197:in `evaluate'
+    sprockets (2.12.2) lib/sprockets/context.rb:194:in `each'
+    sprockets (2.12.2) lib/sprockets/context.rb:194:in `evaluate'
+    sprockets (2.12.2) lib/sprockets/processed_asset.rb:12:in `initialize'
+    sprockets (2.12.2) lib/sprockets/base.rb:374:in `new'
+    sprockets (2.12.2) lib/sprockets/base.rb:374:in `build_asset'
+    sprockets (2.12.2) lib/sprockets/base.rb:395:in `circular_call_protection'
+    sprockets (2.12.2) lib/sprockets/base.rb:373:in `build_asset'
+    sprockets (2.12.2) lib/sprockets/index.rb:94:in `build_asset'
+    sprockets (2.12.2) lib/sprockets/caching.rb:51:in `cache_asset'
+    sprockets (2.12.2) lib/sprockets/index.rb:93:in `build_asset'
+    sprockets (2.12.2) lib/sprockets/base.rb:287:in `find_asset'
+    sprockets (2.12.2) lib/sprockets/index.rb:61:in `find_asset'
+    sprockets (2.12.2) lib/sprockets/bundled_asset.rb:16:in `initialize'
+    sprockets (2.12.2) lib/sprockets/base.rb:377:in `new'
+    sprockets (2.12.2) lib/sprockets/base.rb:377:in `build_asset'
+    sprockets (2.12.2) lib/sprockets/index.rb:94:in `build_asset'
+    sprockets (2.12.2) lib/sprockets/caching.rb:51:in `cache_asset'
+    sprockets (2.12.2) lib/sprockets/index.rb:93:in `build_asset'
+    sprockets (2.12.2) lib/sprockets/base.rb:287:in `find_asset'
+    sprockets (2.12.2) lib/sprockets/index.rb:61:in `find_asset'
+    sprockets (2.12.2) lib/sprockets/environment.rb:75:in `find_asset'
+    sprockets (2.12.2) lib/sprockets/base.rb:295:in `[]'
+    /Users/msmiller/.rvm/gems/ree-1.8.7-2012.02@glonal/gems/rails2_asset_pipeline-0.3.2/lib/rails2_asset_pipeline/view_helpers.rb:45:in `asset_path'
+    /Users/msmiller/.rvm/gems/ree-1.8.7-2012.02@glonal/gems/rails2_asset_pipeline-0.3.2/lib/rails2_asset_pipeline/view_helpers.rb:20:in `compute_public_path'
+    app/helpers/application_helper.rb:15:in `compute_public_path'
+    app/views/layouts/application.rhtml:10:in `_run_rhtml_app47views47layouts47application46rhtml'
+    unicorn (4.3.1) lib/unicorn/http_server.rb:531:in `process_client'
+    unicorn (4.3.1) lib/unicorn/http_server.rb:606:in `worker_loop'
+    unicorn (4.3.1) lib/unicorn/http_server.rb:487:in `spawn_missing_workers'
+    unicorn (4.3.1) lib/unicorn/http_server.rb:137:in `start'
+    unicorn (4.3.1) bin/unicorn:121
+    /Users/msmiller/.rvm/gems/ree-1.8.7-2012.02@glonal/bin/unicorn:23:in `load'
+    /Users/msmiller/.rvm/gems/ree-1.8.7-2012.02@glonal/bin/unicorn:23
+
+Rendered rescues/_trace (40.6ms)
+Rendered rescues/_request_and_response (0.2ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing DuiController#index (for 127.0.0.1 at 2014-10-23 13:37:03) [GET]
+Rendering template within layouts/application
+Rendering dui/index
+Completed in 128ms (View: 126, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing DuiController#index (for 127.0.0.1 at 2014-10-23 13:42:50) [GET]
+Rendering template within layouts/application
+Rendering dui/index
+Completed in 127ms (View: 126, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing DuiController#index (for 127.0.0.1 at 2014-10-23 13:43:08) [GET]
+Rendering template within layouts/application
+Rendering dui/index
+Completed in 77ms (View: 76, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing DuiController#index (for 127.0.0.1 at 2014-10-23 13:45:14) [GET]
+Rendering template within layouts/application
+Rendering dui/index
+
+ActionView::TemplateError (couldn't find file 'foundation'
+  (in /Users/msmiller/Work/DialedIn/DEV/dui/app/assets/javascripts/application.js:12)) on line #10 of app/views/layouts/application.rhtml:
+7:   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+8: 
+9: 
+10:   <%= javascript_include_tag 'assets/application' %>
+11: 
+12:   <%= stylesheet_link_tag 'assets/application' %>
+13: 
+
+    sprockets (2.12.2) lib/sprockets/context.rb:106:in `resolve'
+    sprockets (2.12.2) lib/sprockets/context.rb:146:in `require_asset'
+    sprockets (2.12.2) lib/sprockets/directive_processor.rb:217:in `process_require_directive'
+    sprockets (2.12.2) lib/sprockets/directive_processor.rb:167:in `send'
+    sprockets (2.12.2) lib/sprockets/directive_processor.rb:167:in `process_directives'
+    sprockets (2.12.2) lib/sprockets/directive_processor.rb:165:in `each'
+    sprockets (2.12.2) lib/sprockets/directive_processor.rb:165:in `process_directives'
+    sprockets (2.12.2) lib/sprockets/directive_processor.rb:99:in `evaluate'
+    tilt (1.4.1) lib/tilt/template.rb:103:in `render'
+    sprockets (2.12.2) lib/sprockets/context.rb:197:in `evaluate'
+    sprockets (2.12.2) lib/sprockets/context.rb:194:in `each'
+    sprockets (2.12.2) lib/sprockets/context.rb:194:in `evaluate'
+    sprockets (2.12.2) lib/sprockets/processed_asset.rb:12:in `initialize'
+    sprockets (2.12.2) lib/sprockets/base.rb:374:in `new'
+    sprockets (2.12.2) lib/sprockets/base.rb:374:in `build_asset'
+    sprockets (2.12.2) lib/sprockets/base.rb:395:in `circular_call_protection'
+    sprockets (2.12.2) lib/sprockets/base.rb:373:in `build_asset'
+    sprockets (2.12.2) lib/sprockets/index.rb:94:in `build_asset'
+    sprockets (2.12.2) lib/sprockets/caching.rb:51:in `cache_asset'
+    sprockets (2.12.2) lib/sprockets/index.rb:93:in `build_asset'
+    sprockets (2.12.2) lib/sprockets/base.rb:287:in `find_asset'
+    sprockets (2.12.2) lib/sprockets/index.rb:61:in `find_asset'
+    sprockets (2.12.2) lib/sprockets/bundled_asset.rb:16:in `initialize'
+    sprockets (2.12.2) lib/sprockets/base.rb:377:in `new'
+    sprockets (2.12.2) lib/sprockets/base.rb:377:in `build_asset'
+    sprockets (2.12.2) lib/sprockets/index.rb:94:in `build_asset'
+    sprockets (2.12.2) lib/sprockets/caching.rb:51:in `cache_asset'
+    sprockets (2.12.2) lib/sprockets/index.rb:93:in `build_asset'
+    sprockets (2.12.2) lib/sprockets/base.rb:287:in `find_asset'
+    sprockets (2.12.2) lib/sprockets/index.rb:61:in `find_asset'
+    sprockets (2.12.2) lib/sprockets/environment.rb:75:in `find_asset'
+    sprockets (2.12.2) lib/sprockets/base.rb:295:in `[]'
+    /Users/msmiller/.rvm/gems/ree-1.8.7-2012.02@glonal/gems/rails2_asset_pipeline-0.3.2/lib/rails2_asset_pipeline/view_helpers.rb:45:in `asset_path'
+    /Users/msmiller/.rvm/gems/ree-1.8.7-2012.02@glonal/gems/rails2_asset_pipeline-0.3.2/lib/rails2_asset_pipeline/view_helpers.rb:20:in `compute_public_path'
+    app/helpers/application_helper.rb:15:in `compute_public_path'
+    app/views/layouts/application.rhtml:10:in `_run_rhtml_app47views47layouts47application46rhtml'
+    unicorn (4.3.1) lib/unicorn/http_server.rb:531:in `process_client'
+    unicorn (4.3.1) lib/unicorn/http_server.rb:606:in `worker_loop'
+    unicorn (4.3.1) lib/unicorn/http_server.rb:487:in `spawn_missing_workers'
+    unicorn (4.3.1) lib/unicorn/http_server.rb:137:in `start'
+    unicorn (4.3.1) bin/unicorn:121
+    /Users/msmiller/.rvm/gems/ree-1.8.7-2012.02@glonal/bin/unicorn:23:in `load'
+    /Users/msmiller/.rvm/gems/ree-1.8.7-2012.02@glonal/bin/unicorn:23
+
+Rendered rescues/_trace (41.9ms)
+Rendered rescues/_request_and_response (0.8ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing DuiController#index (for 127.0.0.1 at 2014-10-23 13:45:25) [GET]
+Rendering template within layouts/application
+Rendering dui/index
+
+ActionView::TemplateError (couldn't find file 'foundation/foundation'
+  (in /Users/msmiller/Work/DialedIn/DEV/dui/app/assets/javascripts/application.js:12)) on line #10 of app/views/layouts/application.rhtml:
+7:   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+8: 
+9: 
+10:   <%= javascript_include_tag 'assets/application' %>
+11: 
+12:   <%= stylesheet_link_tag 'assets/application' %>
+13: 
+
+    sprockets (2.12.2) lib/sprockets/context.rb:106:in `resolve'
+    sprockets (2.12.2) lib/sprockets/context.rb:146:in `require_asset'
+    sprockets (2.12.2) lib/sprockets/directive_processor.rb:217:in `process_require_directive'
+    sprockets (2.12.2) lib/sprockets/directive_processor.rb:167:in `send'
+    sprockets (2.12.2) lib/sprockets/directive_processor.rb:167:in `process_directives'
+    sprockets (2.12.2) lib/sprockets/directive_processor.rb:165:in `each'
+    sprockets (2.12.2) lib/sprockets/directive_processor.rb:165:in `process_directives'
+    sprockets (2.12.2) lib/sprockets/directive_processor.rb:99:in `evaluate'
+    tilt (1.4.1) lib/tilt/template.rb:103:in `render'
+    sprockets (2.12.2) lib/sprockets/context.rb:197:in `evaluate'
+    sprockets (2.12.2) lib/sprockets/context.rb:194:in `each'
+    sprockets (2.12.2) lib/sprockets/context.rb:194:in `evaluate'
+    sprockets (2.12.2) lib/sprockets/processed_asset.rb:12:in `initialize'
+    sprockets (2.12.2) lib/sprockets/base.rb:374:in `new'
+    sprockets (2.12.2) lib/sprockets/base.rb:374:in `build_asset'
+    sprockets (2.12.2) lib/sprockets/base.rb:395:in `circular_call_protection'
+    sprockets (2.12.2) lib/sprockets/base.rb:373:in `build_asset'
+    sprockets (2.12.2) lib/sprockets/index.rb:94:in `build_asset'
+    sprockets (2.12.2) lib/sprockets/caching.rb:51:in `cache_asset'
+    sprockets (2.12.2) lib/sprockets/index.rb:93:in `build_asset'
+    sprockets (2.12.2) lib/sprockets/base.rb:287:in `find_asset'
+    sprockets (2.12.2) lib/sprockets/index.rb:61:in `find_asset'
+    sprockets (2.12.2) lib/sprockets/bundled_asset.rb:16:in `initialize'
+    sprockets (2.12.2) lib/sprockets/base.rb:377:in `new'
+    sprockets (2.12.2) lib/sprockets/base.rb:377:in `build_asset'
+    sprockets (2.12.2) lib/sprockets/index.rb:94:in `build_asset'
+    sprockets (2.12.2) lib/sprockets/caching.rb:51:in `cache_asset'
+    sprockets (2.12.2) lib/sprockets/index.rb:93:in `build_asset'
+    sprockets (2.12.2) lib/sprockets/base.rb:287:in `find_asset'
+    sprockets (2.12.2) lib/sprockets/index.rb:61:in `find_asset'
+    sprockets (2.12.2) lib/sprockets/environment.rb:75:in `find_asset'
+    sprockets (2.12.2) lib/sprockets/base.rb:295:in `[]'
+    /Users/msmiller/.rvm/gems/ree-1.8.7-2012.02@glonal/gems/rails2_asset_pipeline-0.3.2/lib/rails2_asset_pipeline/view_helpers.rb:45:in `asset_path'
+    /Users/msmiller/.rvm/gems/ree-1.8.7-2012.02@glonal/gems/rails2_asset_pipeline-0.3.2/lib/rails2_asset_pipeline/view_helpers.rb:20:in `compute_public_path'
+    app/helpers/application_helper.rb:15:in `compute_public_path'
+    app/views/layouts/application.rhtml:10:in `_run_rhtml_app47views47layouts47application46rhtml'
+    unicorn (4.3.1) lib/unicorn/http_server.rb:531:in `process_client'
+    unicorn (4.3.1) lib/unicorn/http_server.rb:606:in `worker_loop'
+    unicorn (4.3.1) lib/unicorn/http_server.rb:487:in `spawn_missing_workers'
+    unicorn (4.3.1) lib/unicorn/http_server.rb:137:in `start'
+    unicorn (4.3.1) bin/unicorn:121
+    /Users/msmiller/.rvm/gems/ree-1.8.7-2012.02@glonal/bin/unicorn:23:in `load'
+    /Users/msmiller/.rvm/gems/ree-1.8.7-2012.02@glonal/bin/unicorn:23
+
+Rendered rescues/_trace (39.7ms)
+Rendered rescues/_request_and_response (0.2ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing DuiController#index (for 127.0.0.1 at 2014-10-23 13:45:38) [GET]
+Rendering template within layouts/application
+Rendering dui/index
+Completed in 50ms (View: 49, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing DuiController#index (for 127.0.0.1 at 2014-10-23 13:47:44) [GET]
+Rendering template within layouts/application
+Rendering dui/index
+Completed in 4ms (View: 4, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing DuiController#index (for 127.0.0.1 at 2014-10-23 13:48:49) [GET]
+Rendering template within layouts/application
+Rendering dui/index
+Completed in 2ms (View: 2, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing DuiController#index (for 127.0.0.1 at 2014-10-23 13:49:23) [GET]
+Rendering template within layouts/application
+Rendering dui/index
+Completed in 40ms (View: 39, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing DuiController#index (for 127.0.0.1 at 2014-10-23 13:50:24) [GET]
+Rendering template within layouts/application
+Rendering dui/index
+Completed in 4ms (View: 4, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing DuiController#index (for 127.0.0.1 at 2014-10-23 13:52:00) [GET]
+Rendering template within layouts/application
+Rendering dui/index
+Completed in 5ms (View: 4, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing DuiController#index (for 127.0.0.1 at 2014-10-23 13:54:02) [GET]
+Rendering template within layouts/application
+Rendering dui/index
+Completed in 5ms (View: 4, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing DuiController#index (for 127.0.0.1 at 2014-10-23 13:55:04) [GET]
+Rendering template within layouts/application
+Rendering dui/index
+Completed in 5ms (View: 4, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing DuiController#index (for 127.0.0.1 at 2014-10-23 13:55:33) [GET]
+Rendering template within layouts/application
+Rendering dui/index
+Completed in 5ms (View: 4, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing DuiController#index (for 127.0.0.1 at 2014-10-23 13:56:46) [GET]
+Rendering template within layouts/application
+Rendering dui/index
+Completed in 6ms (View: 5, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing DuiController#index (for 127.0.0.1 at 2014-10-23 13:57:02) [GET]
+Rendering template within layouts/application
+Rendering dui/index
+Completed in 5ms (View: 4, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing DuiController#index (for 127.0.0.1 at 2014-10-23 13:58:55) [GET]
+Rendering template within layouts/application
+Rendering dui/index
+Completed in 17ms (View: 16, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing DuiController#index (for 127.0.0.1 at 2014-10-23 13:59:02) [GET]
+Rendering template within layouts/application
+Rendering dui/index
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing DuiController#index (for 127.0.0.1 at 2014-10-23 13:59:29) [GET]
+Rendering template within layouts/application
+Rendering dui/index
+Completed in 5ms (View: 4, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing DuiController#index (for 127.0.0.1 at 2014-10-23 14:00:14) [GET]
+Rendering template within layouts/application
+Rendering dui/index
+Completed in 5ms (View: 4, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing DuiController#index (for 127.0.0.1 at 2014-10-23 14:00:22) [GET]
+Rendering template within layouts/application
+Rendering dui/index
+Completed in 93ms (View: 91, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing DuiController#index (for 127.0.0.1 at 2014-10-23 14:03:33) [GET]
+Rendering template within layouts/application
+Rendering dui/index
+Completed in 42ms (View: 41, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing DuiController#index (for 127.0.0.1 at 2014-10-23 14:03:35) [GET]
+Rendering template within layouts/application
+Rendering dui/index
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing DuiController#index (for 127.0.0.1 at 2014-10-23 14:03:37) [GET]
+Rendering template within layouts/application
+Rendering dui/index
+Completed in 4ms (View: 2, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing DuiController#index (for 127.0.0.1 at 2014-10-23 14:04:58) [GET]
+Rendering template within layouts/application
+Rendering dui/index
+
+ActionView::TemplateError (require_tree argument must be a relative path
+  (in /Users/msmiller/Work/DialedIn/DEV/dui/app/assets/javascripts/application.js:12)) on line #10 of app/views/layouts/application.rhtml:
+7:   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+8: 
+9: 
+10:   <%= javascript_include_tag 'assets/application' %>
+11: 
+12:   <%= stylesheet_link_tag 'assets/application' %>
+13: 
+
+    sprockets (2.12.2) lib/sprockets/directive_processor.rb:310:in `process_require_tree_directive'
+    sprockets (2.12.2) lib/sprockets/directive_processor.rb:167:in `send'
+    sprockets (2.12.2) lib/sprockets/directive_processor.rb:167:in `process_directives'
+    sprockets (2.12.2) lib/sprockets/directive_processor.rb:165:in `each'
+    sprockets (2.12.2) lib/sprockets/directive_processor.rb:165:in `process_directives'
+    sprockets (2.12.2) lib/sprockets/directive_processor.rb:99:in `evaluate'
+    tilt (1.4.1) lib/tilt/template.rb:103:in `render'
+    sprockets (2.12.2) lib/sprockets/context.rb:197:in `evaluate'
+    sprockets (2.12.2) lib/sprockets/context.rb:194:in `each'
+    sprockets (2.12.2) lib/sprockets/context.rb:194:in `evaluate'
+    sprockets (2.12.2) lib/sprockets/processed_asset.rb:12:in `initialize'
+    sprockets (2.12.2) lib/sprockets/base.rb:374:in `new'
+    sprockets (2.12.2) lib/sprockets/base.rb:374:in `build_asset'
+    sprockets (2.12.2) lib/sprockets/base.rb:395:in `circular_call_protection'
+    sprockets (2.12.2) lib/sprockets/base.rb:373:in `build_asset'
+    sprockets (2.12.2) lib/sprockets/index.rb:94:in `build_asset'
+    sprockets (2.12.2) lib/sprockets/caching.rb:51:in `cache_asset'
+    sprockets (2.12.2) lib/sprockets/index.rb:93:in `build_asset'
+    sprockets (2.12.2) lib/sprockets/base.rb:287:in `find_asset'
+    sprockets (2.12.2) lib/sprockets/index.rb:61:in `find_asset'
+    sprockets (2.12.2) lib/sprockets/bundled_asset.rb:16:in `initialize'
+    sprockets (2.12.2) lib/sprockets/base.rb:377:in `new'
+    sprockets (2.12.2) lib/sprockets/base.rb:377:in `build_asset'
+    sprockets (2.12.2) lib/sprockets/index.rb:94:in `build_asset'
+    sprockets (2.12.2) lib/sprockets/caching.rb:51:in `cache_asset'
+    sprockets (2.12.2) lib/sprockets/index.rb:93:in `build_asset'
+    sprockets (2.12.2) lib/sprockets/base.rb:287:in `find_asset'
+    sprockets (2.12.2) lib/sprockets/index.rb:61:in `find_asset'
+    sprockets (2.12.2) lib/sprockets/environment.rb:75:in `find_asset'
+    sprockets (2.12.2) lib/sprockets/base.rb:295:in `[]'
+    /Users/msmiller/.rvm/gems/ree-1.8.7-2012.02@glonal/gems/rails2_asset_pipeline-0.3.2/lib/rails2_asset_pipeline/view_helpers.rb:45:in `asset_path'
+    /Users/msmiller/.rvm/gems/ree-1.8.7-2012.02@glonal/gems/rails2_asset_pipeline-0.3.2/lib/rails2_asset_pipeline/view_helpers.rb:20:in `compute_public_path'
+    app/helpers/application_helper.rb:15:in `compute_public_path'
+    app/views/layouts/application.rhtml:10:in `_run_rhtml_app47views47layouts47application46rhtml'
+    unicorn (4.3.1) lib/unicorn/http_server.rb:531:in `process_client'
+    unicorn (4.3.1) lib/unicorn/http_server.rb:606:in `worker_loop'
+    unicorn (4.3.1) lib/unicorn/http_server.rb:487:in `spawn_missing_workers'
+    unicorn (4.3.1) lib/unicorn/http_server.rb:137:in `start'
+    unicorn (4.3.1) bin/unicorn:121
+    /Users/msmiller/.rvm/gems/ree-1.8.7-2012.02@glonal/bin/unicorn:23:in `load'
+    /Users/msmiller/.rvm/gems/ree-1.8.7-2012.02@glonal/bin/unicorn:23
+
+Rendered rescues/_trace (81.0ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing DuiController#index (for 127.0.0.1 at 2014-10-23 14:05:30) [GET]
+Rendering template within layouts/application
+Rendering dui/index
+
+ActionView::TemplateError (couldn't find file 'foundation/foundationfoundation.dropdown'
+  (in /Users/msmiller/Work/DialedIn/DEV/dui/app/assets/javascripts/application.js:13)) on line #10 of app/views/layouts/application.rhtml:
+7:   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+8: 
+9: 
+10:   <%= javascript_include_tag 'assets/application' %>
+11: 
+12:   <%= stylesheet_link_tag 'assets/application' %>
+13: 
+
+    sprockets (2.12.2) lib/sprockets/context.rb:106:in `resolve'
+    sprockets (2.12.2) lib/sprockets/context.rb:146:in `require_asset'
+    sprockets (2.12.2) lib/sprockets/directive_processor.rb:217:in `process_require_directive'
+    sprockets (2.12.2) lib/sprockets/directive_processor.rb:167:in `send'
+    sprockets (2.12.2) lib/sprockets/directive_processor.rb:167:in `process_directives'
+    sprockets (2.12.2) lib/sprockets/directive_processor.rb:165:in `each'
+    sprockets (2.12.2) lib/sprockets/directive_processor.rb:165:in `process_directives'
+    sprockets (2.12.2) lib/sprockets/directive_processor.rb:99:in `evaluate'
+    tilt (1.4.1) lib/tilt/template.rb:103:in `render'
+    sprockets (2.12.2) lib/sprockets/context.rb:197:in `evaluate'
+    sprockets (2.12.2) lib/sprockets/context.rb:194:in `each'
+    sprockets (2.12.2) lib/sprockets/context.rb:194:in `evaluate'
+    sprockets (2.12.2) lib/sprockets/processed_asset.rb:12:in `initialize'
+    sprockets (2.12.2) lib/sprockets/base.rb:374:in `new'
+    sprockets (2.12.2) lib/sprockets/base.rb:374:in `build_asset'
+    sprockets (2.12.2) lib/sprockets/base.rb:395:in `circular_call_protection'
+    sprockets (2.12.2) lib/sprockets/base.rb:373:in `build_asset'
+    sprockets (2.12.2) lib/sprockets/index.rb:94:in `build_asset'
+    sprockets (2.12.2) lib/sprockets/caching.rb:51:in `cache_asset'
+    sprockets (2.12.2) lib/sprockets/index.rb:93:in `build_asset'
+    sprockets (2.12.2) lib/sprockets/base.rb:287:in `find_asset'
+    sprockets (2.12.2) lib/sprockets/index.rb:61:in `find_asset'
+    sprockets (2.12.2) lib/sprockets/bundled_asset.rb:16:in `initialize'
+    sprockets (2.12.2) lib/sprockets/base.rb:377:in `new'
+    sprockets (2.12.2) lib/sprockets/base.rb:377:in `build_asset'
+    sprockets (2.12.2) lib/sprockets/index.rb:94:in `build_asset'
+    sprockets (2.12.2) lib/sprockets/caching.rb:51:in `cache_asset'
+    sprockets (2.12.2) lib/sprockets/index.rb:93:in `build_asset'
+    sprockets (2.12.2) lib/sprockets/base.rb:287:in `find_asset'
+    sprockets (2.12.2) lib/sprockets/index.rb:61:in `find_asset'
+    sprockets (2.12.2) lib/sprockets/environment.rb:75:in `find_asset'
+    sprockets (2.12.2) lib/sprockets/base.rb:295:in `[]'
+    /Users/msmiller/.rvm/gems/ree-1.8.7-2012.02@glonal/gems/rails2_asset_pipeline-0.3.2/lib/rails2_asset_pipeline/view_helpers.rb:45:in `asset_path'
+    /Users/msmiller/.rvm/gems/ree-1.8.7-2012.02@glonal/gems/rails2_asset_pipeline-0.3.2/lib/rails2_asset_pipeline/view_helpers.rb:20:in `compute_public_path'
+    app/helpers/application_helper.rb:15:in `compute_public_path'
+    app/views/layouts/application.rhtml:10:in `_run_rhtml_app47views47layouts47application46rhtml'
+    unicorn (4.3.1) lib/unicorn/http_server.rb:531:in `process_client'
+    unicorn (4.3.1) lib/unicorn/http_server.rb:606:in `worker_loop'
+    unicorn (4.3.1) lib/unicorn/http_server.rb:487:in `spawn_missing_workers'
+    unicorn (4.3.1) lib/unicorn/http_server.rb:137:in `start'
+    unicorn (4.3.1) bin/unicorn:121
+    /Users/msmiller/.rvm/gems/ree-1.8.7-2012.02@glonal/bin/unicorn:23:in `load'
+    /Users/msmiller/.rvm/gems/ree-1.8.7-2012.02@glonal/bin/unicorn:23
+
+Rendered rescues/_trace (39.4ms)
+Rendered rescues/_request_and_response (0.2ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing DuiController#index (for 127.0.0.1 at 2014-10-23 14:05:37) [GET]
+Rendering template within layouts/application
+Rendering dui/index
+Completed in 101ms (View: 100, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing DuiController#index (for 127.0.0.1 at 2014-10-23 14:06:17) [GET]
+Rendering template within layouts/application
+Rendering dui/index
+Completed in 83ms (View: 82, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing DuiController#index (for 127.0.0.1 at 2014-10-23 14:08:00) [GET]
+Rendering template within layouts/application
+Rendering dui/index
+Completed in 5ms (View: 4, DB: 0) | 200 OK [http://localhost/]

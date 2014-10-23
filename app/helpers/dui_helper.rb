@@ -1,6 +1,10 @@
 module DuiHelper
 
   # from: https://github.com/FortAwesome/font-awesome-less/blob/master/lib/font_awesome/less/rails/helpers.rb
+  #
+  # This needs to be extended to include more font classes per:
+  # => http://fortawesome.github.io/Font-Awesome/examples/
+  #
   def dui_icon(icon, text="", html_options={})
     content_class = "fa fa-#{icon}"
     content_class << " #{html_options[:class]}" if html_options.key?(:class)

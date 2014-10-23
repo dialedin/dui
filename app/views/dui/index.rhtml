@@ -34,4 +34,75 @@ ko.applyBindings(new ViewModel("Planet", "Earth")); // This makes Knockout get t
 <%= dui_icon('book', '', :class => 'strong', :style => "color: cadetblue;" ) %> / 
 <%= dui_icon('pencil', 'Font Awesome', :id => 'my-icon', :class => 'strong', :style => "color: firebrick;" ) %>
 <hr>
+<h2>Foundation Tests</h2>
+Grids ...<br>
+<div class="row">
+  <div class="small-2 columns" style="border:1px solid #ccc;">2 columns</div>
+  <div class="small-10 columns" style="border:1px solid #ccc;">10 columns</div>
+</div>
+<div class="row">
+  <div class="small-3 columns" style="border:1px solid #ccc;">3 columns</div>
+  <div class="small-9 columns" style="border:1px solid #ccc;">9 columns</div>
+</div>
+Menu Bars ...<br>
 
+<nav class="top-bar" data-topbar role="navigation">
+  <ul class="title-area">
+    <!-- Title Area -->
+    <li class="name">
+
+    </li>
+    <!-- Remove the class "menu-icon" to get rid of menu icon. Take out "Menu" to just have icon alone -->
+    <li class="toggle-topbar menu-icon"><a href=""><span>Menu</span></a></li>
+  </ul>
+
+  <section class="top-bar-section">
+    <ul class="left">
+      <li class="has-dropdown"><a href="#">Item 1</a>
+
+        <ul class="dropdown">
+          <li><label>Level One</label></li>
+          <li><a href="#">Sub-item 1</a></li>
+          <li><a href="#">Sub-item 2</a></li>
+          <li class="divider"></li>
+          <li><a href="#">Sub-item 3</a></li>
+          <li class="has-dropdown"><a href="#">Sub-item 4</a>
+
+            <ul class="dropdown">
+              <li><label>Level Two</label></li>
+              <li class="has-dropdown"><a href="#">Sub-item 1</a>
+
+                <ul class="dropdown">
+                  <li><label>Level Three</label></li>
+                  <li class="has-dropdown"><a href="#">Sub-item 1</a>
+
+                    <ul class="dropdown">
+                      <li><label>Level Four</label></li>
+                      <li><a href="#">Sub-item 1</a></li>
+                    </ul>
+                  </li>
+                  <li><a href="#">Sub-item 2</a></li>
+                  <li><a href="#">Sub-item 3</a></li>
+                  <li class="divider"></li>
+                  <li><a href="#">Sub-item 4</a></li>
+                </ul>
+              </li>
+              <li><a href="#">Sub-item 2</a></li>
+              <li><a href="#">Sub-item 3</a></li>
+              <li><a href="#">Sub-item 4</a>
+            </ul>
+          </li>
+          <li><a href="#">Sub-item 5</a></li>
+        </ul>
+      </li>
+      <li class="divider"></li>
+    </ul>
+    <!-- Right Nav Section -->
+    <ul class="right">
+      <li class="divider"></li>
+      <li><a href="#">Item 2</a></li>
+    </ul>
+  </section>
+</nav>
+
+<br><br><br><br><br><br><br><br>

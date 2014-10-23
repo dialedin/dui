@@ -9,12 +9,18 @@
 
   <%= javascript_include_tag 'assets/application' %>
 
-  <%= stylesheet_link_tag 'assets/dui' %>
+  <%= stylesheet_link_tag 'assets/application' %>
 
 <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
 
 </head>
   <body>
+    <div class="container">
     <%= yield %>
+    </div>
   </body>
+<script>
+  $(document).foundation();
+</script>
+
 </html>
