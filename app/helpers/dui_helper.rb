@@ -5,6 +5,9 @@ module DuiHelper
   # This needs to be extended to include more font classes per:
   # => http://fortawesome.github.io/Font-Awesome/examples/
   #
+  # Also there's a Zurb Icon Font: http://zurb.com/playground/foundation-icon-fonts-3
+  #
+  
   def dui_icon(icon, text="", html_options={})
     content_class = "fa fa-#{icon}"
     content_class << " #{html_options[:class]}" if html_options.key?(:class)
