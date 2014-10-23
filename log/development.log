@@ -75,3 +75,64 @@ Completed in 1ms (View: 0, DB: 0) | 200 OK [http://localhost/dui]
 Processing DuiController#index (for 127.0.0.1 at 2014-10-22 20:57:12) [GET]
 Rendering dui/index
 Completed in 3ms (View: 2, DB: 0) | 200 OK [http://localhost/dui]
+
+
+Processing DuiController#index (for 127.0.0.1 at 2014-10-23 11:46:49) [GET]
+Rendering dui/index
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing DuiController#index (for 127.0.0.1 at 2014-10-23 11:49:06) [GET]
+Rendering template within layouts/application
+Rendering dui/index
+Completed in 13ms (View: 12, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing DuiController#index (for 127.0.0.1 at 2014-10-23 11:50:03) [GET]
+Rendering template within layouts/application
+Rendering dui/index
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing DuiController#index (for 127.0.0.1 at 2014-10-23 11:51:09) [GET]
+Rendering template within layouts/application
+Rendering dui/index
+Completed in 4ms (View: 4, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2014-10-23 11:51:30) [GET]
+
+ActionController::RoutingError (No route matches "/javascripts/jrails.js" with {:method=>:get}):
+  unicorn (4.3.1) lib/unicorn/http_server.rb:531:in `process_client'
+  unicorn (4.3.1) lib/unicorn/http_server.rb:606:in `worker_loop'
+  unicorn (4.3.1) lib/unicorn/http_server.rb:487:in `spawn_missing_workers'
+  unicorn (4.3.1) lib/unicorn/http_server.rb:137:in `start'
+  unicorn (4.3.1) bin/unicorn:121
+  /Users/msmiller/.rvm/gems/ree-1.8.7-2012.02@glonal/bin/unicorn:23:in `load'
+  /Users/msmiller/.rvm/gems/ree-1.8.7-2012.02@glonal/bin/unicorn:23
+
+Rendering rescues/layout (not_found)
+
+
+Processing DuiController#index (for 127.0.0.1 at 2014-10-23 11:56:23) [GET]
+Rendering template within layouts/application
+Rendering dui/index
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing DuiController#index (for 127.0.0.1 at 2014-10-23 11:56:55) [GET]
+Rendering template within layouts/application
+Rendering dui/index
+Completed in 5ms (View: 4, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing DuiController#index (for 127.0.0.1 at 2014-10-23 11:58:44) [GET]
+Rendering template within layouts/application
+Rendering dui/index
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing DuiController#index (for 127.0.0.1 at 2014-10-23 12:02:39) [GET]
+Rendering template within layouts/application
+Rendering dui/index
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://localhost/]

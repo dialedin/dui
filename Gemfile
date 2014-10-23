@@ -57,7 +57,8 @@ end
 # See: https://github.com/apotonick/cells/tree/31f6ed82b87b3f92613698442fae6fd61cc16de9#rails-23-note
 gem 'cells', '~> 3.3.9'
 
-gem 'jrails', '~> 0.6.0'
+#gem 'jrails', '~> 0.6.0'
+# Using script/plugin install git://github.com/aaronchi/jrails.git instead
 
 gem "rails2_asset_pipeline"
 gem "execjs", "2.0.2"
