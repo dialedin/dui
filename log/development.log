@@ -3158,3 +3158,9 @@ Processing DuiController#index (for 127.0.0.1 at 2014-10-23 14:59:23) [GET]
 Rendering template within layouts/application
 Rendering dui/index
 Completed in 8ms (View: 7, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing DuiController#index (for 127.0.0.1 at 2014-10-23 15:15:17) [GET]
+Rendering template within layouts/application
+Rendering dui/index
+Completed in 170ms (View: 170, DB: 0) | 200 OK [http://localhost/]

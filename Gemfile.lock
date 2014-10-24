@@ -11,7 +11,6 @@ GEM
     activeresource (2.3.17)
       activesupport (= 2.3.17)
     activesupport (2.3.17)
-    cells (2.3.0)
     chunky_png (1.2.8)
     coderay (1.0.9)
     coffee-script (2.2.0)
@@ -94,7 +93,6 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  cells (~> 2.3.0)
   coffee-script (= 2.2.0)
   coffee-script-source (= 1.6.3)
   compass-rails

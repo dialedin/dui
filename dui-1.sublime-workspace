@@ -260,10 +260,186 @@
 	"buffers":
 	[
 		{
+			"file": "config/initializers/rails2_asset_pipeline.rb",
+			"settings":
+			{
+				"buffer_size": 1657,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/assets/javascripts/application.js",
+			"settings":
+			{
+				"buffer_size": 286,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/controllers/application_controller.rb",
+			"settings":
+			{
+				"buffer_size": 430,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/assets/javascripts/foundation/foundation/foundation.topbar.js",
+			"settings":
+			{
+				"buffer_size": 14847,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/assets/stylesheets/application.css",
+			"settings":
+			{
+				"buffer_size": 755,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "Rakefile",
+			"settings":
+			{
+				"buffer_size": 509,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "config/environment.rb",
+			"settings":
+			{
+				"buffer_size": 2183,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "config.ru",
+			"settings":
+			{
+				"buffer_size": 449,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/helpers/application_helper.rb",
+			"settings":
+			{
+				"buffer_size": 909,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "config/routes.rb",
+			"settings":
+			{
+				"buffer_size": 1925,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/controllers/dui_controller.rb",
+			"settings":
+			{
+				"buffer_size": 70,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/views/dui/index.rhtml",
+			"settings":
+			{
+				"buffer_size": 4236,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/helpers/dui_helper.rb",
+			"settings":
+			{
+				"buffer_size": 672,
+				"line_ending": "Unix"
+			}
+		},
+		{
 			"file": "Gemfile",
 			"settings":
 			{
-				"buffer_size": 228,
+				"buffer_size": 2427,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/cells/testcell/show.rhtml",
+			"settings":
+			{
+				"buffer_size": 29,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/cells/testcell_cell.rb",
+			"settings":
+			{
+				"buffer_size": 176,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/cells/testcell/show2.rhtml",
+			"settings":
+			{
+				"buffer_size": 162,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "Gemfile.lock",
+			"settings":
+			{
+				"buffer_size": 2864,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/views/layouts/application.rhtml",
+			"settings":
+			{
+				"buffer_size": 770,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/assets/stylesheets/dui.css.scss",
+			"settings":
+			{
+				"buffer_size": 71,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/assets/stylesheets/_dui-styles.css.scss",
+			"settings":
+			{
+				"buffer_size": 94,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/assets/stylesheets/foundation_overrides.css",
+			"settings":
+			{
+				"buffer_size": 28,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/assets/stylesheets/_dui-typography.css.scss",
+			"settings":
+			{
+				"buffer_size": 111,
 				"line_ending": "Unix"
 			}
 		}
@@ -312,6 +488,20 @@
 	},
 	"file_history":
 	[
+		"/Users/msmiller/Work/DialedIn/DEV/dui/vendor/plugins/cells/README.md",
+		"/Users/msmiller/Work/DialedIn/DEV/dui/vendor/plugins/cells/README.rdoc",
+		"/Users/msmiller/Work/DialedIn/DEV/dui/app/assets/stylesheets/_dui-colors.css.scss",
+		"/Users/msmiller/Work/DialedIn/DEV/dui/app/assets/stylesheets/_dui_typography.css.scss",
+		"/Users/msmiller/Work/DialedIn/DEV/dui/app/assets/stylesheets/dui-styles.css.scss",
+		"/Users/msmiller/Work/DialedIn/DEV/dui/app/assets/stylesheets/_colors.css.scss",
+		"/Users/msmiller/Work/DialedIn/DEV/dui/app/assets/javascripts/jquery/jquery.js",
+		"/Users/msmiller/Work/DialedIn/DEV/dui/.sass-cache/13e8ae0bd94eb67af4c17f375bbad4e88ef869ac/_colors.css.scssc",
+		"/Users/msmiller/Work/DialedIn/DEV/dui/app/assets/stylesheets/colors.css.scss",
+		"/Users/msmiller/Work/DialedIn/DEV/dui/public/javascripts/jquery-ui.js",
+		"/Users/msmiller/Work/DialedIn/DEV/dui/public/javascripts/jquery.132.js",
+		"/Users/msmiller/Work/DialedIn/DEV/dui/public/javascripts/jquery.js",
+		"/Users/msmiller/Work/DialedIn/DEV/dui/.sass-cache/13e8ae0bd94eb67af4c17f375bbad4e88ef869ac/colors.css.scssc",
+		"/Users/msmiller/Work/DialedIn/DEV/dui/config/database.yml",
 		"/Users/msmiller/Work/DialedIn/DEV/di23/config/deploy.rb",
 		"/Users/msmiller/Work/DialedIn/DEV/di23/config/initializers/domainmaps.rb",
 		"/Users/msmiller/Work/DialedIn/DEV/di23/Gemfile",
@@ -425,21 +615,7 @@
 		"/Users/msmiller/Work/DialedIn/DEV/di23/app/models/copy_service/copies_page_media.rb",
 		"/Users/msmiller/Work/DialedIn/DEV/di23/app/views/emails/_email.rhtml",
 		"/Users/msmiller/Work/DialedIn/DEV/di23/config/domainmaps.yml",
-		"/Users/msmiller/Work/DialedIn/DEV/di23/app/controllers/noteadmin_controller.rb",
-		"/Users/msmiller/Work/DialedIn/DEV/di23/app/models/copy_service/copies_page.rb",
-		"/Users/msmiller/Work/DialedIn/DEV/di23/lib/resque/resque_analyze_activities.rb",
-		"/Users/msmiller/Work/DialedIn/DEV/di23/app/controllers/email_open_controller.rb",
-		"/Users/msmiller/Work/DialedIn/DEV/di23/config/routes.rb",
-		"/Users/msmiller/Work/DialedIn/DEV/di23/app/views/contacts/_addrbk_funcs.rhtml",
-		"/Users/msmiller/Work/DialedIn/DEV/di23/app/models/copy_service/copies_project_menus.rb",
-		"/Users/msmiller/Work/DialedIn/DEV/di23/app/views/admintools/_db_cleanup.rhtml",
-		"/Users/msmiller/Work/DialedIn/DEV/di23/app/views/layouts/enterprise_event_print.rhtml",
-		"/Users/msmiller/Work/DialedIn/DEV/di23/app/controllers/contacts_controller.rb",
-		"/Users/msmiller/Work/DialedIn/DEV/di23/app/models/copy_service/copies_page_object.rb",
-		"/Users/msmiller/Work/DialedIn/DEV/di23/app/models/copy_service/copies_project.rb",
-		"/Users/msmiller/Work/DialedIn/DEV/di23/app/views/layouts/rendered_page.rhtml",
-		"/Users/msmiller/Work/DialedIn/DEV/di23/config/amazon_s3.yml",
-		"/Users/msmiller/Work/DialedIn/DEV/di23/app/models/copy_service/finalize_copied_project.rb"
+		"/Users/msmiller/Work/DialedIn/DEV/di23/app/controllers/noteadmin_controller.rb"
 	],
 	"find":
 	{
@@ -458,6 +634,21 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"pading",
+			"width",
+			"200px",
+			"columns\"",
+			"'",
+			"h2",
+			"jrails",
+			"false",
+			"sass",
+			"execjs",
+			"coffee",
+			"sass",
+			"rails2",
+			"execjs",
+			"exec-js",
 			"netrc",
 			"clien",
 			"rest",
@@ -570,22 +761,7 @@
 			"html5",
 			"4px",
 			"14px",
-			"4px",
-			"2px",
-			"65",
-			"\"65",
-			"650",
-			"label",
-			"token =",
-			"hash_",
-			"token",
-			"hashed_password",
-			"cry",
-			"md5",
-			"passw",
-			"localized_media_url",
-			"check_nil_zorders",
-			"img"
+			"4px"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -619,23 +795,183 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 11,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "Gemfile",
+					"file": "config/initializers/rails2_asset_pipeline.rb",
 					"settings":
 					{
-						"buffer_size": 228,
+						"buffer_size": 1657,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								223,
-								223
+								1397,
+								1398
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Rails/Ruby on Rails.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 353.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "app/assets/javascripts/application.js",
+					"settings":
+					{
+						"buffer_size": 286,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								285,
+								285
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "app/controllers/application_controller.rb",
+					"settings":
+					{
+						"buffer_size": 430,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								256,
+								256
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Rails/Ruby on Rails.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "app/assets/javascripts/foundation/foundation/foundation.topbar.js",
+					"settings":
+					{
+						"buffer_size": 14847,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								87,
+								65
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "app/assets/stylesheets/application.css",
+					"settings":
+					{
+						"buffer_size": 755,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								724,
+								724
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "Rakefile",
+					"settings":
+					{
+						"buffer_size": 509,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								509,
+								509
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby/Ruby.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "config/environment.rb",
+					"settings":
+					{
+						"buffer_size": 2183,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								483,
+								483
 							]
 						],
 						"settings":
@@ -649,12 +985,441 @@
 						"zoom_level": 1.0
 					},
 					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "config.ru",
+					"settings":
+					{
+						"buffer_size": 449,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby/Ruby.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "app/helpers/application_helper.rb",
+					"settings":
+					{
+						"buffer_size": 909,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								904,
+								904
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Rails/Ruby on Rails.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "config/routes.rb",
+					"settings":
+					{
+						"buffer_size": 1925,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1523,
+								1523
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Rails/Ruby on Rails.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 353.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 10,
+					"file": "app/controllers/dui_controller.rb",
+					"settings":
+					{
+						"buffer_size": 70,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								65,
+								65
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Rails/Ruby on Rails.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 11,
+					"file": "app/views/dui/index.rhtml",
+					"settings":
+					{
+						"buffer_size": 4236,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								4014,
+								4014
+							],
+							[
+								4157,
+								4157
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Rails/HTML (Rails).tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 1592.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 12,
+					"file": "app/helpers/dui_helper.rb",
+					"settings":
+					{
+						"buffer_size": 672,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								351,
+								351
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Rails/Ruby on Rails.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
 				}
 			]
 		},
 		{
+			"selected": 3,
 			"sheets":
 			[
+				{
+					"buffer": 13,
+					"file": "Gemfile",
+					"settings":
+					{
+						"buffer_size": 2427,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2094,
+								2094
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Rails/Ruby on Rails.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 799.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 14,
+					"file": "app/cells/testcell/show.rhtml",
+					"settings":
+					{
+						"buffer_size": 29,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								29,
+								29
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Rails/HTML (Rails).tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 15,
+					"file": "app/cells/testcell_cell.rb",
+					"settings":
+					{
+						"buffer_size": 176,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								117,
+								117
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Rails/Ruby on Rails.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 16,
+					"file": "app/cells/testcell/show2.rhtml",
+					"settings":
+					{
+						"buffer_size": 162,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								162,
+								162
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Rails/HTML (Rails).tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 17,
+					"file": "Gemfile.lock",
+					"settings":
+					{
+						"buffer_size": 2864,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1837,
+								1841
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Rails/Ruby on Rails.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1096.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 18,
+					"file": "app/views/layouts/application.rhtml",
+					"settings":
+					{
+						"buffer_size": 770,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								762,
+								762
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 63.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 19,
+					"file": "app/assets/stylesheets/dui.css.scss",
+					"settings":
+					{
+						"buffer_size": 71,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								70,
+								70
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 20,
+					"file": "app/assets/stylesheets/_dui-styles.css.scss",
+					"settings":
+					{
+						"buffer_size": 94,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								94,
+								94
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 21,
+					"file": "app/assets/stylesheets/foundation_overrides.css",
+					"settings":
+					{
+						"buffer_size": 28,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								27,
+								27
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 22,
+					"file": "app/assets/stylesheets/_dui-typography.css.scss",
+					"settings":
+					{
+						"buffer_size": 111,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								111,
+								111
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
 			]
 		}
 	],
